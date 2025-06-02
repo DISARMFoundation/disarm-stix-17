@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--700c4c67-157b-4d2f-91b1-a3eda55a33e8",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c171dd41-42d0-45c2-806e-3cb518ba0357",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2024-11-22T16:43:58.209388Z",
+            "modified": "2024-11-22T16:43:58.209388Z",
+            "name": "Measure Performance",
+            "description": "A metric used to determine the accomplishment of actions. \u201cAre the actions being executed as planned?\u201d",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "assess-effectiveness"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0132.md",
+                    "external_id": "T0132"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

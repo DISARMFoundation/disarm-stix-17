@@ -1,0 +1,16 @@
+{
+    "type": "bundle",
+    "id": "bundle--7d3b9601-e7dc-492e-8793-86739f9e616f",
+    "objects": [
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2024-11-22T16:43:58.073632Z",
+            "modified": "2024-11-22T16:43:58.073632Z",
+            "name": "DISARM Foundation",
+            "description": "DISARM is a framework designed for describing and understanding disinformation incidents.",
+            "identity_class": "organization"
+        }
+    ]
+}
