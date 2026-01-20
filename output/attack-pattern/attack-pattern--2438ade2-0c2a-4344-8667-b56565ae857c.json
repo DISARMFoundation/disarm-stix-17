@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--33e6208c-feef-4015-b294-7f6000d78357",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--2438ade2-0c2a-4344-8667-b56565ae857c",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-07-03T19:30:21.685247Z",
+            "modified": "2025-07-03T19:30:21.685247Z",
+            "name": "Content Constitutes CSAM",
+            "description": "This sub-technique can be used to document an analyst\u2019s assessment that an actor has published content which depicts child sexual abuse (also known as CSAM). AI-Generated content depicting children in sexually explicit ways is considered to be CSAM.<br><br>CSAM is defined by the U.S. Government as [any visual depiction of sexually explicit conduct involving a person less than 18 years old.](https://web.archive.org/web/20240419010350/https://www.dhs.gov/know2protect/key-definitions)",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "content-action"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-observable/blob/main/generated_pages/techniques/T0180.006.md",
+                    "external_id": "T0180.006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

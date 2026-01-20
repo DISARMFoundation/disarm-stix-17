@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--175f028f-96f5-437e-98ec-87ece2590aaf",
+    "id": "bundle--9c2e3577-36e9-4157-8e4d-5e8818da933f",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--17cba995-a8ab-4aa0-85fe-2b87d38a8f03",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.10375Z",
-            "modified": "2024-11-22T16:43:58.10375Z",
+            "created": "2025-06-02T19:19:15.397926Z",
+            "modified": "2025-06-02T19:19:15.397926Z",
             "name": "Develop AI-Generated Text",
             "description": "AI-generated texts refers to synthetic text composed by computers using text-generating AI technology. Autonomous generation refers to content created by a bot without human input, also known as bot-created content generation. Autonomous generation represents the next step in automation after language generation and may lead to automated journalism. An influence operation may use read fakes or autonomous generation to quickly develop and distribute content to the target audience.<br><br><b>Associated Techniques and Sub-techniques:</b><br><b>T0085.008: Machine Translated Text:</b> Use this sub-technique when AI has been used to generate a translation of a piece of text.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "develop-content"
+                    "phase_name": "content-acquisition"
                 }
             ],
             "external_references": [

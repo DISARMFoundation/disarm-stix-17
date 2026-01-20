@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--a5e3b35e-f6f5-495d-ad0e-0159bd1b9196",
+    "id": "bundle--ee6614a3-0176-467e-b02b-327ebdd07ab8",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--ec8424e6-c7de-4543-b943-f0c4cc9ac63d",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.114656Z",
-            "modified": "2024-11-22T16:43:58.114656Z",
+            "created": "2025-06-02T19:19:15.400398Z",
+            "modified": "2025-06-02T19:19:15.400398Z",
             "name": "Obtain Authentic Documents",
             "description": "Procure authentic documents that are not publicly available, by whatever means -- whether legal or illegal, highly-resourced or less so. These documents can be \"leaked\" during later stages in the operation.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "develop-content"
+                    "phase_name": "content-acquisition"
                 }
             ],
             "external_references": [

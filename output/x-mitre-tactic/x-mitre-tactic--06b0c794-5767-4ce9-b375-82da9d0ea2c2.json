@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--b0dcd260-f22a-4351-be96-dfd3ef8836f0",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--06b0c794-5767-4ce9-b375-82da9d0ea2c2",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-02T19:19:15.379729Z",
+            "modified": "2025-06-02T19:19:15.379729Z",
+            "name": "Publishing and Amplifying Actions",
+            "description": "Maximise exposure of the target audience to incident/campaign content via flooding, amplifying, and cross-posting.",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA17.md",
+                    "external_id": "TA17"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "publishing-and-amplifying-actions"
+        }
+    ]
+}

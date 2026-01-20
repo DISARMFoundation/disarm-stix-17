@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--6e76e7bb-222b-4b4f-a901-2ec00febbdd6",
+    "id": "bundle--02410b5b-32e7-4f6b-8140-9069c31bd298",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--c73c3210-6414-46c8-9885-a3b3e405da56",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.208564Z",
-            "modified": "2024-11-22T16:43:58.208564Z",
+            "created": "2025-06-02T19:19:15.420226Z",
+            "modified": "2025-06-02T19:19:15.420226Z",
             "name": "Exploit TOS/Content Moderation",
             "description": "Exploiting weaknesses in platforms' terms of service and content moderation policies to avoid takedowns and platform actions.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "persist-in-the-information-environment"
+                    "phase_name": "accounts,-software,-and-infrastructure"
                 }
             ],
             "external_references": [

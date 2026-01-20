@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--f29a24de-fc0b-4794-b0e7-cda2a65967e3",
+    "id": "bundle--d61602ac-e188-4b11-a025-47685b750463",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--091f481d-b32b-4e5c-9626-b14a6ef02df7",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.12822Z",
-            "modified": "2024-11-22T16:43:58.12822Z",
+            "created": "2025-06-02T19:19:15.403708Z",
+            "modified": "2025-06-02T19:19:15.403708Z",
             "name": "Leverage Content Farms",
             "description": "Using the services of large-scale content providers for creating and amplifying campaign artefacts at scale.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "establish-assets"
+                    "phase_name": "asset-details"
                 }
             ],
             "external_references": [

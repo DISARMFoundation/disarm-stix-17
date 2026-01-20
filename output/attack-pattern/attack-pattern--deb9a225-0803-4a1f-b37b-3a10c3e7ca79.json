@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--237e69b0-c1ef-4958-b088-7e419c685eb4",
+    "id": "bundle--f1afe675-d06b-4a92-822f-53ac38dda988",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--deb9a225-0803-4a1f-b37b-3a10c3e7ca79",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.202517Z",
-            "modified": "2024-11-22T16:43:58.202517Z",
+            "created": "2025-06-02T19:19:15.41813Z",
+            "modified": "2025-06-02T19:19:15.41813Z",
             "name": "Delete Accounts/Account Activity",
             "description": "Deleting accounts and account activity occurs when an influence operation removes its online social media assets, including social media accounts, posts, likes, comments, and other online artefacts. An influence operation may delete its accounts and account activity to complicate attribution or remove online documentation that the operation ever occurred.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "persist-in-the-information-environment"
+                    "phase_name": "accounts,-software,-and-infrastructure"
                 }
             ],
             "external_references": [

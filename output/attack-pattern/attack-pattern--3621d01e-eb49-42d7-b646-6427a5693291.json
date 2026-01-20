@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--cb5276ca-dc62-49c7-ab8f-6abbc0e92881",
+    "id": "bundle--fb265a1b-a101-40d0-a9c8-56aeae1b1d18",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--3621d01e-eb49-42d7-b646-6427a5693291",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.174718Z",
-            "modified": "2024-11-22T16:43:58.174718Z",
+            "created": "2025-06-02T19:19:15.414903Z",
+            "modified": "2025-06-02T19:19:15.414903Z",
             "name": "Conduct Server Redirect",
             "description": "A server redirect, also known as a URL redirect, occurs when a server automatically forwards a user from one URL to another using server-side or client-side scripting languages. An influence operation may conduct a server redirect to divert target audience members from one website to another without their knowledge. The redirected website may pose as a legitimate source, host malware, or otherwise aid operation objectives.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "drive-online-harms"
+                    "phase_name": "actions-taken-by-platforms-and-governments"
                 }
             ],
             "external_references": [

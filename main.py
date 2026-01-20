@@ -14,7 +14,6 @@ import helpers
 from objects import tactic, technique, matrix, bundle, relationship, identity, marking_definition
 from helpers import xlsx, file
 
-
 def generate_disarm_stix():
     """Generates a DISARM STIX bundle.
 

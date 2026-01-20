@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--f65fe1dc-4cb9-45fe-868f-c79f369e3887",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--900474d3-cdc3-446f-963e-4b632e676c3a",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-03T14:52:12.520803Z",
+            "modified": "2025-06-03T14:52:12.520803Z",
+            "name": "Platform Promotes Content to Trending Section",
+            "description": "nan",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "actions-taken-by-platforms-and-governments"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0163.002.md",
+                    "external_id": "T0163.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--d7730d7a-83ee-4461-8a70-f50661ab6d1d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--e440c1e0-8bc9-4c28-801e-ef2444979b44",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-02T17:22:38.295897Z",
+            "modified": "2025-06-02T17:22:38.295897Z",
+            "name": "Cryptocurrency Wallet",
+            "description": "A Cryptocurrency Wallet is a digital tool that allows users to store, send, and receive cryptocurrencies. It manages private and public keys, enabling secure access to a user's crypto assets.<br><br>An influence operation might use cryptocurrency to conceal that they are conducting operational activities, building assets, or sponsoring aligning entities.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0148.009.md",
+                    "external_id": "T0148.009"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

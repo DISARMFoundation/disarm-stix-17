@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--bda49533-abbb-47b0-80c4-adffc6dca438",
+    "id": "bundle--6a7268df-240a-46f6-b85d-e8ef60770dc6",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--f601eb03-79d0-4c00-b07d-4b4647c37efd",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.092579Z",
-            "modified": "2024-11-22T16:43:58.092579Z",
+            "created": "2025-06-02T19:19:15.390985Z",
+            "modified": "2025-06-02T19:19:15.390985Z",
             "name": "Conduct Symbolic Action",
             "description": "Symbolic action refers to activities specifically intended to advance an operation\u2019s narrative by signalling something to the audience, for example, a military parade supporting a state\u2019s narrative of military superiority. An influence operation may use symbolic action to create falsified evidence supporting operation narratives in the physical information space.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "drive-offline-activity"
+                    "phase_name": "offline-actions"
                 }
             ],
             "external_references": [

@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--e8b6f0f3-6a0e-482a-84cb-4fc916df03e6",
+    "id": "bundle--1e329e68-4393-447d-b7ff-7aeed4cdcb69",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--e7b62982-106f-4234-9545-9466c687d1b5",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.200509Z",
-            "modified": "2024-11-22T16:43:58.200509Z",
+            "created": "2025-06-02T19:19:15.41813Z",
+            "modified": "2025-06-02T19:19:15.41813Z",
             "name": "Coordinate on Encrypted/Closed Networks",
             "description": "Coordinate on encrypted/ closed networks",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "persist-in-the-information-environment"
+                    "phase_name": "accounts,-software,-and-infrastructure"
                 }
             ],
             "external_references": [

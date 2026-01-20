@@ -1,0 +1,20 @@
+{
+    "type": "bundle",
+    "id": "bundle--5a3c5950-696e-4c04-b95a-32d94c1dcfd5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b74b7189-21ca-4721-add3-1c0149243d57",
+            "created": "2025-06-02T18:28:00.536039Z",
+            "modified": "2025-06-02T18:28:00.536039Z",
+            "relationship_type": "subtechnique-of",
+            "description": "",
+            "source_ref": "attack-pattern--3845d1f0-db88-41bb-95bf-8741ff9e72ea",
+            "target_ref": "attack-pattern--8c7832cb-8877-4f54-8e05-7e6df9a3d2b4",
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ]
+        }
+    ]
+}

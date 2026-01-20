@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--d4438061-ee2b-41be-a67d-c5dfedcda5ed",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a7bae183-9989-45fe-9248-19e7f40299a7",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-02T19:15:19.189518Z",
+            "modified": "2025-06-02T19:15:19.189518Z",
+            "name": "Payment Processing Capability",
+            "description": "A Payment Processing Capability is a feature of online platforms or software which enables the processing of one-off payments (e.g. an online checkout, or donation processing page).<br><br>Payment Processing Capabilities can enable platform users to purchase products or services or can facilitate donations to a given cause.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "asset-details"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0148.004.md",
+                    "external_id": "T0148.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--aa32e62b-caa5-44de-b2b5-c213a949bb51",
+    "id": "bundle--1023fc1a-e650-40e7-a8e8-75c89f070be3",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--836e9eef-b446-4f68-805f-0f10116d6e7f",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.159747Z",
-            "modified": "2024-11-22T16:43:58.159747Z",
+            "created": "2025-06-02T19:19:15.411362Z",
+            "modified": "2025-06-02T19:19:15.411362Z",
             "name": "Amplify Existing Narrative",
             "description": "An influence operation may amplify existing narratives that align with its narratives to support operation objectives.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "maximise-exposure"
+                    "phase_name": "publishing-and-amplifying-actions"
                 }
             ],
             "external_references": [

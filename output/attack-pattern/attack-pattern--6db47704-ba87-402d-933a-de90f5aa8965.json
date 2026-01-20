@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--119d6e32-7dc9-4179-b2a1-8364cddaa78d",
+    "id": "bundle--4d308034-2660-44e5-8755-cfae66f64262",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--6db47704-ba87-402d-933a-de90f5aa8965",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.142635Z",
-            "modified": "2024-11-22T16:43:58.142635Z",
+            "created": "2025-06-02T19:19:15.407724Z",
+            "modified": "2025-06-02T19:19:15.407724Z",
             "name": "Establish Inauthentic News Sites",
             "description": "Modern computational propaganda makes use of a cadre of imposter news sites spreading globally. These sites, sometimes motivated by concerns other than propaganda--for instance, click-based revenue--often have some superficial markers of authenticity, such as naming and site-design. But many can be quickly exposed with reference to their owenership, reporting history and adverstising details.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "establish-legitimacy"
+                    "phase_name": "asset-persona"
                 }
             ],
             "external_references": [

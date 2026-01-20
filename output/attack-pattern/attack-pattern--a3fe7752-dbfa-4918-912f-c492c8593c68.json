@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--cd60e7df-579e-4458-9303-f0f060c18d92",
+    "id": "bundle--9d4b1c07-388f-49a4-a546-140755518e69",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--a3fe7752-dbfa-4918-912f-c492c8593c68",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.102883Z",
-            "modified": "2024-11-22T16:43:58.102883Z",
+            "created": "2025-06-02T19:19:15.396753Z",
+            "modified": "2025-06-02T19:19:15.396753Z",
             "name": "Plagiarise Content",
             "description": "An influence operation may take content from other sources without proper attribution. This content may be either misinformation content shared by others without malicious intent but now leveraged by the campaign as disinformation or disinformation content from other sources.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "develop-content"
+                    "phase_name": "content-acquisition"
                 }
             ],
             "external_references": [

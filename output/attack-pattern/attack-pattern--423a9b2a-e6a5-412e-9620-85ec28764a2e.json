@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--30435e6e-3aae-43e2-a749-93dddafcde1d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--423a9b2a-e6a5-412e-9620-85ec28764a2e",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-03T14:21:28.261225Z",
+            "modified": "2025-06-03T14:21:28.261225Z",
+            "name": "First Appearance of Content",
+            "description": "nan",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "content-acquisition"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0170.006.md",
+                    "external_id": "T0170.006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

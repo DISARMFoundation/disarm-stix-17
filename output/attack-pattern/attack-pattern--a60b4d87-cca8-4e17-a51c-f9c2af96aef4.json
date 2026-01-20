@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--b3321b62-a8f3-4737-9cb9-4ecc6440c1ae",
+    "id": "bundle--a6d18e3f-3aac-4adb-9b7a-4e2ffa5b5d81",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--a60b4d87-cca8-4e17-a51c-f9c2af96aef4",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.107361Z",
-            "modified": "2024-11-22T16:43:58.107361Z",
+            "created": "2025-06-02T19:19:15.398976Z",
+            "modified": "2025-06-02T19:19:15.398976Z",
             "name": "Develop Memes",
             "description": "Memes are one of the most important single artefact types in all of computational propaganda. Memes in this framework denotes the narrow image-based definition. But that naming is no accident, as these items have most of the important properties of Dawkins' original conception as a self-replicating unit of culture. Memes pull together reference and commentary; image and narrative; emotion and message. Memes are a powerful tool and the heart of modern influence campaigns.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "develop-content"
+                    "phase_name": "content-acquisition"
                 }
             ],
             "external_references": [

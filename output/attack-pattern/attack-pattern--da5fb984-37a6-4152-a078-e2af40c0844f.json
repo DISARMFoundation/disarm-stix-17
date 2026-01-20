@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--1180f76e-e661-456b-8f2b-c9ce7e1e2785",
+    "id": "bundle--64baa9b6-eb0d-4202-90c4-c3a3708c706c",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--da5fb984-37a6-4152-a078-e2af40c0844f",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.201584Z",
-            "modified": "2024-11-22T16:43:58.201584Z",
+            "created": "2025-06-02T19:19:15.41813Z",
+            "modified": "2025-06-02T19:19:15.41813Z",
             "name": "Deny Involvement",
             "description": "Without \"smoking gun\" proof (and even with proof), incident creator can or will deny involvement. This technique also leverages the attacker advantages outlined in \"Demand insurmountable proof\", specifically the asymmetric disadvantage for truth-tellers in a \"firehose of misinformation\" environment.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "persist-in-the-information-environment"
+                    "phase_name": "accounts,-software,-and-infrastructure"
                 }
             ],
             "external_references": [

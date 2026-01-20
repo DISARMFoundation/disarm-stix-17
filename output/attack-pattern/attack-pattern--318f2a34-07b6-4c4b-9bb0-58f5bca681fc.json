@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--8b60e8a6-4516-47c3-b754-8cd46a39d5d6",
+    "id": "bundle--4bf364e5-c738-4c33-9f48-230acc52ebf6",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--318f2a34-07b6-4c4b-9bb0-58f5bca681fc",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.157213Z",
-            "modified": "2024-11-22T16:43:58.157213Z",
+            "created": "2025-06-02T19:19:15.411362Z",
+            "modified": "2025-06-02T19:19:15.411362Z",
             "name": "Comment or Reply on Content",
             "description": "Delivering content by replying or commenting via owned media (assets that the operator controls).",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "deliver-content"
+                    "phase_name": "interact-with-platform-and-community"
                 }
             ],
             "external_references": [

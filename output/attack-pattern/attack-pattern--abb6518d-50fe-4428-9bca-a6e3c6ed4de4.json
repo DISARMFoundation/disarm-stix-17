@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--fb1eddab-7d03-411f-82fc-b078ae7f82f3",
+    "id": "bundle--863c57e5-467c-495e-a460-20bc54c6ca6b",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--abb6518d-50fe-4428-9bca-a6e3c6ed4de4",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.119681Z",
-            "modified": "2024-11-22T16:43:58.119681Z",
+            "created": "2025-06-02T19:19:15.401503Z",
+            "modified": "2025-06-02T19:19:15.401503Z",
             "name": "Create Community or Sub-Group",
             "description": "When there is not an existing community or sub-group that meets a campaign's goals, an influence operation may seek to create a community or sub-group.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "establish-assets"
+                    "phase_name": "asset-details"
                 }
             ],
             "external_references": [

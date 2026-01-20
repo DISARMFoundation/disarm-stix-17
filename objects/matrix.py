@@ -25,7 +25,7 @@ def make_disarm_matrix(data, tactics, stix_ids):
 
     """
     identity_id = stix_ids["x-mitre-matrix"]["DISARM Framework"]
-    description = 'DISARM is a framework designed for describing and understanding disinformation incidents.'
+    description = 'The DISARM V2 Observations Framework standardizes the descriptions of observations made by analysts which pertain to suspected adversary operations or campaigns.'
     external_references = [
         {
             "external_id": "DISARM",
@@ -33,7 +33,7 @@ def make_disarm_matrix(data, tactics, stix_ids):
             "url": "https://github.com/DISARMFoundation"
         }
     ]
-    name = 'DISARM Framework'
+    name = 'DISARM V2 Observations Framework'
 
     tactics_data = data["tactics"].sort_values('rank').values.tolist()
 

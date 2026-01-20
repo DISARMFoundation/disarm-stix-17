@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--124d4cdb-eb54-483a-a8de-e4e7acde0d30",
+    "id": "bundle--253e5f10-b66c-4b82-a03c-2a8c33d3a69f",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--026571cc-66db-42fb-9de3-790e1e7f243d",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.150425Z",
-            "modified": "2024-11-22T16:43:58.150425Z",
+            "created": "2025-07-03T19:30:21.615427Z",
+            "modified": "2025-07-03T19:30:21.615427Z",
             "name": "Deliver Ads",
-            "description": "Delivering content via any form of paid media or advertising.",
+            "description": "nan",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "deliver-content"
+                    "phase_name": "actions-taken-by-platforms-and-governments"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0114.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-observable/blob/main/generated_pages/techniques/T0114.md",
                     "external_id": "T0114"
                 }
             ],

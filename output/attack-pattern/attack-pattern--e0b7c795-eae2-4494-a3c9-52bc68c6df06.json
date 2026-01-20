@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--f8077408-c0f0-4357-961a-627a3b2e5f93",
+    "id": "bundle--801f0277-d068-43ba-b499-50b6fea18d53",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--e0b7c795-eae2-4494-a3c9-52bc68c6df06",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.083141Z",
-            "modified": "2024-11-22T16:43:58.083141Z",
+            "created": "2025-06-02T19:19:15.380725Z",
+            "modified": "2025-06-02T19:19:15.380725Z",
             "name": "Raise Funds from Ignorant Agents",
             "description": "Raising funds from ignorant agents may include scams, donations intended for one stated purpose but then used for another, etc.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "establish-assets"
+                    "phase_name": "asset-details"
                 }
             ],
             "external_references": [

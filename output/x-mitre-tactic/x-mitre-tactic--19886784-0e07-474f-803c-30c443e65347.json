@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--94d9280a-011b-42cd-a587-784f271eb33a",
+    "id": "bundle--117e36bf-8760-4110-951b-8019e0d82801",
     "objects": [
         {
             "type": "x-mitre-tactic",
             "spec_version": "2.1",
             "id": "x-mitre-tactic--19886784-0e07-474f-803c-30c443e65347",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.0769Z",
-            "modified": "2024-11-22T16:43:58.0769Z",
+            "created": "2025-06-02T18:28:00.452205Z",
+            "modified": "2025-06-02T18:28:00.452205Z",
             "name": "Assess Effectiveness",
             "description": "Assess effectiveness of action, for use in future plans",
             "external_references": [

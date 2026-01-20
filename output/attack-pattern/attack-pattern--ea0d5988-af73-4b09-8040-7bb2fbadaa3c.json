@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--c1304fdf-b1ff-4201-bb13-45ca62127fd7",
+    "id": "bundle--f44cd639-bb46-4ae5-a3ee-091a546eb805",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--ea0d5988-af73-4b09-8040-7bb2fbadaa3c",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.085991Z",
-            "modified": "2024-11-22T16:43:58.085991Z",
+            "created": "2025-06-02T18:42:37.46203Z",
+            "modified": "2025-06-02T18:42:37.46203Z",
             "name": "Trial Content",
             "description": "Iteratively test incident performance (messages, content etc), e.g. A/B test headline/content enagagement metrics; website and/or funding campaign conversion rates",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "conduct-pump-priming"
+                    "phase_name": "prime-the-silly-pump"
                 }
             ],
             "external_references": [

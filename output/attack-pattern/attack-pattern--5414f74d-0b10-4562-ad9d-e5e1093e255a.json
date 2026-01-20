@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--b930a11d-a486-419d-a995-df598a338aa0",
+    "id": "bundle--9f1654a8-68b7-47b9-9bb1-db5fc43f2ae2",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--5414f74d-0b10-4562-ad9d-e5e1093e255a",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.096869Z",
-            "modified": "2024-11-22T16:43:58.096869Z",
+            "created": "2025-06-02T19:19:15.392896Z",
+            "modified": "2025-06-02T19:19:15.392896Z",
             "name": "Dismiss",
             "description": "Push back against criticism by dismissing your critics. This might be arguing that the critics use a different standard for you than with other actors or themselves; or arguing that their criticism is biassed.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "plan-objectives"
+                    "phase_name": "content-details"
                 }
             ],
             "external_references": [

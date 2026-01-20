@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--cd2d0687-dc7e-4f23-8743-181bec17d276",
+    "id": "bundle--8f52e988-1c55-4c78-b678-90613bbcca64",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--72207f73-5b54-4cd4-b453-746a61eb3e28",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.085463Z",
-            "modified": "2024-11-22T16:43:58.085463Z",
+            "created": "2025-07-03T19:30:21.606817Z",
+            "modified": "2025-07-03T19:30:21.606817Z",
             "name": "Conduct Crowdfunding Campaigns",
-            "description": "An influence operation may Conduct Crowdfunding Campaigns on platforms such as GoFundMe, GiveSendGo, Tipeee, Patreon, etc.",
+            "description": "nan",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "drive-offline-activity"
+                    "phase_name": "content-action"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0017.001.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-observable/blob/main/generated_pages/techniques/T0017.001.md",
                     "external_id": "T0017.001"
                 }
             ],

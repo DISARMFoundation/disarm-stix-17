@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--4d247ed0-fab3-4fb7-9c2f-472f787bf656",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--5312fd4b-0284-468d-8ad9-f56755baa44b",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-02T19:19:15.44285Z",
+            "modified": "2025-06-02T19:19:15.44285Z",
+            "name": "Paid Access Asset",
+            "description": "A Paid Access Asset is an online asset which requires a single payment for permanent access to the asset.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "digital-platforms-and-communities"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0155.005.md",
+                    "external_id": "T0155.005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

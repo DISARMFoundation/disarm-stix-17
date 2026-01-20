@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--bba5010b-70cd-4ea1-af6a-0cb0f8916933",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--73a29352-0f1f-44d4-a1f1-1cc538dfd92a",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-02T18:42:37.468693Z",
+            "modified": "2025-06-02T18:42:37.468693Z",
+            "name": "Economic Advantage",
+            "description": "Favourable position domestically or internationally in the realms of commerce, trade, finance, industry. Economics involves nation-states, corporations, banks, trade blocs, industry associations, cartels.  ",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "plan-strategy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0074.003.md",
+                    "external_id": "T0074.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

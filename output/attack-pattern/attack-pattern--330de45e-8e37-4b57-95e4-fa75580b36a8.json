@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--9f61734a-08c8-4ede-9d68-d35ca0745290",
+    "id": "bundle--bc3d4113-5d5b-4ffc-baf5-bc51794aa68e",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--330de45e-8e37-4b57-95e4-fa75580b36a8",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.104251Z",
-            "modified": "2024-11-22T16:43:58.104251Z",
+            "created": "2025-06-02T19:19:15.397926Z",
+            "modified": "2025-06-02T19:19:15.397926Z",
             "name": "Develop Inauthentic News Articles",
             "description": "An influence operation may develop false or misleading news articles aligned to their campaign goals or narratives.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "develop-content"
+                    "phase_name": "content-acquisition"
                 }
             ],
             "external_references": [

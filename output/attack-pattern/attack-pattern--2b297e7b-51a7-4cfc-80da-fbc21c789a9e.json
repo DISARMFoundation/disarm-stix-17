@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--bfa7dbfc-d7b1-4991-9a49-ec88350b5425",
+    "id": "bundle--af6cfdc5-4059-42ba-815b-8f427af17b89",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--2b297e7b-51a7-4cfc-80da-fbc21c789a9e",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.18865Z",
-            "modified": "2024-11-22T16:43:58.18865Z",
+            "created": "2025-06-02T19:19:15.416477Z",
+            "modified": "2025-06-02T19:19:15.416477Z",
             "name": "Encourage Physical Violence",
             "description": "An influence operation may Encourage others to engage in Physical Violence to achieve campaign goals.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "drive-offline-activity"
+                    "phase_name": "offline-actions"
                 }
             ],
             "external_references": [

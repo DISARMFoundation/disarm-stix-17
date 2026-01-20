@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--b6871e02-2d25-4fa0-9d42-5d454dab075f",
+    "id": "bundle--85ab4ea9-e69a-4729-8b76-39b13394a990",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--1997947a-7e08-4ea9-802c-85391d561266",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.153166Z",
-            "modified": "2024-11-22T16:43:58.153166Z",
+            "created": "2025-06-02T19:19:15.410829Z",
+            "modified": "2025-06-02T19:19:15.410829Z",
             "name": "Post Content",
             "description": "Delivering content by posting via owned media (assets that the operator controls).",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "deliver-content"
+                    "phase_name": "interact-with-platform-and-community"
                 }
             ],
             "external_references": [

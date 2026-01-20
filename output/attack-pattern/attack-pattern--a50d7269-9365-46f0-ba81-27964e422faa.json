@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--1e4d0218-3d34-4c32-88a6-e813a36c5b87",
+    "id": "bundle--7c3af22a-b0c6-4dc0-86cd-9e5779f3c203",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--a50d7269-9365-46f0-ba81-27964e422faa",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.144527Z",
-            "modified": "2024-11-22T16:43:58.144527Z",
+            "created": "2025-06-02T19:19:15.407724Z",
+            "modified": "2025-06-02T19:19:15.407724Z",
             "name": "Co-Opt Trusted Individuals",
             "description": "Co-Opt Trusted Individuals",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "establish-legitimacy"
+                    "phase_name": "asset-persona"
                 }
             ],
             "external_references": [

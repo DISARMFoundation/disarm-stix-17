@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--04383f19-1b10-4b7d-b18c-515c5da580a9",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a6809289-31cf-4f06-8487-1913d3699501",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-02T18:28:00.516695Z",
+            "modified": "2025-06-02T18:28:00.516695Z",
+            "name": "Online Infrastructure",
+            "description": "Online Infrastructure consists of technical assets which enable online activity, such as domains, servers, and IP addresses.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0149.md",
+                    "external_id": "T0149"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

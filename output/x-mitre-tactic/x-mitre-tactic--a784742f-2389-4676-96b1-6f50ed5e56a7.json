@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--de5ea606-ea0f-42b7-9301-9df347ba0b10",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--a784742f-2389-4676-96b1-6f50ed5e56a7",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-03T17:30:01.757815Z",
+            "modified": "2025-06-03T17:30:01.757815Z",
+            "name": "Digital Platforms and Communities",
+            "description": "nan",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA20.md",
+                    "external_id": "TA20"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "digital-platforms-and-communities"
+        }
+    ]
+}

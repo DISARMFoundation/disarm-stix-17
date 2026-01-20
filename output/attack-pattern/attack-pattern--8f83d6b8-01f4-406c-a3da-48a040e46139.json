@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--215922a2-3e68-4ca6-ae8d-9ee45f4bd491",
+    "id": "bundle--0875d51a-d3d6-4377-a5e0-cb0d60c5e572",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--8f83d6b8-01f4-406c-a3da-48a040e46139",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.152224Z",
-            "modified": "2024-11-22T16:43:58.152224Z",
+            "created": "2025-06-02T19:19:15.410829Z",
+            "modified": "2025-06-02T19:19:15.410829Z",
             "name": "Traditional Media",
             "description": "Examples include TV, Radio, Newspaper, billboards",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "deliver-content"
+                    "phase_name": "interact-with-platform-and-community"
                 }
             ],
             "external_references": [

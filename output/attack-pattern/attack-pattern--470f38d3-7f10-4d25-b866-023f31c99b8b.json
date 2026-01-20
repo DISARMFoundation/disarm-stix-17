@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--5e8e8823-30fb-4943-b6a6-d0452ddb5351",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--470f38d3-7f10-4d25-b866-023f31c99b8b",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-02T18:28:00.464976Z",
+            "modified": "2025-06-02T18:28:00.464976Z",
+            "name": "Geopolitical Advantage",
+            "description": "Favourable position on the international stage in terms of great power politics or regional rivalry. Geopolitics plays out in the realms of foreign policy, national security, diplomacy, and intelligence. It involves nation-state governments, heads of state, foreign ministers, intergovernmental organisations, and regional security alliances.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "plan-strategy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0074.001.md",
+                    "external_id": "T0074.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

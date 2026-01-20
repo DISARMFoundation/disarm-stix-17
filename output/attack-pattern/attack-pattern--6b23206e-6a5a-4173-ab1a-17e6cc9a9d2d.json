@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--b2fddfec-1550-438e-8519-f1fc9ed6fc82",
+    "id": "bundle--71b1998b-2171-49c7-b509-6b784454376d",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--6b23206e-6a5a-4173-ab1a-17e6cc9a9d2d",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.088371Z",
-            "modified": "2024-11-22T16:43:58.088371Z",
+            "created": "2025-06-02T18:42:37.46354Z",
+            "modified": "2025-06-02T18:42:37.46354Z",
             "name": "Seed Distortions",
             "description": "Try a wide variety of messages in the early hours surrounding an incident or event, to give a misleading account or impression.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "conduct-pump-priming"
+                    "phase_name": "prime-the-silly-pump"
                 }
             ],
             "external_references": [

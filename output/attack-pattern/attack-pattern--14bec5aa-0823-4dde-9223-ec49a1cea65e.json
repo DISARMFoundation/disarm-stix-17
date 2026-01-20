@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--a0303e6b-facc-4f93-b565-c50a77155584",
+    "id": "bundle--0a947180-f076-439e-9c39-1e49eba08c18",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--14bec5aa-0823-4dde-9223-ec49a1cea65e",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.101619Z",
-            "modified": "2024-11-22T16:43:58.101619Z",
+            "created": "2025-06-02T19:19:15.395593Z",
+            "modified": "2025-06-02T19:19:15.395593Z",
             "name": "Develop New Narratives",
             "description": "Actors may develop new narratives to further strategic or tactical goals, especially when existing narratives adequately align with the campaign goals. New narratives provide more control in terms of crafting the message to achieve specific goals. However, new narratives may require more effort to disseminate than adapting or adopting existing narratives.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "develop-narratives"
+                    "phase_name": "content-narrative"
                 }
             ],
             "external_references": [

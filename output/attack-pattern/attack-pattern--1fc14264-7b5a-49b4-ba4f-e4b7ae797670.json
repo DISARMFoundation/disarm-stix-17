@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--5dbfe236-6e4b-4501-9cf8-e5dc53063945",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1fc14264-7b5a-49b4-ba4f-e4b7ae797670",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-07-03T19:30:21.685247Z",
+            "modified": "2025-07-03T19:30:21.685247Z",
+            "name": "Voyeuristic Content",
+            "description": "Voyeuristic Content is defined as [image or video content secretively taken of another individual for a sexual purpose.](https://www.cigionline.org/publications/technology-facilitated-gender-based-violence-overview/) This sub-technique can be used to document an analyst\u2019s assessment that an image or video meets the criteria of Voyeuristic Content.<br><br>Voyeuristic Content is typically produced using hidden cameras, or discreet photography techniques; using a zoom lens, or taking a photo when the target is not paying attention.<br><br>Actors have been observed attempting to produce Voyeuristic Content targeting women by taking photos up their skirts (called \u201cUpskirting\u201d) or down their tops (\u201cDownblousing\u201d) without their knowledge or consent. Actors also secretively photograph women from afar for sexual gratification (\u201cCreepshots\u201d).<br><br>Analysts will need to make an assessment about whether content was produced for sexual gratification, and whether the depicted individual was aware they were being filmed. Analysts may use context of the platform content was posted to, or how it was described by the actor, to make such an assessment.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "content-action"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-observable/blob/main/generated_pages/techniques/T0180.004.md",
+                    "external_id": "T0180.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

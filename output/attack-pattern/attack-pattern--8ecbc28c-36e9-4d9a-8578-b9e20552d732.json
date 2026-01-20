@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--4915839e-d14b-4121-a7ed-0863e189f366",
+    "id": "bundle--9dcf8a5a-6b55-4360-a9c0-8d817123170e",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--8ecbc28c-36e9-4d9a-8578-b9e20552d732",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.100368Z",
-            "modified": "2024-11-22T16:43:58.100368Z",
+            "created": "2025-06-02T19:19:15.394519Z",
+            "modified": "2025-06-02T19:19:15.394519Z",
             "name": "Identify Existing Prejudices",
             "description": "An influence operation may exploit existing racial, religious, demographic, or social prejudices to further polarise its target audience from the rest of the public.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "target-audience-analysis"
+                    "phase_name": "content-action"
                 }
             ],
             "external_references": [

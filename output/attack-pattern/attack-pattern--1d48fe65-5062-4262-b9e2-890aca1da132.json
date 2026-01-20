@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--7bbb5caf-063d-4124-9fbe-6e65df58e9c0",
+    "id": "bundle--8cbbeec4-a951-4317-9e3a-c25bbc809d1d",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--1d48fe65-5062-4262-b9e2-890aca1da132",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.098067Z",
-            "modified": "2024-11-22T16:43:58.098067Z",
+            "created": "2025-06-02T19:19:15.393888Z",
+            "modified": "2025-06-02T19:19:15.393888Z",
             "name": "Divide",
             "description": "Create conflict between subgroups, to widen divisions in a community",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "plan-objectives"
+                    "phase_name": "content-details"
                 }
             ],
             "external_references": [

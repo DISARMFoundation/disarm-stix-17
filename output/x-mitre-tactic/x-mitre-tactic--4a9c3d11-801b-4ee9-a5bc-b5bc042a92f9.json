@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--04f0784d-5443-426a-9dee-141eae45290a",
+    "id": "bundle--8811392e-6b90-4e5f-bcf0-5631cf39d82b",
     "objects": [
         {
             "type": "x-mitre-tactic",
             "spec_version": "2.1",
             "id": "x-mitre-tactic--4a9c3d11-801b-4ee9-a5bc-b5bc042a92f9",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.07628Z",
-            "modified": "2024-11-22T16:43:58.07628Z",
+            "created": "2025-06-02T18:42:37.458515Z",
+            "modified": "2025-06-02T18:42:37.458515Z",
             "name": "Deliver Content",
             "description": "Release content to general public or larger population",
             "external_references": [

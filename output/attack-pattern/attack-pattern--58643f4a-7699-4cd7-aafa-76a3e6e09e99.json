@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--16bdc7a1-e151-4e6c-b940-21fa8b61a01e",
+    "id": "bundle--fc0a1209-a3a0-4a8f-9ff7-b835d65fffde",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--58643f4a-7699-4cd7-aafa-76a3e6e09e99",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.116575Z",
-            "modified": "2024-11-22T16:43:58.116575Z",
+            "created": "2025-06-02T19:19:15.401503Z",
+            "modified": "2025-06-02T19:19:15.401503Z",
             "name": "Recruit Contractors",
             "description": "Operators recruit paid contractor to support the campaign.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "establish-assets"
+                    "phase_name": "asset-details"
                 }
             ],
             "external_references": [

@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--3d99f49e-a758-4538-97c0-35d2d4695e21",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--6df587c6-9cdd-43be-ae9b-1233225adf10",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-03T17:30:01.759499Z",
+            "modified": "2025-06-03T17:30:01.759499Z",
+            "name": "Offline Actions",
+            "description": "nan",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA26.md",
+                    "external_id": "TA26"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "offline-actions"
+        }
+    ]
+}

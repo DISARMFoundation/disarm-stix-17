@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--d509acb3-c08b-4528-a6bb-36f6532a99ec",
+    "id": "bundle--dc5a159b-6e87-449c-8fb1-7f282b94416e",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--5d4cafe2-42cc-4c41-8ce7-41256e1383f7",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.087794Z",
-            "modified": "2024-11-22T16:43:58.087794Z",
+            "created": "2025-06-02T19:19:15.386087Z",
+            "modified": "2025-06-02T19:19:15.386087Z",
             "name": "Bait Influencer",
             "description": "Influencers are people on social media platforms who have large audiences.<br /> <br />Threat Actors can try to trick Influencers such as celebrities, journalists, or local leaders who aren\u2019t associated with their campaign into amplifying campaign content. This gives them access to the Influencer\u2019s audience without having to go through the effort of building it themselves, and it helps legitimise their message by associating it with the Influencer, benefitting from their audience\u2019s trust in them.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "maximise-exposure"
+                    "phase_name": "publishing-and-amplifying-actions"
                 }
             ],
             "external_references": [

@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--27dde3fe-5b1a-465d-bc7d-81dd96461f49",
+    "id": "bundle--a89401c7-0946-4d91-bbed-60325f6cef80",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--fd04fba0-0e20-40f9-868d-e8effcf6dab6",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.180444Z",
-            "modified": "2024-11-22T16:43:58.180444Z",
+            "created": "2025-06-02T19:19:15.415391Z",
+            "modified": "2025-06-02T19:19:15.415391Z",
             "name": "Platform Filtering",
             "description": "Platform filtering refers to the decontextualization of information as claims cross platforms (from Joan Donovan https://www.hks.harvard.edu/publications/disinformation-design-use-evidence-collages-and-platform-filtering-media-manipulation)",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "drive-online-harms"
+                    "phase_name": "actions-taken-by-platforms-and-governments"
                 }
             ],
             "external_references": [

@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--40a029c1-27fc-4fe6-aadf-08afa7f85912",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--b2885fd5-07c1-4980-b80a-70f4d4775ed3",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-02T19:19:15.378745Z",
+            "modified": "2025-06-02T19:19:15.378745Z",
+            "name": "Digital Platforms and Communities",
+            "description": "Selecting platforms and affordances assesses which online or offline platforms and their associated affordances maximise an influence operation\u2019s ability to reach its target audience. To select the most appropriate platform(s), an operation may assess the technological affordances including platform algorithms, terms of service, permitted content types, or other attributes that determine platform usability and accessibility. Selecting platforms includes both choosing platforms on which the operation will publish its own content and platforms on which the operation will attempt to restrict adversarial content.",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA07.md",
+                    "external_id": "TA07"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "digital-platforms-and-communities"
+        }
+    ]
+}

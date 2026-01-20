@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--b43e1d35-8e07-40b5-b6cf-4f4aa4ea5190",
+    "id": "bundle--c36fc59e-f9d7-44d0-9be9-f6643ef754d3",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--9636ae57-0b93-41a0-8323-85109ee34877",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.102007Z",
-            "modified": "2024-11-22T16:43:58.102007Z",
+            "created": "2025-06-02T19:19:15.396753Z",
+            "modified": "2025-06-02T19:19:15.396753Z",
             "name": "Reuse Existing Content",
             "description": "When an operation recycles content from its own previous operations or plagiarises from external operations. An operation may launder information to conserve resources that would have otherwise been utilised to develop new content.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "develop-content"
+                    "phase_name": "content-acquisition"
                 }
             ],
             "external_references": [

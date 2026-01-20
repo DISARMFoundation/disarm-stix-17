@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--b70e8efb-c83f-40ae-b952-291c8d457801",
+    "id": "bundle--8e4df4a1-824d-478f-a334-ef0264c12a0f",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--d13ff5af-16fd-4b32-8e14-f2e0980c15fb",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.100563Z",
-            "modified": "2024-11-22T16:43:58.100563Z",
+            "created": "2025-06-02T19:19:15.395593Z",
+            "modified": "2025-06-02T19:19:15.395593Z",
             "name": "Identify Existing Fissures",
             "description": "An influence operation may identify existing fissures to pit target populations against one another or facilitate a \u201cdivide-and-conquer\" approach to tailor operation narratives along the divides.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "target-audience-analysis"
+                    "phase_name": "content-action"
                 }
             ],
             "external_references": [

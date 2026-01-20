@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--6697bf94-d6a4-4988-99f5-e77c54e0225e",
+    "id": "bundle--160ed1a8-175d-4e49-bd48-a2710993559d",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--67afaa3d-ffd7-4ad5-bcb0-e77962c084cf",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.209073Z",
-            "modified": "2024-11-22T16:43:58.209073Z",
+            "created": "2025-06-02T19:19:15.420226Z",
+            "modified": "2025-06-02T19:19:15.420226Z",
             "name": "Post Borderline Content",
             "description": "Post Borderline Content",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "persist-in-the-information-environment"
+                    "phase_name": "accounts,-software,-and-infrastructure"
                 }
             ],
             "external_references": [

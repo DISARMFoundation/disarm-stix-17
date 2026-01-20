@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--9f332114-aa05-4a88-a2a7-57b4b17b9e8c",
+    "id": "bundle--af1beef7-28c7-4d6d-a236-d8726359c410",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--9ec25bd4-7dcd-4bbf-9e2f-6170af84e166",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.098454Z",
-            "modified": "2024-11-22T16:43:58.098454Z",
+            "created": "2025-06-02T19:19:15.393888Z",
+            "modified": "2025-06-02T19:19:15.393888Z",
             "name": "Monitor Social Media Analytics",
             "description": "An influence operation may use social media analytics to determine which factors will increase the operation content\u2019s exposure to its target audience on social media platforms, including views, interactions, and sentiment relating to topics and content types. The social media platform itself or a third-party tool may collect the metrics.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "target-audience-analysis"
+                    "phase_name": "content-action"
                 }
             ],
             "external_references": [

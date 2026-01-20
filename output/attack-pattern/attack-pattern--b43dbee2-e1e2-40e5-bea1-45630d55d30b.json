@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--71c8472a-85c5-4522-9ab0-f0c8c2d04830",
+    "id": "bundle--ebbde88a-5a7d-414b-b7d6-3cefe8108621",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--b43dbee2-e1e2-40e5-bea1-45630d55d30b",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.145034Z",
-            "modified": "2024-11-22T16:43:58.145034Z",
+            "created": "2025-06-02T19:19:15.407724Z",
+            "modified": "2025-06-02T19:19:15.407724Z",
             "name": "Co-Opt Grassroots Groups",
             "description": "Co-Opt Grassroots Groups",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "establish-legitimacy"
+                    "phase_name": "asset-persona"
                 }
             ],
             "external_references": [

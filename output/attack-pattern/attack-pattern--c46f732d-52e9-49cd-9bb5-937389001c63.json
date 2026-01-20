@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--55f965ce-1631-41a4-a61b-87dd40379095",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c46f732d-52e9-49cd-9bb5-937389001c63",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-02T18:42:37.517883Z",
+            "modified": "2025-06-02T18:42:37.517883Z",
+            "name": "Content Recommendation Algorithm",
+            "description": "Many online platforms have Content Recommendation Algorithms, which promote content posted to the platform to users based on metrics the platform operators are trying to meet. Algorithms typically surface platform content which the user is likely to engage with, based on how they and other users have behaved on the platform.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0153.006.md",
+                    "external_id": "T0153.006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

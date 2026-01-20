@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--3a00065f-6269-4b28-bfc9-7ac64597a26a",
+    "id": "bundle--c1cdc1a5-0f7b-4a48-bae1-7a0155404a33",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--c7017017-4965-4dad-a970-e748b7080a19",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.122557Z",
-            "modified": "2024-11-22T16:43:58.122557Z",
+            "created": "2025-06-02T19:19:15.402613Z",
+            "modified": "2025-06-02T19:19:15.402613Z",
             "name": "Acquire Botnets",
             "description": "A botnet is a group of bots that can function in coordination with each other.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "establish-assets"
+                    "phase_name": "asset-details"
                 }
             ],
             "external_references": [

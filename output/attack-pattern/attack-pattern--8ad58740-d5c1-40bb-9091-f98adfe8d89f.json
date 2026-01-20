@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--697e7f29-6e68-4680-8232-03f881641358",
+    "id": "bundle--af158233-8d4f-4fdf-a79f-5f953a72659a",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--8ad58740-d5c1-40bb-9091-f98adfe8d89f",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.097863Z",
-            "modified": "2024-11-22T16:43:58.097863Z",
+            "created": "2025-06-02T19:19:15.393888Z",
+            "modified": "2025-06-02T19:19:15.393888Z",
             "name": "Dismay",
             "description": "Threaten the critic or narrator of events. For instance, threaten journalists or news outlets reporting on a story.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "plan-objectives"
+                    "phase_name": "content-details"
                 }
             ],
             "external_references": [

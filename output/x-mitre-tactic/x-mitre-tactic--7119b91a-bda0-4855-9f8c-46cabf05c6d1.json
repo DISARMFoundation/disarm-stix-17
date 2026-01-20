@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--6bc8f34e-91d2-4993-a0d1-eccc327b540c",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--7119b91a-bda0-4855-9f8c-46cabf05c6d1",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-03T14:52:12.466718Z",
+            "modified": "2025-06-03T14:52:12.466718Z",
+            "name": "Actions Taken by Platforms and Governments",
+            "description": "nan",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA27.md",
+                    "external_id": "TA27"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "actions-taken-by-platforms-and-governments"
+        }
+    ]
+}

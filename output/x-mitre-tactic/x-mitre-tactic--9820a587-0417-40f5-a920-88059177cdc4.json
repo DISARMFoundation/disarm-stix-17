@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--f50db5d2-a163-4fa5-82be-f3e04a46e842",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--9820a587-0417-40f5-a920-88059177cdc4",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-02T19:15:19.136098Z",
+            "modified": "2025-06-02T19:15:19.136098Z",
+            "name": "Interact with Platform and Community",
+            "description": "Identifying and analysing the target audience examines target audience member locations, political affiliations, financial situations, and other attributes that an influence operation may incorporate into its messaging strategy. During this tactic, influence operations may also identify existing similarities and differences between target audience members to unite like groups and divide opposing groups. Identifying and analysing target audience members allows influence operations to tailor operation strategy and content to their analysis.",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA13.md",
+                    "external_id": "TA13"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "interact-with-platform-and-community"
+        }
+    ]
+}

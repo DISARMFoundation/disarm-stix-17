@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--0eb49219-3147-4699-81f9-50041a1bd76e",
+    "id": "bundle--3be2c588-0e4e-485e-8090-55497aa0fddc",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--c254c765-c83d-4ae3-880e-7a253ef02d37",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.101812Z",
-            "modified": "2024-11-22T16:43:58.101812Z",
+            "created": "2025-06-02T19:19:15.396597Z",
+            "modified": "2025-06-02T19:19:15.396597Z",
             "name": "Integrate Target Audience Vulnerabilities into Narrative",
             "description": "An influence operation may seek to exploit the preexisting weaknesses, fears, and enemies of the target audience for integration into the operation\u2019s narratives and overall strategy. Integrating existing vulnerabilities into the operational approach conserves resources by exploiting already weak areas of the target information environment instead of forcing the operation to create new vulnerabilities in the environment.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "develop-narratives"
+                    "phase_name": "content-narrative"
                 }
             ],
             "external_references": [

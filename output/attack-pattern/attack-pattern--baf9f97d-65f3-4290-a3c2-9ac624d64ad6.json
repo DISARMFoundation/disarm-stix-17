@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--f1989a15-7cba-4d3d-a67b-f85d81a65a00",
+    "id": "bundle--5ca9c6b4-86b4-4740-8948-2205af5c4c23",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--baf9f97d-65f3-4290-a3c2-9ac624d64ad6",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.190173Z",
-            "modified": "2024-11-22T16:43:58.190173Z",
+            "created": "2025-06-02T19:19:15.416477Z",
+            "modified": "2025-06-02T19:19:15.416477Z",
             "name": "Conceal Information Assets",
             "description": "Conceal the identity or provenance of campaign information assets such as accounts, channels, pages etc. to avoid takedown and attribution.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "persist-in-the-information-environment"
+                    "phase_name": "accounts,-software,-and-infrastructure"
                 }
             ],
             "external_references": [

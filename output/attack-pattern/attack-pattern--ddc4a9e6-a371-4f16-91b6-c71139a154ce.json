@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--af8f7e99-2746-4845-9f14-73b61636773f",
+    "id": "bundle--cdb1ad93-fdd2-48aa-9067-ff45c17160a3",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--ddc4a9e6-a371-4f16-91b6-c71139a154ce",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.164471Z",
-            "modified": "2024-11-22T16:43:58.164471Z",
+            "created": "2025-06-02T19:19:15.413312Z",
+            "modified": "2025-06-02T19:19:15.413312Z",
             "name": "Use Contests and Prizes",
             "description": "Use Contests and Prizes",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "maximise-exposure"
+                    "phase_name": "publishing-and-amplifying-actions"
                 }
             ],
             "external_references": [

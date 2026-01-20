@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--801c0ec4-b60b-4e1a-a3a3-5f637b1480e2",
+    "id": "bundle--c406262a-cb9c-471a-8f81-4bfd03156f5d",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--b69275ef-ba3d-409f-a857-40d4d1870dca",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.147554Z",
-            "modified": "2024-11-22T16:43:58.147554Z",
+            "created": "2025-06-02T19:19:15.408841Z",
+            "modified": "2025-06-02T19:19:15.408841Z",
             "name": "Bookmarking and Content Curation",
             "description": "Platforms for searching, sharing, and curating content and media. Examples include Pinterest, Flipboard, etc.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "select-channels-and-affordances"
+                    "phase_name": "digital-platforms-and-communities"
                 }
             ],
             "external_references": [

@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--fdaf24d3-2430-45cd-a779-4c848a9a7bc9",
+    "id": "bundle--4618e848-0ef7-4892-a8a3-e50e549909a3",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--d522f417-ba0e-4e2d-ae96-df2c1fd607e6",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.121593Z",
-            "modified": "2024-11-22T16:43:58.121593Z",
+            "created": "2025-06-02T19:19:15.402613Z",
+            "modified": "2025-06-02T19:19:15.402613Z",
             "name": "Fund Proxies",
             "description": "An influence operation may fund proxies, or external entities that work for the operation. An operation may recruit/train users with existing sympathies towards the operation\u2019s narratives and/or goals as proxies. Funding proxies serves various purposes including: - Diversifying operation locations to complicate attribution - Reducing the workload for direct operation assets",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "establish-assets"
+                    "phase_name": "asset-details"
                 }
             ],
             "external_references": [

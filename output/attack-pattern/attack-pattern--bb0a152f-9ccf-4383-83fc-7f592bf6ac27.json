@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--4ea22565-643b-4740-80e6-e8b97890397b",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--bb0a152f-9ccf-4383-83fc-7f592bf6ac27",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-02T18:42:37.506824Z",
+            "modified": "2025-06-02T18:42:37.506824Z",
+            "name": "Financial Instrument",
+            "description": "A Financial Instrument is a platform or software that facilitates the sending, receiving, and management of money, enabling financial transactions between users or organisations.<br><br>Threat actors can deploy financial instruments legitimately to manage their own finances or illegitimately to support fraud schemes.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0148.md",
+                    "external_id": "T0148"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

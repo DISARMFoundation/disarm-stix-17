@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--8c7d4244-7dba-4d42-8438-12ece8c6532a",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f71ad6e3-0c9a-4f2b-b73c-3a5262206ad1",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-02T19:19:15.44034Z",
+            "modified": "2025-06-02T19:19:15.44034Z",
+            "name": "QR Code Asset",
+            "description": "A QR Code allows people to use cameras on their smartphones to open a URL.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "digital-platforms-and-communities"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0153.004.md",
+                    "external_id": "T0153.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

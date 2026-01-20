@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--0ca6eda8-f1fe-4473-82ec-48fe6e62ef42",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--57154e26-a718-45cc-8dae-f04d91f433d8",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-07-03T19:30:21.664499Z",
+            "modified": "2025-07-03T19:30:21.664499Z",
+            "name": "Private Intimate Imagery",
+            "description": "This sub-technique can be used to assert that content depicts intimate imagery consensually produced for a private audience. Private Intimate Imagery depicts an individual in a state of undress, engaging in sexual activity, or in other intimate situations where there is a reasonable expectation of privacy. This imagery is typically created or shared with the subject\u2019s consent for private use.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "content-acquisition"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-observable/blob/main/generated_pages/techniques/T0167.002.md",
+                    "external_id": "T0167.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

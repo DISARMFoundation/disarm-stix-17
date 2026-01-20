@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--747a323f-81c6-4b3e-90d8-05e5d9d8564b",
+    "id": "bundle--2d64cff4-d23f-402c-980c-3abfd1b0fec3",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--ce5b400c-6f82-4095-936b-617857800da8",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.091177Z",
-            "modified": "2024-11-22T16:43:58.091177Z",
+            "created": "2025-06-02T19:19:15.389177Z",
+            "modified": "2025-06-02T19:19:15.389177Z",
             "name": "Conduct Swarming",
             "description": "Swarming refers to the coordinated use of accounts to overwhelm the information space with operation content. Unlike information flooding, swarming centres exclusively around a specific event or actor rather than a general narrative. Swarming relies on \u201chorizontal communication\u201d between information assets rather than a top-down, vertical command-and-control approach.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "maximise-exposure"
+                    "phase_name": "publishing-and-amplifying-actions"
                 }
             ],
             "external_references": [

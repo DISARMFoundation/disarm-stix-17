@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--14f16f2b-2f66-4cfb-96bd-6083060af6c6",
+    "id": "bundle--6cbcf8da-a993-4b3e-ae26-20c50c939f9f",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--08db3527-8fc9-4bf6-bb49-e5a5249cc051",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.196783Z",
-            "modified": "2024-11-22T16:43:58.196783Z",
+            "created": "2025-06-02T19:19:15.417488Z",
+            "modified": "2025-06-02T19:19:15.417488Z",
             "name": "Conceal Operational Activity",
             "description": "Conceal the campaign's operational activity to avoid takedown and attribution.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "persist-in-the-information-environment"
+                    "phase_name": "accounts,-software,-and-infrastructure"
                 }
             ],
             "external_references": [

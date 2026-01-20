@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--a169ccd6-19bf-40f6-afc4-e21e310b1288",
+    "id": "bundle--0fc670e8-aa41-4276-bc19-1a46866d15ec",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--5b6aaad5-7166-4321-ae82-b9300a2ddad7",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.111859Z",
-            "modified": "2024-11-22T16:43:58.111859Z",
+            "created": "2025-06-02T19:19:15.400398Z",
+            "modified": "2025-06-02T19:19:15.400398Z",
             "name": "Develop Audio-Based Content",
             "description": "Creating and editing false or misleading audio artefacts, often aligned with one or more specific narratives, for use in a disinformation campaign. This may include creating completely new audio content, repurposing existing audio artefacts (including cheap fakes), or using AI-generated audio creation and editing technologies (including deepfakes).",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "develop-content"
+                    "phase_name": "content-acquisition"
                 }
             ],
             "external_references": [

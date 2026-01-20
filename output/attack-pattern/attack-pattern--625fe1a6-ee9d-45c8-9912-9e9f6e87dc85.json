@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--2b7ca47d-85a8-4d2f-8d4b-bd746325822f",
+    "id": "bundle--1fd57b00-797a-4581-846e-c482cae0d2e1",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--625fe1a6-ee9d-45c8-9912-9e9f6e87dc85",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.100757Z",
-            "modified": "2024-11-22T16:43:58.100757Z",
+            "created": "2025-06-02T19:19:15.395593Z",
+            "modified": "2025-06-02T19:19:15.395593Z",
             "name": "Identify Existing Conspiracy Narratives/Suspicions",
             "description": "An influence operation may assess preexisting conspiracy theories or suspicions in a population to identify existing narratives that support operational objectives.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "target-audience-analysis"
+                    "phase_name": "content-action"
                 }
             ],
             "external_references": [

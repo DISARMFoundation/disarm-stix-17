@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--032fcb47-3849-4e5e-a9eb-124f6b0a0571",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--061b2c48-777c-41ec-a1d6-2012a81e9a4c",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-02T18:13:15.708551Z",
+            "modified": "2025-06-02T18:13:15.708551Z",
+            "name": "Blog Asset",
+            "description": "Blogs are a collation of posts centred on a particular topic, author, or collection of authors.<br><br>Some platforms are designed to support users in hosting content online, such as Blogging Platforms like Substack which allow users to create Blogs, but other online platforms can also be used to produce a Blog; a Paid Account on X (prev Twitter) is able to post long-form text content to their timeline in a style of a blog.<br><br>Actors may create Accounts on Blogging Platforms to create a Blog, or make their own Blog on a Website.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0152.002.md",
+                    "external_id": "T0152.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

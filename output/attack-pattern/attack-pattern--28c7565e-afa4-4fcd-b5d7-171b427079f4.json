@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--893a1b78-8988-4dfb-94bc-48332f46e9a3",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--28c7565e-afa4-4fcd-b5d7-171b427079f4",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-02T18:42:37.511822Z",
+            "modified": "2025-06-02T18:42:37.511822Z",
+            "name": "Bulk Created Asset",
+            "description": "A Bulk Created Asset is an asset which was created alongside many other instances of the same asset.<br><br>Actors have been observed bulk creating Accounts on Social Media Platforms such as Facebook. Indicators of bulk asset creation include its creation date, assets\u2019 naming conventions, their configuration (e.g. templated personas, visually similar profile pictures), or their activity (e.g. post timings, narratives posted).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0150.008.md",
+                    "external_id": "T0150.008"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

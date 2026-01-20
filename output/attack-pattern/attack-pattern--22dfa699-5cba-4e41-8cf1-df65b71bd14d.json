@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--f59c6c8e-f9e3-4db7-a040-e6ed96b0d14d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--22dfa699-5cba-4e41-8cf1-df65b71bd14d",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-07-03T19:30:21.663498Z",
+            "modified": "2025-07-03T19:30:21.663498Z",
+            "name": "Deepfake Impersonation",
+            "description": "This sub-technique can be used to assert that a piece of content is an AI-Generated deepfake impersonation.<br><br>A deepfake refers to AI-generated content that artificially inserts the likeness of a real person into a new or altered media scene. These synthetic images, videos, or audio clips use machine learning models to manipulate or replace the original content, making it appear as though the target is participating in actions or situations they never actually did.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "content-acquisition"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-observable/blob/main/generated_pages/techniques/T0166.005.md",
+                    "external_id": "T0166.005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

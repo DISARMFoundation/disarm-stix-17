@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--303a701e-64b3-4cd9-90d8-1aedbc1328b5",
+    "id": "bundle--ba7bc791-5ef3-4aea-8db3-dca0f98fcc5a",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--14ea9a49-0546-4fe9-be44-f158be5881e9",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.168739Z",
-            "modified": "2024-11-22T16:43:58.168739Z",
+            "created": "2025-06-02T19:19:15.414397Z",
+            "modified": "2025-06-02T19:19:15.414397Z",
             "name": "Control Information Environment through Offensive Cyberspace Operations",
             "description": "Controlling the information environment through offensive cyberspace operations uses cyber tools and techniques to alter the trajectory of content in the information space to either prioritise operation messaging or block opposition messaging.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "drive-online-harms"
+                    "phase_name": "actions-taken-by-platforms-and-governments"
                 }
             ],
             "external_references": [

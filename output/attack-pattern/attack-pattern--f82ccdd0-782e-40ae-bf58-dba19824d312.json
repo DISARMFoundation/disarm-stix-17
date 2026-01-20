@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--4576a49d-34ea-4f65-9d42-0af7bd214bdd",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f82ccdd0-782e-40ae-bf58-dba19824d312",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-02T17:22:38.255053Z",
+            "modified": "2025-06-02T17:22:38.255053Z",
+            "name": "Develop Book",
+            "description": "Produce text content in the form of a book.\u00a0<br /> <br />This technique covers both e-books and physical books, however, the former is more easily deployed by threat actors given the lower cost to develop.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0085.005.md",
+                    "external_id": "T0085.005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

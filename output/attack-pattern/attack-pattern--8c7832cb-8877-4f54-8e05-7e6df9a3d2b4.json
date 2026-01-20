@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--2a22bc14-d022-4cff-8134-81c7b2af5108",
+    "id": "bundle--5ce74b4f-c9e9-4133-aef8-ffd8188813c1",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--8c7832cb-8877-4f54-8e05-7e6df9a3d2b4",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.113911Z",
-            "modified": "2024-11-22T16:43:58.113911Z",
+            "created": "2025-06-02T19:19:15.400398Z",
+            "modified": "2025-06-02T19:19:15.400398Z",
             "name": "Obtain Private Documents",
             "description": "Procuring documents that are not publicly available, by whatever means -- whether legal or illegal, highly-resourced or less so. These documents can include authentic non-public documents, authentic non-public documents have been altered, or inauthentic documents intended to appear as if they are authentic non-public documents. All of these types of documents can be \"leaked\" during later stages in the operation.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "develop-content"
+                    "phase_name": "content-acquisition"
                 }
             ],
             "external_references": [

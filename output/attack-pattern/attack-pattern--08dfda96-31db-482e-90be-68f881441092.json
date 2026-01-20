@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--2d08fb9e-57a0-464f-b43b-e1791d23c355",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--08dfda96-31db-482e-90be-68f881441092",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-02T18:42:37.503312Z",
+            "modified": "2025-06-02T18:42:37.503312Z",
+            "name": "Establish Account Imagery",
+            "description": "Introduce visual elements to an account where a platform allows this functionality (e.g. a profile picture, a cover photo, etc).\u00a0<br><br> Threat Actors who don\u2019t want to use pictures of themselves in their social media accounts may use alternate imagery to make their account appear more legitimate.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0145.md",
+                    "external_id": "T0145"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

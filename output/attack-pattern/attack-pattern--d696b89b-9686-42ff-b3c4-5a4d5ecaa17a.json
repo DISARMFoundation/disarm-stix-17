@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--99a55fd6-dd37-404e-84ca-6e0b630e1d72",
+    "id": "bundle--a53d8a28-480d-477a-b8b2-b36a14146292",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--d696b89b-9686-42ff-b3c4-5a4d5ecaa17a",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.093746Z",
-            "modified": "2024-11-22T16:43:58.093746Z",
+            "created": "2025-06-02T19:19:15.391798Z",
+            "modified": "2025-06-02T19:19:15.391798Z",
             "name": "Degrade Adversary",
             "description": "Plan to degrade an adversary\u2019s image or ability to act. This could include preparation and use of harmful information about the adversary\u2019s actions or reputation.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "plan-objectives"
+                    "phase_name": "content-details"
                 }
             ],
             "external_references": [

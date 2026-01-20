@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--2f7b2596-b69c-4329-babe-137b2d5ce58a",
+    "id": "bundle--b44e1c02-d28e-4d33-99d7-406c7605d89b",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--58b169c1-7e9a-4300-a98f-eb7baee8967f",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.109363Z",
-            "modified": "2024-11-22T16:43:58.109363Z",
+            "created": "2025-06-02T19:19:15.399764Z",
+            "modified": "2025-06-02T19:19:15.399764Z",
             "name": "Aggregate Information into Evidence Collages",
             "description": "Image files that aggregate positive evidence (Joan Donovan)",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "develop-content"
+                    "phase_name": "content-acquisition"
                 }
             ],
             "external_references": [

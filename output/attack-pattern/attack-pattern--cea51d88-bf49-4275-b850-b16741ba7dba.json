@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--f56780b7-aad8-45be-9c22-7e3288bfb71b",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--cea51d88-bf49-4275-b850-b16741ba7dba",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-02T19:19:15.430292Z",
+            "modified": "2025-06-02T19:19:15.430292Z",
+            "name": "Bank Account Asset",
+            "description": "A Bank Account is a financial account that allows individuals or organisations to store, manage, and access their money, typically for saving, spending, or investment purposes.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "asset-details"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0148.002.md",
+                    "external_id": "T0148.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

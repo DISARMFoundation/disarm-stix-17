@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--c9512dd9-11e3-4f1c-9518-8bad28065304",
+    "id": "bundle--d364c6f1-13c6-4ce8-9a60-33edd596cad7",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--d615efdc-7296-4254-90f5-99d2986d97fa",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.179782Z",
-            "modified": "2024-11-22T16:43:58.179782Z",
+            "created": "2025-06-02T19:19:15.415391Z",
+            "modified": "2025-06-02T19:19:15.415391Z",
             "name": "Exploit Platform TOS/Content Moderation",
             "description": "Exploit Platform TOS/Content Moderation",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "drive-online-harms"
+                    "phase_name": "actions-taken-by-platforms-and-governments"
                 }
             ],
             "external_references": [

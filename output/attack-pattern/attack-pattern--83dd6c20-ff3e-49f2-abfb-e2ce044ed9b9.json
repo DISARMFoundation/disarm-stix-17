@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--df9e8fd3-0d1c-45ce-bc09-51447e8fbf8e",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--83dd6c20-ff3e-49f2-abfb-e2ce044ed9b9",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-03T17:30:01.819399Z",
+            "modified": "2025-06-03T17:30:01.819399Z",
+            "name": "Content Remains Active after Reporting Breach of Platform Policy to Platform",
+            "description": "nan",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "actions-taken-by-platforms-and-governments"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0165.002.md",
+                    "external_id": "T0165.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

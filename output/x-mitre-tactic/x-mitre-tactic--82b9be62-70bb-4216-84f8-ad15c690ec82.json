@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--4e3927f7-fa95-4a7b-919b-7cef5ff86638",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--82b9be62-70bb-4216-84f8-ad15c690ec82",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-07-03T19:30:21.60456Z",
+            "modified": "2025-07-03T19:30:21.60456Z",
+            "name": "Content Details",
+            "description": "This category contains Techniques and Sub-Techniques which can be used to describe online content; its format (e.g. is it text? Video? Audio?), how it's styled (has it been made to look like a news report? A meme? A fact check?), and any anomalies with the content unrelated to narratives.",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-observable/blob/main/generated_pages/tactics/TA29.md",
+                    "external_id": "TA29"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "content-details"
+        }
+    ]
+}

@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--d7a5f321-1110-4aea-9374-13b6847ee8f8",
+    "id": "bundle--fca8aedf-b5c4-453f-b34b-427791a310e5",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--eb67513e-b6e8-42e1-a95b-197f64c21588",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.197255Z",
-            "modified": "2024-11-22T16:43:58.197255Z",
+            "created": "2025-06-02T19:19:15.417488Z",
+            "modified": "2025-06-02T19:19:15.417488Z",
             "name": "Conceal Network Identity",
             "description": "Concealing network identity aims to hide the existence an influence operation\u2019s network completely. Unlike concealing sponsorship, concealing network identity denies the existence of any sort of organisation.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "persist-in-the-information-environment"
+                    "phase_name": "accounts,-software,-and-infrastructure"
                 }
             ],
             "external_references": [

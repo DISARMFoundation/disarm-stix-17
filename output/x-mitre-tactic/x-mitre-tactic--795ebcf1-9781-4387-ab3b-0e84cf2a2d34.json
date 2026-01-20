@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--77b3e384-ac84-490d-8add-b4eaf54c96a1",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--795ebcf1-9781-4387-ab3b-0e84cf2a2d34",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-07-03T19:30:21.603153Z",
+            "modified": "2025-07-03T19:30:21.603153Z",
+            "name": "Asset Details",
+            "description": "nan",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-observable/blob/main/generated_pages/tactics/TA21.md",
+                    "external_id": "TA21"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "asset-details"
+        }
+    ]
+}

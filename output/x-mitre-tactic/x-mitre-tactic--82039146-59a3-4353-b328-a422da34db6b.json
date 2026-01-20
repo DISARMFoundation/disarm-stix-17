@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--9304d7ed-9fea-41df-8263-ebc89e8e0af6",
+    "id": "bundle--50383e26-3472-42ab-9252-13168fda9489",
     "objects": [
         {
             "type": "x-mitre-tactic",
             "spec_version": "2.1",
             "id": "x-mitre-tactic--82039146-59a3-4353-b328-a422da34db6b",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.075696Z",
-            "modified": "2024-11-22T16:43:58.075696Z",
+            "created": "2025-06-02T18:42:37.457512Z",
+            "modified": "2025-06-02T18:42:37.457512Z",
             "name": "Develop Content",
             "description": "Create or acquire text, images, and other content",
             "external_references": [

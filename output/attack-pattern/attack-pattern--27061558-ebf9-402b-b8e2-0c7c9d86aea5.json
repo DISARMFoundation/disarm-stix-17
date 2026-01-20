@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--3cbf5558-aae7-4e2e-b6af-9d3f336f08cc",
+    "id": "bundle--c5e4aeea-da8b-4048-8def-ffc851c121a4",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--27061558-ebf9-402b-b8e2-0c7c9d86aea5",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.149542Z",
-            "modified": "2024-11-22T16:43:58.149542Z",
+            "created": "2025-06-02T19:19:15.409913Z",
+            "modified": "2025-06-02T19:19:15.409913Z",
             "name": "Radio",
             "description": "Radio",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "select-channels-and-affordances"
+                    "phase_name": "digital-platforms-and-communities"
                 }
             ],
             "external_references": [

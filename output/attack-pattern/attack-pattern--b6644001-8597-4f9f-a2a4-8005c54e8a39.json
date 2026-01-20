@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--42b18f99-b11a-43f3-a3f3-d9b60a58bc88",
+    "id": "bundle--bc165aab-dbc0-447f-bfae-dbf2ae5af838",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--b6644001-8597-4f9f-a2a4-8005c54e8a39",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.207204Z",
-            "modified": "2024-11-22T16:43:58.207204Z",
+            "created": "2025-06-02T19:19:15.419214Z",
+            "modified": "2025-06-02T19:19:15.419214Z",
             "name": "Use Shell Organisations",
             "description": "Use Shell Organisations to conceal sponsorship.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "persist-in-the-information-environment"
+                    "phase_name": "accounts,-software,-and-infrastructure"
                 }
             ],
             "external_references": [

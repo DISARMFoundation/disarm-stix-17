@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--cf2c01f8-a01b-4331-aa88-2cc8ea4ff4ab",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a1bd2964-4d9b-4674-ac90-f2dc9333197b",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-07-03T19:30:21.679022Z",
+            "modified": "2025-07-03T19:30:21.679022Z",
+            "name": "Anonymous Content",
+            "description": "This sub-technique can be used to document an analyst\u2019s assessment that content was intentionally made in such a way to hide the identity of the person or group who produced it.<br><br>Actors producing content with the intent to abuse or threaten a target often do so while taking steps to reduce the ability of investigators to tie their real identity to the content they produced.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "content-details"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-observable/blob/main/generated_pages/techniques/T0176.006.md",
+                    "external_id": "T0176.006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

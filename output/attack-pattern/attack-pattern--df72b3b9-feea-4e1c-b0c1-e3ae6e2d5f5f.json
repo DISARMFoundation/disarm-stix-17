@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--be9ff9b1-0134-400a-8c14-beb64a2e30b2",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--df72b3b9-feea-4e1c-b0c1-e3ae6e2d5f5f",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-07-03T19:30:21.685752Z",
+            "modified": "2025-07-03T19:30:21.685752Z",
+            "name": "Abusive Content",
+            "description": "Abusive Content is defined as targeted negative messaging, unwanted by the recipient.<br><br>This sub-technique can be used to document an analyst\u2019s assessment that an actor has published content with the intent of delivering an abusive, negative message to an individual, or group of individuals.<br><br>To identify abusive content, analysts must make an assessment about the intent of the person publishing the content, and how it was experienced by its target. Did the account select the content they published with the intent to cause distress in their target? Is it reasonable to assume the actor would be aware that the content they published is upsetting to their target audience?",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "content-action"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-observable/blob/main/generated_pages/techniques/T0180.008.md",
+                    "external_id": "T0180.008"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

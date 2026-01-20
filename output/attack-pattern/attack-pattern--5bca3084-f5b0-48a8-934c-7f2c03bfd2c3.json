@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--2366df4a-2c8b-4adf-b286-ec99d5827687",
+    "id": "bundle--f3f6383f-f5b1-4d19-8314-781e98a3fa68",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--5bca3084-f5b0-48a8-934c-7f2c03bfd2c3",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.195808Z",
-            "modified": "2024-11-22T16:43:58.195808Z",
+            "created": "2025-06-02T19:19:15.417488Z",
+            "modified": "2025-06-02T19:19:15.417488Z",
             "name": "Change Names of Information Assets",
             "description": "Changing names or brand names of information assets such as accounts, channels, pages etc. An operation may change the names or brand names of its assets throughout an operation to avoid detection or alter the names of newly acquired or repurposed assets to fit operational narratives.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "persist-in-the-information-environment"
+                    "phase_name": "accounts,-software,-and-infrastructure"
                 }
             ],
             "external_references": [

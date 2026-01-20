@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--f784297f-fe42-43b1-99ab-dee7fe5ae0be",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--92de8886-c426-4e8c-9220-fb915d3c72cd",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-03T14:52:12.466169Z",
+            "modified": "2025-06-03T14:52:12.466169Z",
+            "name": "Asset Management",
+            "description": "nan",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA24.md",
+                    "external_id": "TA24"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "asset-management"
+        }
+    ]
+}

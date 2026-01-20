@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--02b85c4a-4373-493d-b9a4-a709a38183d0",
+    "id": "bundle--6b471783-de26-4e1e-b2ea-55530505864b",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--4cd719a9-e817-4acc-9581-6b6a60e42f35",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.102607Z",
-            "modified": "2024-11-22T16:43:58.102607Z",
+            "created": "2025-06-02T19:19:15.396753Z",
+            "modified": "2025-06-02T19:19:15.396753Z",
             "name": "Use Copypasta",
             "description": "Copypasta refers to a piece of text that has been copied and pasted multiple times across various online platforms. A copypasta\u2019s final form may differ from its original source text as users add, delete, or otherwise edit the content as they repost the text.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "develop-content"
+                    "phase_name": "content-acquisition"
                 }
             ],
             "external_references": [

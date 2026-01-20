@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--9e3ec1b5-d4ae-4a0b-b9c4-3f49a1da0c5d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--308ae7d7-743c-4a55-a790-f4db91153b62",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-02T19:19:15.428218Z",
+            "modified": "2025-06-02T19:19:15.428218Z",
+            "name": "Open Access Platform",
+            "description": "Some online platforms allow users to take advantage of the platform\u2019s features without creating an account. Examples include the Paste Platform Pastebin, and the Image Board Platforms 4chan and 8chan.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "asset-details"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0146.006.md",
+                    "external_id": "T0146.006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

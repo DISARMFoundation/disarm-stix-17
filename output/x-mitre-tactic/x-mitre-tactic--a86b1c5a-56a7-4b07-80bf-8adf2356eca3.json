@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--74d2ad3f-b53c-409e-a6e4-dd2cbaedaded",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--a86b1c5a-56a7-4b07-80bf-8adf2356eca3",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-07-03T19:30:21.605225Z",
+            "modified": "2025-07-03T19:30:21.605225Z",
+            "name": "Content Action",
+            "description": "nan",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-observable/blob/main/generated_pages/tactics/TA31.md",
+                    "external_id": "TA31"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "content-action"
+        }
+    ]
+}

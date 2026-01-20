@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--2a547daa-1f0a-4601-8ecf-ce8e083335c7",
+    "id": "bundle--0f53d4c4-0832-411a-9465-c43f5ad1ea86",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--1f7181dc-07e7-40a7-9894-8132b8390ba4",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.183045Z",
-            "modified": "2024-11-22T16:43:58.183045Z",
+            "created": "2025-06-02T19:19:15.415391Z",
+            "modified": "2025-06-02T19:19:15.415391Z",
             "name": "Call to Action to Attend",
             "description": "Call to action to attend an event",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "drive-offline-activity"
+                    "phase_name": "offline-actions"
                 }
             ],
             "external_references": [

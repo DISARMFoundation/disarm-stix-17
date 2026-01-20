@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--2b2faa11-43a5-463d-a48d-608e279d3b47",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--b8c0ba9f-0234-4e9a-a5ca-0c03421a0c43",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-02T19:15:19.1351Z",
+            "modified": "2025-06-02T19:15:19.1351Z",
+            "name": "Asset Management",
+            "description": "Actions taken which help target content to specific audiences identified and analysed as part of TA13: Target Audience Analysis.",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA05.md",
+                    "external_id": "TA05"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "asset-management"
+        }
+    ]
+}

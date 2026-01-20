@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--65f5bc45-d74d-46a3-afb8-35f894acb567",
+    "id": "bundle--29b16c2b-c5ec-4408-8245-0a1f1132adce",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--72df7e55-dc60-4a7e-9928-ed41ac0e1581",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.15919Z",
-            "modified": "2024-11-22T16:43:58.15919Z",
-            "name": "Attract Traditional Media",
-            "description": "Deliver content by attracting the attention of traditional media (earned media).",
+            "created": "2025-07-03T19:30:21.616167Z",
+            "modified": "2025-07-03T19:30:21.616167Z",
+            "name": "Linked Content",
+            "description": "nan",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "deliver-content"
+                    "phase_name": "content-details"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0117.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-observable/blob/main/generated_pages/techniques/T0117.md",
                     "external_id": "T0117"
                 }
             ],

@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--b1f29b3c-1035-424b-8a47-d7f7c041fef8",
+    "id": "bundle--c6737cc6-eb85-4936-b7e0-0c1c0ac43613",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--ce1e088c-d061-490c-a13a-3cbe4216a86e",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.208716Z",
-            "modified": "2024-11-22T16:43:58.208716Z",
+            "created": "2025-06-02T19:19:15.420226Z",
+            "modified": "2025-06-02T19:19:15.420226Z",
             "name": "Legacy Web Content",
             "description": "Make incident content visible for a long time, e.g. by exploiting platform terms of service, or placing it where it's hard to remove or unlikely to be removed.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "persist-in-the-information-environment"
+                    "phase_name": "accounts,-software,-and-infrastructure"
                 }
             ],
             "external_references": [

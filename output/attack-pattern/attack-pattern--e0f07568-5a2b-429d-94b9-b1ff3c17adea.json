@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--b1086c0e-a858-4e39-add5-0363ab7506b2",
+    "id": "bundle--7c58fb8e-3178-4c96-8c38-65ab894f9ceb",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--e0f07568-5a2b-429d-94b9-b1ff3c17adea",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.143152Z",
-            "modified": "2024-11-22T16:43:58.143152Z",
+            "created": "2025-06-02T19:19:15.407724Z",
+            "modified": "2025-06-02T19:19:15.407724Z",
             "name": "Create Inauthentic News Sites",
             "description": "Create Inauthentic News Sites",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "establish-legitimacy"
+                    "phase_name": "asset-persona"
                 }
             ],
             "external_references": [

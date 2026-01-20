@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--289cd96c-8224-4751-b8d7-affcf8f497dc",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--0fabf21c-dd9d-439d-8033-13a6c82fa18d",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-03T14:52:12.465169Z",
+            "modified": "2025-06-03T14:52:12.465169Z",
+            "name": "Publishing and Amplifying Actions",
+            "description": "nan",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA23.md",
+                    "external_id": "TA23"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "publishing-and-amplifying-actions"
+        }
+    ]
+}

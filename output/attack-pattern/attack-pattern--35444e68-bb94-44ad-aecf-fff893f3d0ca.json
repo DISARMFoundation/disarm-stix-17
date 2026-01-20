@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--84df7d58-ae65-45a4-ae46-0798c5081f77",
+    "id": "bundle--3af61480-53a7-48a9-8ccc-3dde398170d3",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--35444e68-bb94-44ad-aecf-fff893f3d0ca",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.151121Z",
-            "modified": "2024-11-22T16:43:58.151121Z",
+            "created": "2025-06-02T19:19:15.410829Z",
+            "modified": "2025-06-02T19:19:15.410829Z",
             "name": "Social Media",
             "description": "Social Media",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "deliver-content"
+                    "phase_name": "interact-with-platform-and-community"
                 }
             ],
             "external_references": [

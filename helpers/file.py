@@ -30,7 +30,15 @@ def clean_output_dir():
     Returns:
 
     """
-    shutil.rmtree("output/")
+    # was getting permissions error on rmtree, because git had created files readonly by default
+    import os
+    import stat
+    import shutil
+
+    def handle_remove_readonly(func, path, exc_info):
+        os.chmod(path, stat.S_IWRITE)
+        func(path)
+        shutil.rmtree("output/", onexc=handle_remove_readonly)
 
 
 def write_file(file_name, file_data):

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--f4317a61-320a-450f-a081-fca1ea785991",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--88a14183-6938-4b0e-89d1-81b2f73171f1",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-02T18:28:00.47036Z",
+            "modified": "2025-06-02T18:28:00.47036Z",
+            "name": "Develop Opinion Article",
+            "description": "Opinion articles (aka \u201cOp-Eds\u201d or \u201cEditorials\u201d) are articles or regular columns flagged as \u201copinion\u201d posted to news sources, and can be contributed by people outside the organisation.\u00a0<br /> <br />Flagging articles as opinions allow news organisations to distinguish them from the typical expectations of objective news reporting while distancing the presented opinion from the organisation or its employees.<br /> <br /> The use of this technique is not by itself an indication of malicious or inauthentic content; Op-eds are a common format in media. However, threat actors exploit op-eds to, for example, submit opinion articles to local media to promote their narratives. <br /> <br />Examples from the perspective of a news site involve publishing op-eds from perceived prestigious voices to give legitimacy to an inauthentic publication, or supporting causes by hosting op-eds from actors aligned with the organisation\u2019s goals.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0085.006.md",
+                    "external_id": "T0085.006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

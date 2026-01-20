@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--6c74e8fb-7b1d-46be-8b47-79c25290e995",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--8ed8af95-dee6-4dd4-8a53-e809bfd2755f",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-02T18:28:00.45283Z",
+            "modified": "2025-06-02T18:28:00.45283Z",
+            "name": "Maximise Exposure",
+            "description": "Maximise exposure of the target audience to incident/campaign content via flooding, amplifying, and cross-posting.",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA17.md",
+                    "external_id": "TA17"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "maximise-exposure"
+        }
+    ]
+}

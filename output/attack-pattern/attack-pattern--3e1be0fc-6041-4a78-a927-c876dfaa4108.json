@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--d74877a2-729e-4f26-b096-eb842a673967",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--3e1be0fc-6041-4a78-a927-c876dfaa4108",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-07-03T19:30:21.68407Z",
+            "modified": "2025-07-03T19:30:21.68407Z",
+            "name": "Leak of Private Material",
+            "description": "This sub-technique can be used to assert that private materials have been non-consensually published to an audience not originally intended to have access to said materials.<br><br>Analysts will need to assess whether content was intended to be accessible to the audience which now has access to it.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "content-action"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-observable/blob/main/generated_pages/techniques/T0179.005.md",
+                    "external_id": "T0179.005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--0a223823-80e8-4143-a8fb-30e11ebb08b5",
+    "id": "bundle--634bb311-6e1e-4146-baf0-e436ed5365d6",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--bb25b4aa-9223-40ea-a28a-0dd675e91e46",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.147131Z",
-            "modified": "2024-11-22T16:43:58.147131Z",
+            "created": "2025-06-02T19:19:15.408841Z",
+            "modified": "2025-06-02T19:19:15.408841Z",
             "name": "Create Echo Chambers/Filter Bubbles",
             "description": "Create Echo Chambers/Filter Bubbles",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "microtarget"
+                    "phase_name": "asset-management"
                 }
             ],
             "external_references": [

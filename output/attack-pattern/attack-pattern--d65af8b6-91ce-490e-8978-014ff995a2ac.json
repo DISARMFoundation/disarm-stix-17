@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--e1199e8b-d4ee-4452-bf16-be935ed7b0bd",
+    "id": "bundle--061cb11a-0cd2-41d2-aab9-0fb3eb17fbde",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--d65af8b6-91ce-490e-8978-014ff995a2ac",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.17051Z",
-            "modified": "2024-11-22T16:43:58.17051Z",
+            "created": "2025-06-02T19:19:15.414397Z",
+            "modified": "2025-06-02T19:19:15.414397Z",
             "name": "Delete Opposing Content",
             "description": "Deleting opposing content refers to the removal of content that conflicts with operational narratives from selected platforms. An influence operation may delete opposing content to censor contradictory information from the target audience, allowing operation narratives to take priority in the information space.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "drive-online-harms"
+                    "phase_name": "actions-taken-by-platforms-and-governments"
                 }
             ],
             "external_references": [

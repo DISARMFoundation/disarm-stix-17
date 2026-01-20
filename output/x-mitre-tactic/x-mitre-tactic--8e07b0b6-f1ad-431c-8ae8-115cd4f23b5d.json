@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--f5b44515-a08b-4545-b220-93e449a3c6e4",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--8e07b0b6-f1ad-431c-8ae8-115cd4f23b5d",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-03T14:52:12.466169Z",
+            "modified": "2025-06-03T14:52:12.466169Z",
+            "name": "Interact with Platform and Community",
+            "description": "nan",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA25.md",
+                    "external_id": "TA25"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "interact-with-platform-and-community"
+        }
+    ]
+}

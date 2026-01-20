@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--c3d87279-bc87-471f-97e1-335ed1ae055d",
+    "id": "bundle--9d7cf9cf-c25b-4601-abf8-629acb77250c",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--8b991b67-9df8-42e7-b11a-5ed1bc41c5a5",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2024-11-22T16:43:58.208258Z",
-            "modified": "2024-11-22T16:43:58.208258Z",
+            "created": "2025-06-02T19:19:15.419214Z",
+            "modified": "2025-06-02T19:19:15.419214Z",
             "name": "Obfuscate Payment",
             "description": "Obfuscate Payment",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "persist-in-the-information-environment"
+                    "phase_name": "accounts,-software,-and-infrastructure"
                 }
             ],
             "external_references": [

@@ -29,7 +29,7 @@ def make_disarm_techniques(data, stix_ids):
             {
                 'external_id': f'{t[0]}'.strip(),
                 'source_name': 'mitre-attack',
-                'url': f'https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/{t[0]}.md'
+                'url': f'https://github.com/DISARMFoundation/DISARMframeworks-20-observable/blob/main/generated_pages/techniques/{t[0]}.md'
             }
         ]
 

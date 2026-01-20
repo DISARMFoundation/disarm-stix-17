@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--2a2f9872-50e3-4a81-93f7-492c018c226b",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--9a1b3e2a-55bd-4a82-9128-d3d6a38a0cfd",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-02T19:19:15.379729Z",
+            "modified": "2025-06-02T19:19:15.379729Z",
+            "name": "Actions Taken by Platforms and Governments",
+            "description": "Actions taken by an influence operation to harm their opponents in online spaces through harassment, suppression, releasing private information, and controlling the information space through offensive cyberspace operations.",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA18.md",
+                    "external_id": "TA18"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "actions-taken-by-platforms-and-governments"
+        }
+    ]
+}

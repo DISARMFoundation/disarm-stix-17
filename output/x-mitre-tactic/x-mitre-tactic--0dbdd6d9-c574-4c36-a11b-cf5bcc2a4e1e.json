@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--ec2a72f4-890a-47f9-8ea4-e7c6a7735444",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--0dbdd6d9-c574-4c36-a11b-cf5bcc2a4e1e",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-02T19:19:15.379729Z",
+            "modified": "2025-06-02T19:19:15.379729Z",
+            "name": "Asset Persona",
+            "description": "Establish assets that create trust",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA16.md",
+                    "external_id": "TA16"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "asset-persona"
+        }
+    ]
+}

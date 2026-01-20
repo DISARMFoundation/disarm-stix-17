@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--794948af-c037-4327-851c-5f319f484860",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--0ba40de8-fd31-4264-b9ef-d9f635eb0aca",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-03T14:21:28.211103Z",
+            "modified": "2025-06-03T14:21:28.211103Z",
+            "name": "Accounts, Software, and Infrastructure",
+            "description": "nan",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA19.md",
+                    "external_id": "TA19"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "accounts,-software,-and-infrastructure"
+        }
+    ]
+}

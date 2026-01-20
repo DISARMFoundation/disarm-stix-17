@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--161e2d6a-9203-4ee2-9640-36d208a3f9b6",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--76bbd3f2-d0c2-424d-9368-f4615cd5acf8",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-02T19:19:15.433812Z",
+            "modified": "2025-06-02T19:19:15.433812Z",
+            "name": "Repurposed Asset",
+            "description": "Repurposed Assets are assets which have been identified as being used previously, but are now being used for different purposes, or have new Presented Personas.<br><br>Actors have been documented compromising assets, and then repurposing them to present Inauthentic Personas as part of their operations.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "asset-details"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0150.004.md",
+                    "external_id": "T0150.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

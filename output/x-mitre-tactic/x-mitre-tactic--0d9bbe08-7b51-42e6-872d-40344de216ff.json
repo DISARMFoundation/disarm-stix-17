@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--754ef231-82c8-49e1-8951-245ad6f8973c",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--0d9bbe08-7b51-42e6-872d-40344de216ff",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-07-03T19:30:21.603153Z",
+            "modified": "2025-07-03T19:30:21.603153Z",
+            "name": "Asset Persona",
+            "description": "nan",
+            "external_references": [
+                {
+                    "source_name": "DISARM",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-observable/blob/main/generated_pages/tactics/TA22.md",
+                    "external_id": "TA22"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_shortname": "asset-persona"
+        }
+    ]
+}

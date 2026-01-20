@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--9ae071ab-d017-4a27-8aca-5e5805a80c6f",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--0443c913-2db2-4581-88e7-2d6b8922c5a2",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2025-06-02T19:19:15.432839Z",
+            "modified": "2025-06-02T19:19:15.432839Z",
+            "name": "Proxy IP Address Asset",
+            "description": "A Proxy IP Address allows a threat actor to mask their real IP Address by putting a layer between them and the online content they\u2019re connecting with. <br><br>Proxy IP Addresses can hide the connection between the threat actor and their online infrastructure.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "asset-details"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0149.008.md",
+                    "external_id": "T0149.008"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}
