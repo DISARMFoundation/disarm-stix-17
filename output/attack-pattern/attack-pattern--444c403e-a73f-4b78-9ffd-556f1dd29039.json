@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--a0a7737a-736d-4a29-8500-5bb6e3ded8c5",
+    "id": "bundle--8d8c90ce-8988-4638-b059-33f6bb0ce396",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--444c403e-a73f-4b78-9ffd-556f1dd29039",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.402613Z",
-            "modified": "2025-06-02T19:19:15.402613Z",
+            "created": "2026-01-20T21:49:08.519867Z",
+            "modified": "2026-01-20T21:49:08.519867Z",
             "name": "Develop Owned Media Assets",
             "description": "An owned media asset refers to an agency or organisation through which an influence operation may create, develop, and host content and narratives. Owned media assets include websites, blogs, social media pages, forums, and other platforms that facilitate the creation and organisation of content.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "asset-details"
+                    "phase_name": "establish-assets"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0095.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0095.md",
                     "external_id": "T0095"
                 }
             ],

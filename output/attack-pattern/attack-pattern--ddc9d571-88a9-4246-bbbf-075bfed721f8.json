@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--28ad154a-24a1-4855-bb8a-97e444c378da",
+    "id": "bundle--c1ffb5c0-6a42-4c2c-9d02-d06c72048e9b",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--ddc9d571-88a9-4246-bbbf-075bfed721f8",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.390985Z",
-            "modified": "2025-06-02T19:19:15.390985Z",
+            "created": "2026-01-20T21:49:08.504793Z",
+            "modified": "2026-01-20T21:49:08.504793Z",
             "name": "Sell Merchandise",
             "description": "Sell mechandise refers to getting the message or narrative into physical space in the offline world while making money",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "offline-actions"
+                    "phase_name": "drive-offline-activity"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0061.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0061.md",
                     "external_id": "T0061"
                 }
             ],

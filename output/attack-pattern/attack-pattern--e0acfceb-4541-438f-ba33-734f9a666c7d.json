@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--c2d26f6c-a10f-420a-8f88-70e92e3d173e",
+    "id": "bundle--12fbe90e-4e3b-4ddb-8206-f8f978e62fb4",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--e0acfceb-4541-438f-ba33-734f9a666c7d",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.382272Z",
-            "modified": "2025-06-02T19:19:15.382272Z",
+            "created": "2026-01-20T21:49:08.497789Z",
+            "modified": "2026-01-20T21:49:08.497789Z",
             "name": "Create Hashtags and Search Artefacts",
             "description": "Create one or more hashtags and/or hashtag groups. Many incident-based campaigns will create hashtags to promote their fabricated event. Creating a hashtag for an incident can have two important effects: 1. Create a perception of reality around an event. Certainly only \"real\" events would be discussed in a hashtag. After all, the event has a name!, and 2. Publicise the story more widely through trending lists and search behaviour. Asset needed to direct/control/manage \"conversation\" connected to launching new incident/campaign with new hashtag for applicable social media sites).",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "content-acquisition"
+                    "phase_name": "develop-content"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0015.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0015.md",
                     "external_id": "T0015"
                 }
             ],

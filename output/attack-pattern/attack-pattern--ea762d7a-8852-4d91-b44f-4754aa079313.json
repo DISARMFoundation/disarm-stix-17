@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--324f2504-2586-47ae-9f51-e1fb6ee409a7",
+    "id": "bundle--8e46cfe4-9a03-4660-a4c2-72d1a40c8960",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--ea762d7a-8852-4d91-b44f-4754aa079313",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.41813Z",
-            "modified": "2025-06-02T19:19:15.41813Z",
+            "created": "2026-01-20T21:49:08.54029Z",
+            "modified": "2026-01-20T21:49:08.54029Z",
             "name": "Remove Post Origins",
             "description": "Removing post origins refers to the elimination of evidence that indicates the initial source of operation content, often to complicate attribution. An influence operation may remove post origins by deleting watermarks, renaming files, or removing embedded links in its content.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "accounts,-software,-and-infrastructure"
+                    "phase_name": "persist-in-the-information-environment"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0129.009.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0129.009.md",
                     "external_id": "T0129.009"
                 }
             ],

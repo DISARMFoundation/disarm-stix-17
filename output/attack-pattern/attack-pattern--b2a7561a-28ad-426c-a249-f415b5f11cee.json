@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--bfefa2cf-5d66-48ab-afc5-274088137a73",
+    "id": "bundle--e0e825c5-cc36-4f73-9f6d-b528346d65c6",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--b2a7561a-28ad-426c-a249-f415b5f11cee",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-07-03T19:30:21.609246Z",
-            "modified": "2025-07-03T19:30:21.609246Z",
+            "created": "2026-01-20T21:49:08.505793Z",
+            "modified": "2026-01-20T21:49:08.505793Z",
             "name": "Respond to Breaking News Event or Active Crisis",
-            "description": "nan",
+            "description": "Media attention on a story or event is heightened during a breaking news event, where unclear facts and incomplete information increase speculation, rumours, and conspiracy theories, which are all vulnerable to manipulation.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "content-narrative"
+                    "phase_name": "develop-narratives"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-observable/blob/main/generated_pages/techniques/T0068.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0068.md",
                     "external_id": "T0068"
                 }
             ],

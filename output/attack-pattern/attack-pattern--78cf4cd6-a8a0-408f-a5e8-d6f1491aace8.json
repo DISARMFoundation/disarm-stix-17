@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--8d811ea8-e9d8-46c1-9aa8-3e0b51caca55",
+    "id": "bundle--65d1e345-278b-473f-856f-77b383e9110a",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--78cf4cd6-a8a0-408f-a5e8-d6f1491aace8",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.416477Z",
-            "modified": "2025-06-02T19:19:15.416477Z",
+            "created": "2026-01-20T21:49:08.537291Z",
+            "modified": "2026-01-20T21:49:08.537291Z",
             "name": "Use Pseudonyms",
             "description": "An operation may use pseudonyms, or fake names, to mask the identity of operational accounts, channels, pages etc., publish anonymous content, or otherwise use falsified personas to conceal the identity of the operation. An operation may coordinate pseudonyms across multiple platforms, for example, by writing an article under a pseudonym and then posting a link to the article on social media on an account, channel, or page with the same falsified name.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "accounts,-software,-and-infrastructure"
+                    "phase_name": "persist-in-the-information-environment"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0128.001.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0128.001.md",
                     "external_id": "T0128.001"
                 }
             ],

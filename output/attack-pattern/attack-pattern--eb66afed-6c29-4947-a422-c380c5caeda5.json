@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--a6f3955f-8e12-40f4-bbae-cd10d105bbc5",
+    "id": "bundle--e46212a5-6f73-47e8-8905-913afa812c6b",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--eb66afed-6c29-4947-a422-c380c5caeda5",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.409913Z",
-            "modified": "2025-06-02T19:19:15.409913Z",
+            "created": "2026-01-20T21:49:08.529292Z",
+            "modified": "2026-01-20T21:49:08.529292Z",
             "name": "Newspaper",
             "description": "Newspaper",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "digital-platforms-and-communities"
+                    "phase_name": "select-channels-and-affordances"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0111.002.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0111.002.md",
                     "external_id": "T0111.002"
                 }
             ],

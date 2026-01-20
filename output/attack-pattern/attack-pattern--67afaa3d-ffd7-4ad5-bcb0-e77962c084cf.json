@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--160ed1a8-175d-4e49-bd48-a2710993559d",
+    "id": "bundle--8d4c9057-b0d1-4532-a2ea-b4db8bf64e2f",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--67afaa3d-ffd7-4ad5-bcb0-e77962c084cf",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.420226Z",
-            "modified": "2025-06-02T19:19:15.420226Z",
+            "created": "2026-01-20T21:49:08.542296Z",
+            "modified": "2026-01-20T21:49:08.542296Z",
             "name": "Post Borderline Content",
             "description": "Post Borderline Content",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "accounts,-software,-and-infrastructure"
+                    "phase_name": "persist-in-the-information-environment"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0131.002.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0131.002.md",
                     "external_id": "T0131.002"
                 }
             ],

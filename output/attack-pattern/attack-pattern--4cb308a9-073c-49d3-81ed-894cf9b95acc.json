@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--45bcb447-4925-46c6-bd0f-b634646d07a3",
+    "id": "bundle--0f5b821f-126f-4603-b87e-e68ea28c40a3",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--4cb308a9-073c-49d3-81ed-894cf9b95acc",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.402613Z",
-            "modified": "2025-06-02T19:19:15.402613Z",
+            "created": "2026-01-20T21:49:08.519867Z",
+            "modified": "2026-01-20T21:49:08.519867Z",
             "name": "Identify Susceptible Targets in Networks",
             "description": "When seeking to infiltrate an existing network, an influence operation may identify individuals and groups that might be susceptible to being co-opted or influenced.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "asset-details"
+                    "phase_name": "establish-assets"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0094.001.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0094.001.md",
                     "external_id": "T0094.001"
                 }
             ],

@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--5ca9c6b4-86b4-4740-8948-2205af5c4c23",
+    "id": "bundle--ba395774-5d57-4ef3-a9fd-41d603a54f9c",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--baf9f97d-65f3-4290-a3c2-9ac624d64ad6",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.416477Z",
-            "modified": "2025-06-02T19:19:15.416477Z",
+            "created": "2026-01-20T21:49:08.537291Z",
+            "modified": "2026-01-20T21:49:08.537291Z",
             "name": "Conceal Information Assets",
             "description": "Conceal the identity or provenance of campaign information assets such as accounts, channels, pages etc. to avoid takedown and attribution.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "accounts,-software,-and-infrastructure"
+                    "phase_name": "persist-in-the-information-environment"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0128.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0128.md",
                     "external_id": "T0128"
                 }
             ],

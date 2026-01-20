@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--4eed00ae-4a38-463e-ad02-e9be145aa29a",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--53738b41-7598-497f-baca-888d6ee6985f",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-20T21:49:08.583838Z",
+            "modified": "2026-01-20T21:49:08.583838Z",
+            "name": "Unsolicited Sexual Imagery",
+            "description": "Unsolicited Sexual Imagery (sometimes referred to as \u201ccyberflashing\u201d, or colloquially as a \u201cdick pic\u201d) is defined as image or video content showing (\u201ca person\u2019s genitals, for the purpose of their own sexual gratification or to cause the victim humiliation, alarm or distress\u201d)[https://www.gov.uk/government/news/cyberflashing-to-become-a-criminal-offence]. Unsolicited sexual imagery is a form of harassment often targeting women online.<br><br>Analysts may use context of the community or individual the content was posted to, how it was described by the actor, or prior communication from the recipient, to make such an assessment.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "drive-online-harms"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0048.006.md",
+                    "external_id": "T0048.006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

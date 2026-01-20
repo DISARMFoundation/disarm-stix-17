@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--ad1a3283-f834-4d48-84e0-149d628c1e38",
+    "id": "bundle--22b7ad12-e1a3-4012-9524-b16dc9214a4c",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--245d117b-2700-462e-97d4-be9b4b3745c4",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.409913Z",
-            "modified": "2025-06-02T19:19:15.409913Z",
+            "created": "2026-01-20T21:49:08.53029Z",
+            "modified": "2026-01-20T21:49:08.53029Z",
             "name": "Employ Commercial Analytic Firms",
             "description": "Commercial analytic firms collect data on target audience activities and evaluate the data to detect trends, such as content receiving high click-rates. An influence operation may employ commercial analytic firms to facilitate external collection on its target audience, complicating attribution efforts and better tailoring the content to audience preferences.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "asset-details"
+                    "phase_name": "establish-assets"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0113.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0113.md",
                     "external_id": "T0113"
                 }
             ],

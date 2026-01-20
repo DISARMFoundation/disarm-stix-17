@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--fd12bd02-b9f9-412c-a141-0624d53bc342",
+    "id": "bundle--64e9f542-d32d-4a69-9199-a756fff89846",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--29dd92fd-fb77-4565-b58a-74795144c9a9",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-07-03T19:30:21.617944Z",
-            "modified": "2025-07-03T19:30:21.617944Z",
+            "created": "2026-01-20T21:49:08.533291Z",
+            "modified": "2026-01-20T21:49:08.533291Z",
             "name": "Post across Disciplines",
-            "description": "nan",
+            "description": "Post Across Disciplines",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "publishing-and-amplifying-actions"
+                    "phase_name": "maximise-exposure"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-observable/blob/main/generated_pages/techniques/T0119.003.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0119.003.md",
                     "external_id": "T0119.003"
                 }
             ],

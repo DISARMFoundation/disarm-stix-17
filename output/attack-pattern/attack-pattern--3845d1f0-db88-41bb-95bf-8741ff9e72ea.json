@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--0a22c8cf-faa2-4d5c-9362-b8c83e8476ba",
+    "id": "bundle--52bb18bc-f210-4559-a551-3191e1240078",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--3845d1f0-db88-41bb-95bf-8741ff9e72ea",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.400398Z",
-            "modified": "2025-06-02T19:19:15.400398Z",
+            "created": "2026-01-20T21:49:08.516787Z",
+            "modified": "2026-01-20T21:49:08.516787Z",
             "name": "Alter Authentic Documents",
             "description": "Alter authentic documents (public or non-public) to achieve campaign goals. The altered documents are intended to appear as if they are authentic and can be \"leaked\" during later stages in the operation.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "content-acquisition"
+                    "phase_name": "develop-content"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0089.003.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0089.003.md",
                     "external_id": "T0089.003"
                 }
             ],

@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--fca8aedf-b5c4-453f-b34b-427791a310e5",
+    "id": "bundle--df8f9320-447e-4319-bd7f-25ea9d336b8d",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--eb67513e-b6e8-42e1-a95b-197f64c21588",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.417488Z",
-            "modified": "2025-06-02T19:19:15.417488Z",
+            "created": "2026-01-20T21:49:08.538291Z",
+            "modified": "2026-01-20T21:49:08.538291Z",
             "name": "Conceal Network Identity",
             "description": "Concealing network identity aims to hide the existence an influence operation\u2019s network completely. Unlike concealing sponsorship, concealing network identity denies the existence of any sort of organisation.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "accounts,-software,-and-infrastructure"
+                    "phase_name": "persist-in-the-information-environment"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0129.001.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0129.001.md",
                     "external_id": "T0129.001"
                 }
             ],

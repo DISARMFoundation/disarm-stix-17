@@ -4,7 +4,7 @@ import objects.marking_definition
 from objects import identity, marking_definition
 
 valid_tactics = ["plan-strategy", "plan-objectives", "microtarget", "develop-content",
-                 "select-channels-and-affordances", "prime-the-silly-pump", "deliver-content",
+                 "select-channels-and-affordances", "deliver-content",
                  "drive-offline-activity", "persist-in-the-information-environment", "assess-effectiveness",
                  "target-audience-analysis", "develop-narratives", "establish-assets", "establish-legitimacy",
                  "maximise-exposure", "drive-online-harms"]
@@ -17,8 +17,7 @@ valid_tactics = ["plan-strategy", "plan-objectives", "microtarget", "develop-con
 ])
 class Tactic(object):
     def __init__(self, x_mitre_shortname=None, **kwargs):
-        #if x_mitre_shortname and x_mitre_shortname not in valid_tactics:
-        if x_mitre_shortname != x_mitre_shortname:
+        if x_mitre_shortname and x_mitre_shortname not in valid_tactics:
             raise ValueError("'%s' is not a recognized DISARM Tactic." % x_mitre_shortname)
 
 
@@ -47,7 +46,7 @@ def make_disarm_tactics(data, stix_ids):
             {
                 'external_id': f'{t[0]}',
                 'source_name': 'DISARM',
-                'url': f'https://github.com/DISARMFoundation/DISARMframeworks-20-observable/blob/main/generated_pages/tactics/{t[0]}.md'
+                'url': f'https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/tactics/{t[0]}.md'
             }
         ]
 

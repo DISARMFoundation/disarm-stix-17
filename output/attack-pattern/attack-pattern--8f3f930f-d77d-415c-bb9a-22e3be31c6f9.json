@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--54ff54e6-8430-4a65-8be5-1f1a9a38e1a9",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8f3f930f-d77d-415c-bb9a-22e3be31c6f9",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-20T21:49:08.606838Z",
+            "modified": "2026-01-20T21:49:08.606838Z",
+            "name": "Narrative Uses Cherry Picking",
+            "description": "Cherry-picking is a misleading argumentative strategy that involves focusing only on data, quotes, or examples that reinforce a specific thesis, while omitting information that provides context or contradicts the desired conclusion. By isolating favorable evidence and disregarding the broader picture, the speaker creates a distorted impression of the truth.<br><br>To make the assertion that a narrative is using cherry picking it must be evident that the surrounding data or evidence around an assertion must in some way contradict or alters the meaning that the narrative is trying to convey. Further it helps if the additional data or evidence is not far removed from the data or evidence reported by the narrative.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-narratives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0168.003.md",
+                    "external_id": "T0168.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

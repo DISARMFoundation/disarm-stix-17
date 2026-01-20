@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--4d308034-2660-44e5-8755-cfae66f64262",
+    "id": "bundle--af5a1284-ad97-428a-8679-86ffe77b356f",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--6db47704-ba87-402d-933a-de90f5aa8965",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.407724Z",
-            "modified": "2025-06-02T19:19:15.407724Z",
+            "created": "2026-01-20T21:49:08.526291Z",
+            "modified": "2026-01-20T21:49:08.526291Z",
             "name": "Establish Inauthentic News Sites",
             "description": "Modern computational propaganda makes use of a cadre of imposter news sites spreading globally. These sites, sometimes motivated by concerns other than propaganda--for instance, click-based revenue--often have some superficial markers of authenticity, such as naming and site-design. But many can be quickly exposed with reference to their owenership, reporting history and adverstising details.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "asset-persona"
+                    "phase_name": "establish-legitimacy"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0098.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0098.md",
                     "external_id": "T0098"
                 }
             ],

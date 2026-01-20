@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--3995757d-a053-4b90-bc30-2f4e97416df9",
+    "id": "bundle--b25d492f-f0d3-4a9e-8b0e-b5fe115af236",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--77574742-25a0-4375-a2c8-d5b54e1360aa",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.391798Z",
-            "modified": "2025-06-02T19:19:15.391798Z",
+            "created": "2026-01-20T21:49:08.505793Z",
+            "modified": "2026-01-20T21:49:08.505793Z",
             "name": "Geographic Segmentation",
             "description": "An influence operation may target populations in a specific geographic location, such as a region, state, or city. An influence operation may use geographic segmentation to Create Localised Content (see: Establish Legitimacy).",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "content-action"
+                    "phase_name": "target-audience-analysis"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0072.001.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0072.001.md",
                     "external_id": "T0072.001"
                 }
             ],

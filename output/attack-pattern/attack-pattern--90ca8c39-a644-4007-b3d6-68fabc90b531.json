@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--2f534f9b-3885-4587-80ae-b167154c0a7d",
+    "id": "bundle--a5c44943-63f5-474d-a97c-35e7c6816108",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--90ca8c39-a644-4007-b3d6-68fabc90b531",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.386087Z",
-            "modified": "2025-06-02T19:19:15.386087Z",
+            "created": "2026-01-20T21:49:08.500791Z",
+            "modified": "2026-01-20T21:49:08.500791Z",
             "name": "Censor Social Media as a Political Force",
             "description": "Use political influence or the power of state to stop critical social media comments. Government requested/driven content take downs (see Google Transperancy reports).",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "actions-taken-by-platforms-and-governments"
+                    "phase_name": "drive-online-harms"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0047.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0047.md",
                     "external_id": "T0047"
                 }
             ],

@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--990de78f-d3fa-42af-a783-ec5099f87dcc",
+    "id": "bundle--80408bd5-811e-4fd7-b578-9f5ab8051de5",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--eb037d2a-82a7-4bcb-bffd-e7791de21d1c",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.417488Z",
-            "modified": "2025-06-02T19:19:15.417488Z",
+            "created": "2026-01-20T21:49:08.539291Z",
+            "modified": "2026-01-20T21:49:08.539291Z",
             "name": "Generate Content Unrelated to Narrative",
             "description": "An influence operation may mix its own operation content with legitimate news or external unrelated content to disguise operational objectives, narratives, or existence. For example, an operation may generate \"lifestyle\" or \"cuisine\" content alongside regular operation content.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "accounts,-software,-and-infrastructure"
+                    "phase_name": "persist-in-the-information-environment"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0129.002.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0129.002.md",
                     "external_id": "T0129.002"
                 }
             ],

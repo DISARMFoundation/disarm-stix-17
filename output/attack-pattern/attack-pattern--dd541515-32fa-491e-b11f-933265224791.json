@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--97a12fff-a5a9-4da3-a10e-7b11426add94",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--dd541515-32fa-491e-b11f-933265224791",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-20T21:49:08.582838Z",
+            "modified": "2026-01-20T21:49:08.582838Z",
+            "name": "Compromised Persona",
+            "description": "Assets which legitimately belong to individuals or institutions with established personas can be compromised (i.e. hacked, or otherwise taken over) and controlled by an actor. The actor can take actions with the asset while maintaining the established persona - effectively presenting the actions as having been taken by the asset\u2019s original owner.<br><br>This Sub-Technique is used to document actions taken by threat actors while in control of a compromised asset, and maintaining the persona of the original asset owner\u2019s persona.<br><br>For example, a celebrity\u2019s account could be hacked, and made to post a bitcoin scam, taking advantage of their followers\u2019 faith in the celebrity, and their knowledge that the account legitimately belongs to them (even though, unawares to them, the celebrity is not in control of the asset at that moment - their persona has been compromised).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-legitimacy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0145.005.md",
+                    "external_id": "T0145.005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

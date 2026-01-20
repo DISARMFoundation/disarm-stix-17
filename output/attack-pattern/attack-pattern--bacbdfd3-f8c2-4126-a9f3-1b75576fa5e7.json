@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--e1f5c22c-4ffb-42e8-b06d-cc1bf08b88fa",
+    "id": "bundle--0f9dd1a4-93f8-440e-8e11-d329fe8119a1",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--bacbdfd3-f8c2-4126-a9f3-1b75576fa5e7",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.380725Z",
-            "modified": "2025-06-02T19:19:15.380725Z",
+            "created": "2026-01-20T21:49:08.496788Z",
+            "modified": "2026-01-20T21:49:08.496788Z",
             "name": "Cultivate Ignorant Agents",
             "description": "Cultivate propagandists for a cause, the goals of which are not fully comprehended, and who are used cynically by the leaders of the cause. Independent actors use social media and specialised web sites to strategically reinforce and spread messages compatible with their own. Their networks are infiltrated and used by state media disinformation organisations to amplify the state\u2019s own disinformation strategies against target populations. Many are traffickers in conspiracy theories or hoaxes, unified by a suspicion of Western governments and mainstream media. Their narratives, which appeal to leftists hostile to globalism and military intervention and nationalists against immigration, are frequently infiltrated and shaped by state-controlled trolls and altered news items from agencies such as RT and Sputnik. Also know as \"useful idiots\" or \"unwitting agents\".",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "asset-details"
+                    "phase_name": "establish-assets"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0010.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0010.md",
                     "external_id": "T0010"
                 }
             ],

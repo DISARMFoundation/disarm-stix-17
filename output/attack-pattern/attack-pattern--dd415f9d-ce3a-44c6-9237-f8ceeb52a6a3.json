@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--d16dedc1-6f53-484f-a269-07844921975f",
+    "id": "bundle--7db0112c-1098-4896-83e0-5dec219599dc",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--dd415f9d-ce3a-44c6-9237-f8ceeb52a6a3",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.419214Z",
-            "modified": "2025-06-02T19:19:15.419214Z",
+            "created": "2026-01-20T21:49:08.54029Z",
+            "modified": "2026-01-20T21:49:08.54029Z",
             "name": "Misattribute Activity",
             "description": "Misattributed activity refers to incorrectly attributed operation activity. For example, a state sponsored influence operation may conduct operation activity in a way that mimics another state so that external entities misattribute activity to the incorrect state. An operation may misattribute their activities to complicate attribution, avoid detection, or frame an adversary for negative behaviour.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "accounts,-software,-and-infrastructure"
+                    "phase_name": "persist-in-the-information-environment"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0129.010.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0129.010.md",
                     "external_id": "T0129.010"
                 }
             ],

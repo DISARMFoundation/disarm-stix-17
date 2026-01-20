@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--dc424d62-4599-4bdc-beb4-d6cfca9707a7",
+    "id": "bundle--a7056f15-71f7-4568-827c-699bba02db81",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--283333f5-e161-4195-9070-5a7c22505adf",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.407724Z",
-            "modified": "2025-06-02T19:19:15.407724Z",
+            "created": "2026-01-20T21:49:08.526291Z",
+            "modified": "2026-01-20T21:49:08.526291Z",
             "name": "Co-Opt Trusted Sources",
             "description": "An influence operation may co-opt trusted sources by infiltrating or repurposing a source to reach a target audience through existing, previously reliable networks. Co-opted trusted sources may include: - National or local new outlets - Research or academic publications - Online blogs or websites",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "asset-persona"
+                    "phase_name": "establish-legitimacy"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0100.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0100.md",
                     "external_id": "T0100"
                 }
             ],

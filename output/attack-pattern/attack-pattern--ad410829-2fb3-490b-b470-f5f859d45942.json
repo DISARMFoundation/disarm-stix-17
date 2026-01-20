@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--89411f1d-ded0-4b4e-8bf1-73bd111370dc",
+    "id": "bundle--eeee7e88-bd2a-4fe2-991a-b8875243267c",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--ad410829-2fb3-490b-b470-f5f859d45942",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.390985Z",
-            "modified": "2025-06-02T19:19:15.390985Z",
+            "created": "2026-01-20T21:49:08.504793Z",
+            "modified": "2026-01-20T21:49:08.504793Z",
             "name": "Continue to Amplify",
             "description": "continue narrative or message amplification after the main incident work has finished",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "accounts,-software,-and-infrastructure"
+                    "phase_name": "persist-in-the-information-environment"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0060.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0060.md",
                     "external_id": "T0060"
                 }
             ],

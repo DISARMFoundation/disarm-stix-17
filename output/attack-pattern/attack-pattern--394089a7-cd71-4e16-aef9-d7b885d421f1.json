@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--2962c762-8e20-4057-ac39-beafc604ade1",
+    "id": "bundle--4c26dd75-f9d8-451a-9331-ff74b2f98f8f",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--394089a7-cd71-4e16-aef9-d7b885d421f1",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.415391Z",
-            "modified": "2025-06-02T19:19:15.415391Z",
+            "created": "2026-01-20T21:49:08.536291Z",
+            "modified": "2026-01-20T21:49:08.536291Z",
             "name": "Facilitate Logistics or Support for Attendance",
             "description": "Facilitate logistics or support for travel, food, housing, etc.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "offline-actions"
+                    "phase_name": "drive-offline-activity"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0126.002.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0126.002.md",
                     "external_id": "T0126.002"
                 }
             ],

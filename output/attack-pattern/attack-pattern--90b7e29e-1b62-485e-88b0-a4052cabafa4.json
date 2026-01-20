@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--1d13431a-e4e8-4423-ad44-07426e646e96",
+    "id": "bundle--ec387de5-ab80-4161-a43b-e4e860495b34",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--90b7e29e-1b62-485e-88b0-a4052cabafa4",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-07-03T19:30:21.609246Z",
-            "modified": "2025-07-03T19:30:21.609246Z",
-            "name": "Presented Persona",
-            "description": "nan",
+            "created": "2026-01-20T21:49:08.520877Z",
+            "modified": "2026-01-20T21:49:08.520877Z",
+            "name": "Present Persona",
+            "description": "This Technique contains different types of personas commonly taken on by threat actors during influence operations.<br><br>Analysts should use T0097\u2019s sub-techniques to document the type of persona which an account is presenting. For example, an account which describes itself as being a journalist can be tagged with T0097.102: Journalist Persona.<br><br>Personas presented by individuals include:<br><br>T0097.100: Individual Persona<br>T0097.101: Local Persona<br>T0097.102: Journalist Persona<br>T0097.103: Activist Persona<br>T0097.104: Hacktivist Persona<br>T0097.105: Military Personnel Persona<br>T0097.106: Recruiter Persona<br>T0097.107: Researcher Persona<br>T0097.108: Expert Persona<br>T0097.109: Romantic Suitor Persona<br>T0097.110: Party Official Persona<br>T0097.111: Government Official Persona<br>T0097.112: Government Employee Persona<br><br>This Technique also houses institutional personas commonly taken on by threat actors:<br><br>T0097.200: Institutional Persona<br>T0097.201: Local Institution Persona<br>T0097.202: News Outlet Persona<br>T0097.203: Fact Checking Organisation Persona<br>T0097.204: Think Tank Persona<br>T0097.205: Business Persona<br>T0097.206: Government Institution Persona<br>T0097.207: NGO Persona<br>T0097.208: Social Cause Persona<br><br>By using a persona, a threat actor is adding the perceived legitimacy of the persona to their narratives and activities.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "asset-persona"
+                    "phase_name": "establish-legitimacy"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-observable/blob/main/generated_pages/techniques/T0097.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0097.md",
                     "external_id": "T0097"
                 }
             ],

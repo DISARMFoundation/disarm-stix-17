@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--029ac5a9-24e3-4d3c-a622-11fad3050d8f",
+    "id": "bundle--92172e2e-772d-4c6d-83f0-7a9cb749b9e8",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--45ab5d9e-88ee-494c-971b-6e4babf1dc34",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.394519Z",
-            "modified": "2025-06-02T19:19:15.394519Z",
+            "created": "2026-01-20T21:49:08.510788Z",
+            "modified": "2026-01-20T21:49:08.510788Z",
             "name": "Conduct Web Traffic Analysis",
             "description": "An influence operation may conduct web traffic analysis to determine which search engines, keywords, websites, and advertisements gain the most traction with its target audience.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "content-action"
+                    "phase_name": "target-audience-analysis"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0080.004.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0080.004.md",
                     "external_id": "T0080.004"
                 }
             ],

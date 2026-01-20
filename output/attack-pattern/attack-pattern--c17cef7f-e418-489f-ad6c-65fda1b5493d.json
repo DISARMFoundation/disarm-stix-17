@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--2b9fd75c-ec65-4ca5-a5a9-fa3c021a9632",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c17cef7f-e418-489f-ad6c-65fda1b5493d",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-20T21:49:08.5533Z",
+            "modified": "2026-01-20T21:49:08.5533Z",
+            "name": "AI-Generated Account Imagery",
+            "description": "AI Generated images used in account imagery.<br><br> An influence operation might flesh out its account by uploading account imagery (e.g. a profile picture), increasing its perceived legitimacy. By using an AI-generated picture for this purpose, they are able to present themselves as a real person without compromising their own identity, or risking detection by taking a real person\u2019s existing profile picture.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0145.002.md",
+                    "external_id": "T0145.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

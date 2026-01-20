@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--1e329e68-4393-447d-b7ff-7aeed4cdcb69",
+    "id": "bundle--18540403-d61c-404a-af0a-e2d8884080bf",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--e7b62982-106f-4234-9545-9466c687d1b5",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.41813Z",
-            "modified": "2025-06-02T19:19:15.41813Z",
+            "created": "2026-01-20T21:49:08.539291Z",
+            "modified": "2026-01-20T21:49:08.539291Z",
             "name": "Coordinate on Encrypted/Closed Networks",
             "description": "Coordinate on encrypted/ closed networks",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "accounts,-software,-and-infrastructure"
+                    "phase_name": "persist-in-the-information-environment"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0129.005.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0129.005.md",
                     "external_id": "T0129.005"
                 }
             ],

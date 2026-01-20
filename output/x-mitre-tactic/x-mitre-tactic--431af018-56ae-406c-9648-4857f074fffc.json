@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--27399a1d-ab96-4821-97cf-264e5e0057eb",
+    "id": "bundle--67d8782d-e010-4813-bdab-e74cb8737b49",
     "objects": [
         {
             "type": "x-mitre-tactic",
             "spec_version": "2.1",
             "id": "x-mitre-tactic--431af018-56ae-406c-9648-4857f074fffc",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T18:42:37.457512Z",
-            "modified": "2025-06-02T18:42:37.457512Z",
+            "created": "2026-01-20T21:49:08.490789Z",
+            "modified": "2026-01-20T21:49:08.490789Z",
             "name": "Plan Objectives",
             "description": "Set clearly defined, measurable, and achievable objectives. In some cases achieving objectives ties execution of tactical tasks to reaching the desired strategic end state. In other cases, where there is no clearly defined strategic end state, the tactical objective may stand on its own. The objective statement should not specify the way and means of accomplishment but rather the goal the threat actor wishes to achieve. ",
             "external_references": [
                 {
                     "source_name": "DISARM",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA02.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/tactics/TA02.md",
                     "external_id": "TA02"
                 }
             ],

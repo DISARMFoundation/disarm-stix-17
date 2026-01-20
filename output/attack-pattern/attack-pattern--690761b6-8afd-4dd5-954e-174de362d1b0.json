@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--355bfc04-f06e-4b5d-9b92-586623a2125e",
+    "id": "bundle--ae779c52-c358-4dec-beea-fe43424704ce",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--690761b6-8afd-4dd5-954e-174de362d1b0",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.413813Z",
-            "modified": "2025-06-02T19:19:15.413813Z",
+            "created": "2026-01-20T21:49:08.534296Z",
+            "modified": "2026-01-20T21:49:08.534296Z",
             "name": "Direct Users to Alternative Platforms",
             "description": "Direct users to alternative platforms refers to encouraging users to move from the platform on which they initially viewed operation content and engage with content on alternate information channels, including separate social media channels and inauthentic websites. An operation may drive users to alternative platforms to diversify its information channels and ensure the target audience knows where to access operation content if the initial platform suspends, flags, or otherwise removes original operation assets and content.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "publishing-and-amplifying-actions"
+                    "phase_name": "maximise-exposure"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0122.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0122.md",
                     "external_id": "T0122"
                 }
             ],

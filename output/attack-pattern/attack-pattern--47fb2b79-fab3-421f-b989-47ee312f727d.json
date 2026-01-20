@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--cf63aa17-ae1d-411d-aefb-ae9338337f8f",
+    "id": "bundle--ec8c91eb-7c25-4c89-84f6-b42d1095d3af",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--47fb2b79-fab3-421f-b989-47ee312f727d",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.401503Z",
-            "modified": "2025-06-02T19:19:15.401503Z",
+            "created": "2026-01-20T21:49:08.518863Z",
+            "modified": "2026-01-20T21:49:08.518863Z",
             "name": "Create Organisations",
             "description": "Influence operations may establish organisations with legitimate or falsified hierarchies, staff, and content to structure operation assets, provide a sense of legitimacy to the operation, or provide institutional backing to operation activities.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "asset-details"
+                    "phase_name": "establish-assets"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0092.001.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0092.001.md",
                     "external_id": "T0092.001"
                 }
             ],

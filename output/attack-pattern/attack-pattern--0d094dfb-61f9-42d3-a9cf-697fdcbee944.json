@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--20ee0395-5af1-40b6-8866-c438a2e8cf72",
+    "id": "bundle--c8274e24-4fa2-4a1d-9693-1d115eafa8d5",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--0d094dfb-61f9-42d3-a9cf-697fdcbee944",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-07-03T19:30:21.617444Z",
-            "modified": "2025-07-03T19:30:21.617444Z",
+            "created": "2026-01-20T21:49:08.533291Z",
+            "modified": "2026-01-20T21:49:08.533291Z",
             "name": "Post across Groups",
-            "description": "nan",
+            "description": "An influence operation may post content across groups to spread narratives and content to new communities within the target audiences or to new target audiences.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "publishing-and-amplifying-actions"
+                    "phase_name": "maximise-exposure"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-observable/blob/main/generated_pages/techniques/T0119.001.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0119.001.md",
                     "external_id": "T0119.001"
                 }
             ],

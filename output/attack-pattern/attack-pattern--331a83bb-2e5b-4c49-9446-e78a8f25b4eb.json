@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--8108b638-24c9-45fb-af59-d2b754a0eb8c",
+    "id": "bundle--19f9763a-9dd9-424c-9271-ba70b9de43f0",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--331a83bb-2e5b-4c49-9446-e78a8f25b4eb",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.419214Z",
-            "modified": "2025-06-02T19:19:15.419214Z",
+            "created": "2026-01-20T21:49:08.54029Z",
+            "modified": "2026-01-20T21:49:08.54029Z",
             "name": "Utilise Bulletproof Hosting",
             "description": "Hosting refers to services through which storage and computing resources are provided to an individual or organisation for the accommodation and maintenance of one or more websites and related services. Services may include web hosting, file sharing, and email distribution. Bulletproof hosting refers to services provided by an entity, such as a domain hosting or web hosting firm, that allows its customer considerable leniency in use of the service. An influence operation may utilise bulletproof hosting to maintain continuity of service for suspicious, illegal, or disruptive operation activities that stricter hosting services would limit, report, or suspend.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "accounts,-software,-and-infrastructure"
+                    "phase_name": "persist-in-the-information-environment"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0130.002.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0130.002.md",
                     "external_id": "T0130.002"
                 }
             ],

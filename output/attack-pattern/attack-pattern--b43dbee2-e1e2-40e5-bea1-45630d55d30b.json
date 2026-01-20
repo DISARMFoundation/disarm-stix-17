@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--ebbde88a-5a7d-414b-b7d6-3cefe8108621",
+    "id": "bundle--3e326e3e-e516-4fb8-b973-d9ba7af4ec65",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--b43dbee2-e1e2-40e5-bea1-45630d55d30b",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.407724Z",
-            "modified": "2025-06-02T19:19:15.407724Z",
+            "created": "2026-01-20T21:49:08.527292Z",
+            "modified": "2026-01-20T21:49:08.527292Z",
             "name": "Co-Opt Grassroots Groups",
             "description": "Co-Opt Grassroots Groups",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "asset-persona"
+                    "phase_name": "establish-legitimacy"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0100.002.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0100.002.md",
                     "external_id": "T0100.002"
                 }
             ],

@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--464ae85b-3b3d-4976-a6a6-b16598a2610d",
+    "id": "bundle--2da6d682-a340-4865-86ae-d94d4bc423f9",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--1d917530-027d-4f82-b380-404c320dc783",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.391798Z",
-            "modified": "2025-06-02T19:19:15.391798Z",
+            "created": "2026-01-20T21:49:08.506791Z",
+            "modified": "2026-01-20T21:49:08.506791Z",
             "name": "Economic Segmentation",
             "description": "An influence operation may target populations based on their income bracket, wealth, or other financial or economic division.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "content-action"
+                    "phase_name": "target-audience-analysis"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0072.003.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0072.003.md",
                     "external_id": "T0072.003"
                 }
             ],

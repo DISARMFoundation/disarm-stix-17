@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--200f6a77-9ab3-4373-9d5f-6ad344154d78",
+    "id": "bundle--6bd46876-9bab-4f5d-8aba-c751281ca591",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--a09fbbeb-58ef-4e7a-8183-5eaa668200c9",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.41813Z",
-            "modified": "2025-06-02T19:19:15.41813Z",
+            "created": "2026-01-20T21:49:08.539291Z",
+            "modified": "2026-01-20T21:49:08.539291Z",
             "name": "Delete URLs",
             "description": "URL deletion occurs when an influence operation completely removes its website registration, rendering the URL inaccessible. An influence operation may delete its URLs to complicate attribution or remove online documentation that the operation ever occurred.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "accounts,-software,-and-infrastructure"
+                    "phase_name": "persist-in-the-information-environment"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0129.004.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0129.004.md",
                     "external_id": "T0129.004"
                 }
             ],

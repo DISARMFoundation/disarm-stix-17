@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--2d64cff4-d23f-402c-980c-3abfd1b0fec3",
+    "id": "bundle--36fb7d1f-e0a4-4121-88ab-737943a3f135",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--ce5b400c-6f82-4095-936b-617857800da8",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.389177Z",
-            "modified": "2025-06-02T19:19:15.389177Z",
+            "created": "2026-01-20T21:49:08.503792Z",
+            "modified": "2026-01-20T21:49:08.503792Z",
             "name": "Conduct Swarming",
             "description": "Swarming refers to the coordinated use of accounts to overwhelm the information space with operation content. Unlike information flooding, swarming centres exclusively around a specific event or actor rather than a general narrative. Swarming relies on \u201chorizontal communication\u201d between information assets rather than a top-down, vertical command-and-control approach.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "publishing-and-amplifying-actions"
+                    "phase_name": "maximise-exposure"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0049.005.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0049.005.md",
                     "external_id": "T0049.005"
                 }
             ],

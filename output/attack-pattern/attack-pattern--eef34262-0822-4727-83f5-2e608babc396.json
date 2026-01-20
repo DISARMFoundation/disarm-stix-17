@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--51125357-436a-4296-a68c-e03d5a9da236",
+    "id": "bundle--4c4c93b1-5379-4cf5-9a22-fff3cb40803a",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--eef34262-0822-4727-83f5-2e608babc396",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.384008Z",
-            "modified": "2025-06-02T19:19:15.384008Z",
+            "created": "2026-01-20T21:49:08.498807Z",
+            "modified": "2026-01-20T21:49:08.498807Z",
             "name": "Purchase Targeted Advertisements",
             "description": "Create or fund advertisements targeted at specific populations",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "asset-management"
+                    "phase_name": "microtarget"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0018.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0018.md",
                     "external_id": "T0018"
                 }
             ],

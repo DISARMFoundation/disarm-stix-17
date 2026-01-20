@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--0464b27d-3c0f-4576-b06a-f8288a4beec1",
+    "id": "bundle--3ea50ed8-f953-477b-a16a-e2ff44ecf7d2",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--ce4a9eee-7437-43ce-ac86-c1921f5c01a7",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.399764Z",
-            "modified": "2025-06-02T19:19:15.399764Z",
+            "created": "2026-01-20T21:49:08.515788Z",
+            "modified": "2026-01-20T21:49:08.515788Z",
             "name": "Develop Video-Based Content",
             "description": "Creating and editing false or misleading video artefacts, often aligned with one or more specific narratives, for use in a disinformation campaign. This may include staging videos of purportedly real situations, repurposing existing video artefacts, or using AI-generated video creation and editing technologies (including deepfakes).",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "content-acquisition"
+                    "phase_name": "develop-content"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0087.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0087.md",
                     "external_id": "T0087"
                 }
             ],

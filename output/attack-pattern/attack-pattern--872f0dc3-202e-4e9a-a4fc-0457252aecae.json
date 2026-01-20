@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--cce640f5-e4af-436a-94dc-44ea4c4c78eb",
+    "id": "bundle--0b2255b9-6105-4f23-b9fc-f71573085a32",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--872f0dc3-202e-4e9a-a4fc-0457252aecae",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-07-03T19:30:21.616667Z",
-            "modified": "2025-07-03T19:30:21.616667Z",
+            "created": "2026-01-20T21:49:08.533291Z",
+            "modified": "2026-01-20T21:49:08.533291Z",
             "name": "Cross-Posting",
-            "description": "nan",
+            "description": "Cross-posting refers to posting the same message to multiple internet discussions, social media platforms or accounts, or news groups at one time. An influence operation may post content online in multiple communities and platforms to increase the chances of content exposure to the target audience.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "publishing-and-amplifying-actions"
+                    "phase_name": "maximise-exposure"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-observable/blob/main/generated_pages/techniques/T0119.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0119.md",
                     "external_id": "T0119"
                 }
             ],

@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--268c8fa4-17dc-463f-a849-6d716f01c745",
+    "id": "bundle--49c0b9f4-903f-4c14-aa47-e1d2edb52325",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--fe5cf0f2-3792-4cab-b546-a9af7a5aa319",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.401503Z",
-            "modified": "2025-06-02T19:19:15.401503Z",
+            "created": "2026-01-20T21:49:08.517856Z",
+            "modified": "2026-01-20T21:49:08.517856Z",
             "name": "Recruit Partisans",
             "description": "Operators recruit partisans (ideologically-aligned individuals) to support the campaign.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "asset-details"
+                    "phase_name": "establish-assets"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0091.002.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0091.002.md",
                     "external_id": "T0091.002"
                 }
             ],

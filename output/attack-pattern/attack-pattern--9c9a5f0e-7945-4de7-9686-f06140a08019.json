@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--78101685-784c-4ef9-8e88-0670a6f862ec",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9c9a5f0e-7945-4de7-9686-f06140a08019",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-20T21:49:08.575838Z",
+            "modified": "2026-01-20T21:49:08.575838Z",
+            "name": "Edits Made to News Report which Reframe Context",
+            "description": "Actors have been observed making edits to news reports to change what was reported (including video and audio broadcasts by news outlets, or screenshots of articles published to news websites). This has the impact of borrowing a news outlet\u2019s credibility to promote a narrative, but also to increase mistrust of future material legitimately published by the news outlet as another potential edit.<br><br>To make this assertion, analysts need to identify the original broadcast, or to identify elements which have been introduced via editing which are inconsistent with content legitimately published by the news outlet (e.g. incorrect location of the outlet\u2019s logo, a new typeface, or inconsistently sized font).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-narratives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0162.002.md",
+                    "external_id": "T0162.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

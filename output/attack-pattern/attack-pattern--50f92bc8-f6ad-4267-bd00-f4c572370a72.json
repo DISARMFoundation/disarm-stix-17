@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--e6df12e3-9ff9-4de7-8013-71ab0b05cea2",
+    "id": "bundle--39c4dcc5-4423-4ee9-bba3-2fde809a620d",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--50f92bc8-f6ad-4267-bd00-f4c572370a72",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-07-03T19:30:21.606817Z",
-            "modified": "2025-07-03T19:30:21.606817Z",
+            "created": "2026-01-20T21:49:08.500791Z",
+            "modified": "2026-01-20T21:49:08.500791Z",
             "name": "Use Search Engine Optimisation",
-            "description": "nan",
+            "description": "Manipulate content engagement metrics (ie: Reddit & Twitter) to influence/impact news search results (e.g. Google), also elevates RT & Sputnik headline into Google news alert emails. aka \"Black-hat SEO\"",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "content-action"
+                    "phase_name": "develop-content"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-observable/blob/main/generated_pages/techniques/T0046.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0046.md",
                     "external_id": "T0046"
                 }
             ],

@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--db7d0f49-afe0-4035-ad33-ed4cc02d1da5",
+    "id": "bundle--08a7b820-139e-4094-9208-28907472e860",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--5bc895e8-eb26-43ec-8469-ab665092970d",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.388187Z",
-            "modified": "2025-06-02T19:19:15.388187Z",
+            "created": "2026-01-20T21:49:08.502791Z",
+            "modified": "2026-01-20T21:49:08.502791Z",
             "name": "Dox",
             "description": "Doxing refers to online harassment in which individuals publicly release private information about another individual, including names, addresses, employment information, pictures, family members, and other sensitive information. An influence operation may dox its opposition to encourage individuals aligned with operation narratives to harass the doxed individuals themselves or otherwise discourage the doxed individuals from posting or proliferating conflicting content.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "actions-taken-by-platforms-and-governments"
+                    "phase_name": "drive-online-harms"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0048.004.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0048.004.md",
                     "external_id": "T0048.004"
                 }
             ],

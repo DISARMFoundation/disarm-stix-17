@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--1208596f-1c0e-48f5-8c96-39e7f60806e7",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--e97e9ffa-b5a0-457a-ab63-d84e73dd3ad0",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-20T21:49:08.581836Z",
+            "modified": "2026-01-20T21:49:08.581836Z",
+            "name": "Deepfake Impersonation",
+            "description": "This sub-technique can be used to assert that a piece of content is an AI-Generated deepfake impersonation. <br><br>A deepfake refers to AI-generated content that artificially inserts the likeness of a real person into a new or altered media scene. These synthetic images, videos, or audio clips use machine learning models to manipulate or replace the original content, making it appear as though the target is participating in actions or situations they never actually did.<br><br>As AI continues to develop capability to produce more realistic media, it is difficult to provide a list of methods to spot materials that have been created using AI which will not rapidly become outdated; platforms providing AI media generation are attempting to make the materials they produce indistinguishable from media made by humans. <br><br>At the same time, organisations create tools designed to help identify AI-generated content, and publish resources listing the latest tells and identifiers for AI-generated content. Analysts may look for such tools or resources to help identify the use of AI.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0166.001.md",
+                    "external_id": "T0166.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

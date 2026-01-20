@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--70b429c5-85e3-455d-b3b5-2bae0ff74b7a",
+    "id": "bundle--6caa3310-5326-4ddc-8b23-b489816eed33",
     "objects": [
         {
             "type": "x-mitre-tactic",
             "spec_version": "2.1",
             "id": "x-mitre-tactic--3c73d309-b066-44f9-ad81-866a64e438c9",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T18:42:37.457512Z",
-            "modified": "2025-06-02T18:42:37.457512Z",
+            "created": "2026-01-20T21:49:08.491788Z",
+            "modified": "2026-01-20T21:49:08.491788Z",
             "name": "Select Channels and Affordances",
             "description": "Selecting platforms and affordances assesses which online or offline platforms and their associated affordances maximise an influence operation\u2019s ability to reach its target audience. To select the most appropriate platform(s), an operation may assess the technological affordances including platform algorithms, terms of service, permitted content types, or other attributes that determine platform usability and accessibility. Selecting platforms includes both choosing platforms on which the operation will publish its own content and platforms on which the operation will attempt to restrict adversarial content.",
             "external_references": [
                 {
                     "source_name": "DISARM",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA07.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/tactics/TA07.md",
                     "external_id": "TA07"
                 }
             ],

@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--ba7bc791-5ef3-4aea-8db3-dca0f98fcc5a",
+    "id": "bundle--4134a190-66e4-4304-ad0d-979ff8c5437e",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--14ea9a49-0546-4fe9-be44-f158be5881e9",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.414397Z",
-            "modified": "2025-06-02T19:19:15.414397Z",
+            "created": "2026-01-20T21:49:08.534296Z",
+            "modified": "2026-01-20T21:49:08.534296Z",
             "name": "Control Information Environment through Offensive Cyberspace Operations",
             "description": "Controlling the information environment through offensive cyberspace operations uses cyber tools and techniques to alter the trajectory of content in the information space to either prioritise operation messaging or block opposition messaging.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "actions-taken-by-platforms-and-governments"
+                    "phase_name": "drive-online-harms"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0123.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0123.md",
                     "external_id": "T0123"
                 }
             ],

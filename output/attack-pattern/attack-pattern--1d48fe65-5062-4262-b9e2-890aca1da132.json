@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--8cbbeec4-a951-4317-9e3a-c25bbc809d1d",
+    "id": "bundle--5e6f7614-6160-4425-91bb-dcc45e438e20",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--1d48fe65-5062-4262-b9e2-890aca1da132",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.393888Z",
-            "modified": "2025-06-02T19:19:15.393888Z",
+            "created": "2026-01-20T21:49:08.509788Z",
+            "modified": "2026-01-20T21:49:08.509788Z",
             "name": "Divide",
             "description": "Create conflict between subgroups, to widen divisions in a community",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "content-details"
+                    "phase_name": "plan-objectives"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0079.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0079.md",
                     "external_id": "T0079"
                 }
             ],

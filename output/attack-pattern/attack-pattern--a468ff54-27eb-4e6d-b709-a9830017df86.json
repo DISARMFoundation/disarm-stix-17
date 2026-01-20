@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--25eff137-6046-4041-95c3-aae9a6d00777",
+    "id": "bundle--76960d57-e4d2-4031-b072-7ad5b501a7d0",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--a468ff54-27eb-4e6d-b709-a9830017df86",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.392896Z",
-            "modified": "2025-06-02T19:19:15.392896Z",
+            "created": "2026-01-20T21:49:08.506791Z",
+            "modified": "2026-01-20T21:49:08.506791Z",
             "name": "Political Segmentation",
             "description": "An influence operation may target populations based on their political affiliations, especially when aiming to manipulate voting or change policy.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "content-action"
+                    "phase_name": "target-audience-analysis"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0072.005.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0072.005.md",
                     "external_id": "T0072.005"
                 }
             ],

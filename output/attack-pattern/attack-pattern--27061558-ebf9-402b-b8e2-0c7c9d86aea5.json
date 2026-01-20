@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--c5e4aeea-da8b-4048-8def-ffc851c121a4",
+    "id": "bundle--a5aecfc5-ff51-4a52-98f9-4fb35396ecd7",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--27061558-ebf9-402b-b8e2-0c7c9d86aea5",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.409913Z",
-            "modified": "2025-06-02T19:19:15.409913Z",
+            "created": "2026-01-20T21:49:08.529292Z",
+            "modified": "2026-01-20T21:49:08.529292Z",
             "name": "Radio",
             "description": "Radio",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "digital-platforms-and-communities"
+                    "phase_name": "select-channels-and-affordances"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0111.003.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0111.003.md",
                     "external_id": "T0111.003"
                 }
             ],

@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--712a19de-52cd-4cee-b69a-77a470faf878",
+    "id": "bundle--08e83f59-b8ba-4cf4-81b8-5bcad0d7d9fd",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--091a6351-aca8-4cc8-9062-cae98f600e69",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.389177Z",
-            "modified": "2025-06-02T19:19:15.389177Z",
+            "created": "2026-01-20T21:49:08.503792Z",
+            "modified": "2026-01-20T21:49:08.503792Z",
             "name": "Conduct Keyword Squatting",
             "description": "Keyword squatting refers to the creation of online content, such as websites, articles, or social media accounts, around a specific search engine-optimized term to overwhelm the search results of that term. An influence may keyword squat to increase content exposure to target audience members who query the exploited term in a search engine and manipulate the narrative around the term.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "publishing-and-amplifying-actions"
+                    "phase_name": "maximise-exposure"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0049.006.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0049.006.md",
                     "external_id": "T0049.006"
                 }
             ],

@@ -1,20 +1,20 @@
 {
     "type": "bundle",
-    "id": "bundle--fb157c39-256b-43cd-a039-d6b7082f2613",
+    "id": "bundle--a84cf4ed-23c0-420f-8dba-539cf1319e45",
     "objects": [
         {
             "type": "x-mitre-tactic",
             "spec_version": "2.1",
             "id": "x-mitre-tactic--acaf8903-418f-425a-93dc-8e1bfb626876",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T18:42:37.457512Z",
-            "modified": "2025-06-02T18:42:37.457512Z",
+            "created": "2026-01-20T21:49:08.490789Z",
+            "modified": "2026-01-20T21:49:08.490789Z",
             "name": "Microtarget",
             "description": "Actions taken which help target content to specific audiences identified and analysed as part of TA13: Target Audience Analysis.",
             "external_references": [
                 {
                     "source_name": "DISARM",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA05.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/tactics/TA05.md",
                     "external_id": "TA05"
                 }
             ],

@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--3af61480-53a7-48a9-8ccc-3dde398170d3",
+    "id": "bundle--a07bff95-0a0a-47cb-bde3-417945c60b70",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--35444e68-bb94-44ad-aecf-fff893f3d0ca",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.410829Z",
-            "modified": "2025-06-02T19:19:15.410829Z",
+            "created": "2026-01-20T21:49:08.53029Z",
+            "modified": "2026-01-20T21:49:08.53029Z",
             "name": "Social Media",
             "description": "Social Media",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "interact-with-platform-and-community"
+                    "phase_name": "deliver-content"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0114.001.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0114.001.md",
                     "external_id": "T0114.001"
                 }
             ],

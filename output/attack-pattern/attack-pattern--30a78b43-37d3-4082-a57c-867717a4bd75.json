@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--caa5dbc3-ed48-43a9-8ee7-a00336181ed7",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--30a78b43-37d3-4082-a57c-867717a4bd75",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-20T21:49:08.607838Z",
+            "modified": "2026-01-20T21:49:08.607838Z",
+            "name": "Narrative Uses Strawman",
+            "description": "The Strawman (or \u201cStraw Men\u201d / \u201cStraw Man\u201d) fallacy occurs when an opponent\u2019s argument is distorted or oversimplified so that it can be easily dismissed. Instead of engaging with the actual position being presented, the speaker replaces it with a weaker, often caricatured version (the \u201cstrawman\u201d) and then proceeds to argue against that. This tactic gives the illusion of having successfully countered an argument, when in reality the true point was never addressed. <br><br>For example, if somebody suggested \u201cWe should consider reducing car traffic in the city center on weekends to ease congestion\u201d, and another replied \u201cSo you want to ban all cars and make it impossible for people to get around?\u201d, this would be a Strawman - misrepresenting the original argument, making it appear more extreme and easier to dispute.<br><br>Note that a Strawman doesn\u2019t necessarily need to be made in response to an argument. Actors may use a Strawman to create extreme or illogical positions held by people with opposing political views, and argue against such positions. This can also include cases when positions are attributed to individuals who never held such a position.<br><br>To identify Strawman, analysts should look for cases where someone responds to a position by rephrasing it into a weaker, exaggerated, or different claim and then attacking that distorted version instead of the original. Indicators include oversimplifying a nuanced argument, attributing absolute or extreme views which weren\u2019t expressed, or ignoring key qualifications. If the rebuttal seems aimed at a version of the argument which was never actually made, it is likely a Strawman.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-narratives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0168.005.md",
+                    "external_id": "T0168.005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

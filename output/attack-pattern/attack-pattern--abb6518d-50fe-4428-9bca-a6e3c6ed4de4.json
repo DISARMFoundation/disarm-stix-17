@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--863c57e5-467c-495e-a460-20bc54c6ca6b",
+    "id": "bundle--b1133cf7-96aa-411f-9b8a-5c46299dd502",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--abb6518d-50fe-4428-9bca-a6e3c6ed4de4",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.401503Z",
-            "modified": "2025-06-02T19:19:15.401503Z",
+            "created": "2026-01-20T21:49:08.518863Z",
+            "modified": "2026-01-20T21:49:08.518863Z",
             "name": "Create Community or Sub-Group",
             "description": "When there is not an existing community or sub-group that meets a campaign's goals, an influence operation may seek to create a community or sub-group.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "asset-details"
+                    "phase_name": "establish-assets"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0092.003.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0092.003.md",
                     "external_id": "T0092.003"
                 }
             ],

@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--f1afe675-d06b-4a92-822f-53ac38dda988",
+    "id": "bundle--6e98d256-e6ea-42f5-a369-9af21a9d45f6",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--deb9a225-0803-4a1f-b37b-3a10c3e7ca79",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.41813Z",
-            "modified": "2025-06-02T19:19:15.41813Z",
+            "created": "2026-01-20T21:49:08.539291Z",
+            "modified": "2026-01-20T21:49:08.539291Z",
             "name": "Delete Accounts/Account Activity",
             "description": "Deleting accounts and account activity occurs when an influence operation removes its online social media assets, including social media accounts, posts, likes, comments, and other online artefacts. An influence operation may delete its accounts and account activity to complicate attribution or remove online documentation that the operation ever occurred.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "accounts,-software,-and-infrastructure"
+                    "phase_name": "persist-in-the-information-environment"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0129.007.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0129.007.md",
                     "external_id": "T0129.007"
                 }
             ],

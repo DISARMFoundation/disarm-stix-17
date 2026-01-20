@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--691daa8a-52d3-4485-9bf1-0de6ab570e7e",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--777c35b8-d5a5-4924-b704-71f216f6043e",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-20T21:49:08.582838Z",
+            "modified": "2026-01-20T21:49:08.582838Z",
+            "name": "Collaborating Assets Seed and Ping",
+            "description": "The \u201cSeed and Ping\u201d (also known as \u201cSeed and Quote\u201d) strategy involves two assets on a social platform (typically accounts, likely controlled by the same actor), in which one of the assets posts content, and the other asset quotes their post, tagging a target individual or institution in the quote post.<br><br>Actors have been observed using this Technique to draw Influencers\u2019, News Outlets\u2019, and Fact Checkers\u2019 attention to campaign content, in what appears to be an attempt to amplify their narratives through existing assets with large followings, or (in the case of News Outlets and Fact Checkers) to overwhelm their investigative resources.<br><br>Collaborating assets will switch their role between Seeder and Pinger over time. Per Viginum\u2019s report on (Matryoshka; A pro-Russian campaign targeting media and the fact-checking community:)[https://www.sgdsn.gouv.fr/files/files/20240611_NP_SGDSN_VIGINUM_Matriochka_EN_VF.pdf]<br><br><i>\u201cX accounts involved in the Matryoshka campaign are used to conduct several successive operations, a quoter\u2019s account almost systematically becoming a seeder\u2019s account and vice versa. For example, @wosuhitsu1972 was involved in at least five Matryoshka operations from 14 to 28 March 2024, in turn as a quoter, a seeder, a seeder, a quoter then a seeder.\u201d</i><br><br>Quoting another account\u2019s post and tagging another individual is not by itself indicative of the Seed and Ping strategy; many people will legitimately encounter content which they would like to draw to the attention of influencers, or to ask for material to be verified by journalists.<br><br>To make the assessment that assets are collaborating to use a Seed and Ping strategy, analysts need to confirm that assets do not disclose an association with each other, and yet have repeatedly interacted by quoting each others\u2019 posts and tagging another unrelated asset asking them to review the posted content. <br><br>Since assets switch role of Seeder and Pinger, analysts may observe this switch as an indicator of collaboration. They may also look for assets collaborating outside of a pair - it could be many assets collaborating to Seed and Ping each other (i.e. it\u2019s not the case that two assets always switch between Seeding and Pinging for each other).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "maximise-exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0039.001.md",
+                    "external_id": "T0039.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--840b5ce9-1375-4b3a-8aeb-bc8ded825267",
+    "id": "bundle--ef830b70-90b9-4d57-88ea-c3d6f91eba06",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--70717452-f7e3-4ce8-956f-39a4d34c5cfb",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.380725Z",
-            "modified": "2025-06-02T19:19:15.380725Z",
+            "created": "2026-01-20T21:49:08.49579Z",
+            "modified": "2026-01-20T21:49:08.49579Z",
             "name": "Facilitate State Propaganda",
             "description": "Organise citizens around pro-state messaging. Coordinate paid or volunteer groups to push state propaganda.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "content-details"
+                    "phase_name": "plan-objectives"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0002.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0002.md",
                     "external_id": "T0002"
                 }
             ],

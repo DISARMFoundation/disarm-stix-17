@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--dc5a159b-6e87-449c-8fb1-7f282b94416e",
+    "id": "bundle--2d53f91c-c8e0-4151-af76-f38e34142403",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--5d4cafe2-42cc-4c41-8ce7-41256e1383f7",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.386087Z",
-            "modified": "2025-06-02T19:19:15.386087Z",
+            "created": "2026-01-20T21:49:08.500791Z",
+            "modified": "2026-01-20T21:49:08.500791Z",
             "name": "Bait Influencer",
             "description": "Influencers are people on social media platforms who have large audiences.<br /> <br />Threat Actors can try to trick Influencers such as celebrities, journalists, or local leaders who aren\u2019t associated with their campaign into amplifying campaign content. This gives them access to the Influencer\u2019s audience without having to go through the effort of building it themselves, and it helps legitimise their message by associating it with the Influencer, benefitting from their audience\u2019s trust in them.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "publishing-and-amplifying-actions"
+                    "phase_name": "maximise-exposure"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0039.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0039.md",
                     "external_id": "T0039"
                 }
             ],

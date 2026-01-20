@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--3be2c588-0e4e-485e-8090-55497aa0fddc",
+    "id": "bundle--be509e24-8d48-48b1-b6ec-1e130b9e3e50",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--c254c765-c83d-4ae3-880e-7a253ef02d37",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.396597Z",
-            "modified": "2025-06-02T19:19:15.396597Z",
+            "created": "2026-01-20T21:49:08.512807Z",
+            "modified": "2026-01-20T21:49:08.512807Z",
             "name": "Integrate Target Audience Vulnerabilities into Narrative",
             "description": "An influence operation may seek to exploit the preexisting weaknesses, fears, and enemies of the target audience for integration into the operation\u2019s narratives and overall strategy. Integrating existing vulnerabilities into the operational approach conserves resources by exploiting already weak areas of the target information environment instead of forcing the operation to create new vulnerabilities in the environment.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "content-narrative"
+                    "phase_name": "develop-narratives"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0083.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0083.md",
                     "external_id": "T0083"
                 }
             ],

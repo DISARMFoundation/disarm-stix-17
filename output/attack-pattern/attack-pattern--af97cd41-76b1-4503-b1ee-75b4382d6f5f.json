@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--80c7b485-c8ce-4740-9d70-18600f5b18e0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--af97cd41-76b1-4503-b1ee-75b4382d6f5f",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-20T21:49:08.574838Z",
+            "modified": "2026-01-20T21:49:08.574838Z",
+            "name": "Statement Incorrectly Presented as Made by Individual or Institution",
+            "description": "A statement has incorrectly been presented as having been made by an individual or institution.<br><br>Misattributed statements come in many forms. For example, entirely falsified videos or articles can include misattributed statements, an image of a person can be posted alongside a statement which they didn\u2019t actually make, or it can be something as simple as a post claiming a statement was made by an individual or institution.<br><br>To make this assertion, analysts may search for reports from official sources supporting the claim that that the individual or institution has made the statement attributed to them. They may check the veracity of the attribution with the individual or institution themselves, or entities associated with them. If the statement was claimed to have been made online (e.g. in a post to social media), they may check for posts published on the date it was claimed the statement was made (including online tools which archive since-deleted posts).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0161.002.md",
+                    "external_id": "T0161.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

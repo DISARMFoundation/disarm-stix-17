@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--912556b6-7239-4eee-8633-763513e25b6c",
+    "id": "bundle--741ffa58-b550-4f32-9330-5ae0d8a44a01",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--7475b7e6-1095-4ae1-a995-10ab1a6c838a",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.396753Z",
-            "modified": "2025-06-02T19:19:15.396753Z",
+            "created": "2026-01-20T21:49:08.513787Z",
+            "modified": "2026-01-20T21:49:08.513787Z",
             "name": "Deceptively Labelled or Translated",
             "description": "An influence operation may take authentic content from other sources and add deceptive labels or deceptively translate the content into other langauges.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "content-acquisition"
+                    "phase_name": "develop-content"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0084.003.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0084.003.md",
                     "external_id": "T0084.003"
                 }
             ],

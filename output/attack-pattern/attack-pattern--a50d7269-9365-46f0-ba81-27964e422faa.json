@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--7c3af22a-b0c6-4dc0-86cd-9e5779f3c203",
+    "id": "bundle--a97bc078-1864-4aa0-923e-c59d233901b9",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--a50d7269-9365-46f0-ba81-27964e422faa",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.407724Z",
-            "modified": "2025-06-02T19:19:15.407724Z",
+            "created": "2026-01-20T21:49:08.527292Z",
+            "modified": "2026-01-20T21:49:08.527292Z",
             "name": "Co-Opt Trusted Individuals",
             "description": "Co-Opt Trusted Individuals",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "asset-persona"
+                    "phase_name": "establish-legitimacy"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0100.001.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0100.001.md",
                     "external_id": "T0100.001"
                 }
             ],

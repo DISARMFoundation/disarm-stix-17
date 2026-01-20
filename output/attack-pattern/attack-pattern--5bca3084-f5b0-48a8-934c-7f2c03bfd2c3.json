@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--f3f6383f-f5b1-4d19-8314-781e98a3fa68",
+    "id": "bundle--ce78b4d5-bcaa-4606-aacb-e3defcc8d1e2",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--5bca3084-f5b0-48a8-934c-7f2c03bfd2c3",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.417488Z",
-            "modified": "2025-06-02T19:19:15.417488Z",
+            "created": "2026-01-20T21:49:08.538291Z",
+            "modified": "2026-01-20T21:49:08.538291Z",
             "name": "Change Names of Information Assets",
             "description": "Changing names or brand names of information assets such as accounts, channels, pages etc. An operation may change the names or brand names of its assets throughout an operation to avoid detection or alter the names of newly acquired or repurposed assets to fit operational narratives.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "accounts,-software,-and-infrastructure"
+                    "phase_name": "persist-in-the-information-environment"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0128.005.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0128.005.md",
                     "external_id": "T0128.005"
                 }
             ],

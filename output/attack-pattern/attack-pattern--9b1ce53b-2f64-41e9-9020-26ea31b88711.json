@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--09b94578-49b9-4d96-b720-3e103f63827c",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9b1ce53b-2f64-41e9-9020-26ea31b88711",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-20T21:49:08.573837Z",
+            "modified": "2026-01-20T21:49:08.573837Z",
+            "name": "Content Previously Fact Checked",
+            "description": "There are times where content which has previously been addressed by Fact Checkers goes viral again - particularly the case with highly emotive, or striking content which resonates with viewers. This highlights platforms\u2019 failure to use available work by Fact Checkers to minimise the propagation of information disorder.<br><br>To make this assessment, analysts need to identify reporting which addresses a claim or piece of content, and confirm that this reporting discussed a previous iteration of it appearing online.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-narratives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0160.006.md",
+                    "external_id": "T0160.006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

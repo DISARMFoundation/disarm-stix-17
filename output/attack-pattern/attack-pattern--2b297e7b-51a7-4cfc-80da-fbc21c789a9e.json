@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--af6cfdc5-4059-42ba-815b-8f427af17b89",
+    "id": "bundle--2bde0723-ca50-4664-9e1c-1de0cbb0f2a0",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--2b297e7b-51a7-4cfc-80da-fbc21c789a9e",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.416477Z",
-            "modified": "2025-06-02T19:19:15.416477Z",
+            "created": "2026-01-20T21:49:08.537291Z",
+            "modified": "2026-01-20T21:49:08.537291Z",
             "name": "Encourage Physical Violence",
             "description": "An influence operation may Encourage others to engage in Physical Violence to achieve campaign goals.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "offline-actions"
+                    "phase_name": "drive-offline-activity"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0127.002.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0127.002.md",
                     "external_id": "T0127.002"
                 }
             ],

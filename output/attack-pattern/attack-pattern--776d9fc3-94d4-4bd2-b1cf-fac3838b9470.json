@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--5b78dd15-bbb7-49ef-8a9c-bba95c5ea1fb",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--776d9fc3-94d4-4bd2-b1cf-fac3838b9470",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-20T21:49:08.577836Z",
+            "modified": "2026-01-20T21:49:08.577836Z",
+            "name": "Narrative Misrepresents Findings of Cited Academic Research",
+            "description": "A narrative makes a claim, and points to academic research to back up the legitimacy of the claim - however, the research does not actually support the claim, and is misrepresented as doing so.<br><br>It could be the case that individuals make an honest mistake believing the research supports their claim. However, some actors intentionally misrepresent the findings of a cited source relying on readers not checking the source. The issue of misrepresented research also occurs when AI is used to write materials, which may confidently summarise research in a way which does not capture important nuance or details in a report.<br><br>To count as a citation, the content must explicitly point to a specific piece of academic research to support a claim. This could be via an embedded link, footnotes, or providing the name of a paper, the journal it appears in, and the researchers who produced it.<br><br>To make this assertion, analysts may contact the original author of the research and ask whether their work has been accurately characterised in the claim, or they may read the research and assess themselves how well it supports the claim.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-narratives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0163.002.md",
+                    "external_id": "T0163.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

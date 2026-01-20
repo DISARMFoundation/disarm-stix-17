@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--0f0d2420-4dd4-421c-a0fa-b15c13a85eff",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d4f065d8-fc74-4b58-b3ab-4f98b4ff4130",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-20T21:49:08.568853Z",
+            "modified": "2026-01-20T21:49:08.568853Z",
+            "name": "Digital Content Delivery Asset",
+            "description": "Digital Content Delivery Assets are assets which support the delivery of content to users online. <br><br>Sub-techniques categorised under Digital Content Delivery Assets can include Community Hosting and Content Hosting capabilities; however their nominal primary purpose is to support the delivery of content to users online.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0153.md",
+                    "external_id": "T0153"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

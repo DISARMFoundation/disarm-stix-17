@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--e8aaceca-7e3d-4c4f-a871-49a17384146e",
+    "id": "bundle--d63603f8-ddc7-49d2-8a8e-106dce2b387b",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--56a35df8-3bda-4ee3-8be0-23b20b69fe63",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-07-03T19:30:21.617944Z",
-            "modified": "2025-07-03T19:30:21.617944Z",
-            "name": "Offline Harm",
-            "description": "nan",
+            "created": "2026-01-20T21:49:08.537291Z",
+            "modified": "2026-01-20T21:49:08.537291Z",
+            "name": "Physical Violence",
+            "description": "Physical violence refers to the use of force to injure, abuse, damage, or destroy. An influence operation may conduct or encourage physical violence to discourage opponents from promoting conflicting content or draw attention to operation narratives using shock value.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "offline-actions"
+                    "phase_name": "drive-offline-activity"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-observable/blob/main/generated_pages/techniques/T0127.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0127.md",
                     "external_id": "T0127"
                 }
             ],

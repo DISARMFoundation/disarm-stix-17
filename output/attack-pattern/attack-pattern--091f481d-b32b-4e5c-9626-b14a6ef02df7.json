@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--d61602ac-e188-4b11-a025-47685b750463",
+    "id": "bundle--6fa0506f-cc41-4b19-980c-2d29b69f7ae5",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--091f481d-b32b-4e5c-9626-b14a6ef02df7",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.403708Z",
-            "modified": "2025-06-02T19:19:15.403708Z",
+            "created": "2026-01-20T21:49:08.519867Z",
+            "modified": "2026-01-20T21:49:08.519867Z",
             "name": "Leverage Content Farms",
             "description": "Using the services of large-scale content providers for creating and amplifying campaign artefacts at scale.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "asset-details"
+                    "phase_name": "establish-assets"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0096.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0096.md",
                     "external_id": "T0096"
                 }
             ],

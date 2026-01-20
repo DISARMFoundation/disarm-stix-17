@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--954f30d1-df13-499e-a272-e50b331f5cc9",
+    "id": "bundle--dcd3bf3d-bd91-40e6-8f45-17b240ab223e",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--5f8a5d7e-fc17-48f2-a6fa-38fcf7843bdf",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.398976Z",
-            "modified": "2025-06-02T19:19:15.398976Z",
+            "created": "2026-01-20T21:49:08.515788Z",
+            "modified": "2026-01-20T21:49:08.515788Z",
             "name": "Develop Image-Based Content",
             "description": "Creating and editing false or misleading visual artefacts, often aligned with one or more specific narratives, for use in a disinformation campaign. This may include photographing staged real-life situations, repurposing existing digital images, or using image creation and editing technologies.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "content-acquisition"
+                    "phase_name": "develop-content"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0086.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0086.md",
                     "external_id": "T0086"
                 }
             ],

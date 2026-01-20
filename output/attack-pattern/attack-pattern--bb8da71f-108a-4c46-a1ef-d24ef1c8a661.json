@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--7c4a2608-bcfd-4ab9-b959-02751d5587fd",
+    "id": "bundle--f765318f-e654-4bab-8ba3-e47c76ca7fc3",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--bb8da71f-108a-4c46-a1ef-d24ef1c8a661",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.395593Z",
-            "modified": "2025-06-02T19:19:15.395593Z",
+            "created": "2026-01-20T21:49:08.512807Z",
+            "modified": "2026-01-20T21:49:08.512807Z",
             "name": "Identify Media System Vulnerabilities",
             "description": "An influence operation may exploit existing weaknesses in a target\u2019s media system. These weaknesses may include existing biases among media agencies, vulnerability to false news agencies on social media, or existing distrust of traditional media sources. An existing distrust among the public in the media system\u2019s credibility holds high potential for exploitation by an influence operation when establishing alternative news agencies to spread operation content.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "content-action"
+                    "phase_name": "target-audience-analysis"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0081.008.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0081.008.md",
                     "external_id": "T0081.008"
                 }
             ],

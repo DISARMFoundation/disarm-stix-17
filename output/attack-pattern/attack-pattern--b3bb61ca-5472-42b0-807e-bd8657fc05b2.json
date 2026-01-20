@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--3d2ce711-2e1b-4e25-8c64-5743dd8dd68a",
+    "id": "bundle--9c2165df-627d-447b-ae2d-1388b1b290d4",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--b3bb61ca-5472-42b0-807e-bd8657fc05b2",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.391798Z",
-            "modified": "2025-06-02T19:19:15.391798Z",
+            "created": "2026-01-20T21:49:08.505793Z",
+            "modified": "2026-01-20T21:49:08.505793Z",
             "name": "Prepare Physical Broadcast Capabilities",
             "description": "Create or coopt broadcast capabilities (e.g. TV, radio etc).",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "asset-details"
+                    "phase_name": "establish-assets"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0065.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0065.md",
                     "external_id": "T0065"
                 }
             ],

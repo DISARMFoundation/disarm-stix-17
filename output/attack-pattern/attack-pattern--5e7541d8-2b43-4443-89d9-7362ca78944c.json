@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--a8f82782-4149-4b99-a278-0012fbacc1b3",
+    "id": "bundle--000efeba-8076-4124-8a98-8a4e88c4eef2",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--5e7541d8-2b43-4443-89d9-7362ca78944c",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.413312Z",
-            "modified": "2025-06-02T19:19:15.413312Z",
+            "created": "2026-01-20T21:49:08.533291Z",
+            "modified": "2026-01-20T21:49:08.533291Z",
             "name": "Incentivize Sharing",
             "description": "Incentivizing content sharing refers to actions that encourage users to share content themselves, reducing the need for the operation itself to post and promote its own content.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "publishing-and-amplifying-actions"
+                    "phase_name": "maximise-exposure"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0120.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0120.md",
                     "external_id": "T0120"
                 }
             ],

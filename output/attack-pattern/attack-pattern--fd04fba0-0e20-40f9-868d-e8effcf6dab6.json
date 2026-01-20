@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--a89401c7-0946-4d91-bbed-60325f6cef80",
+    "id": "bundle--f08e1c6d-c5ba-4bb1-9982-af4f5366ebc8",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--fd04fba0-0e20-40f9-868d-e8effcf6dab6",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.415391Z",
-            "modified": "2025-06-02T19:19:15.415391Z",
+            "created": "2026-01-20T21:49:08.536291Z",
+            "modified": "2026-01-20T21:49:08.536291Z",
             "name": "Platform Filtering",
             "description": "Platform filtering refers to the decontextualization of information as claims cross platforms (from Joan Donovan https://www.hks.harvard.edu/publications/disinformation-design-use-evidence-collages-and-platform-filtering-media-manipulation)",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "actions-taken-by-platforms-and-governments"
+                    "phase_name": "drive-online-harms"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0125.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0125.md",
                     "external_id": "T0125"
                 }
             ],

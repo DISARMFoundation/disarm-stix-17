@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--9dcf8a5a-6b55-4360-a9c0-8d817123170e",
+    "id": "bundle--df2f7b50-8552-4a4f-b12a-ea7efad045d7",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--8ecbc28c-36e9-4d9a-8578-b9e20552d732",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.394519Z",
-            "modified": "2025-06-02T19:19:15.394519Z",
+            "created": "2026-01-20T21:49:08.51181Z",
+            "modified": "2026-01-20T21:49:08.51181Z",
             "name": "Identify Existing Prejudices",
             "description": "An influence operation may exploit existing racial, religious, demographic, or social prejudices to further polarise its target audience from the rest of the public.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "content-action"
+                    "phase_name": "target-audience-analysis"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0081.003.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0081.003.md",
                     "external_id": "T0081.003"
                 }
             ],

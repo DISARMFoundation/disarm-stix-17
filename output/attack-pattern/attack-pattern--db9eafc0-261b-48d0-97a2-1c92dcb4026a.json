@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--a06738c9-4ba7-4e3a-9a0c-e06274e3ae15",
+    "id": "bundle--3e16efec-5181-4176-807b-6e8684633ea4",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--db9eafc0-261b-48d0-97a2-1c92dcb4026a",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.409913Z",
-            "modified": "2025-06-02T19:19:15.409913Z",
+            "created": "2026-01-20T21:49:08.529292Z",
+            "modified": "2026-01-20T21:49:08.529292Z",
             "name": "TV",
             "description": "TV",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "digital-platforms-and-communities"
+                    "phase_name": "select-channels-and-affordances"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0111.001.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0111.001.md",
                     "external_id": "T0111.001"
                 }
             ],

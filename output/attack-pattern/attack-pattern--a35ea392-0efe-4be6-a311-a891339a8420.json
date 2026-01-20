@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--e251f5a7-7112-46e1-b320-e347a7e986e5",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a35ea392-0efe-4be6-a311-a891339a8420",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-20T21:49:08.607838Z",
+            "modified": "2026-01-20T21:49:08.607838Z",
+            "name": "Narrative Uses Appeal to Emotion",
+            "description": "Appeal to emotion is a rhetorical strategy where the speaker relies on emotional manipulation rather than rational argument to influence an audience\u2019s attitude or decision. By using words, imagery, or tone designed to evoke feelings such as fear, anger, pride, pity, or outrage, the communicator steers the listener toward a desired conclusion without addressing the actual merits of the issue.<br><br>To make the assertion that a narrative is using an appeal to emotion can be highly subjective. It is best to identify which emotion is being manipulated and how far from neutral communication the narrative is.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-narratives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0168.007.md",
+                    "external_id": "T0168.007"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--f44cd639-bb46-4ae5-a3ee-091a546eb805",
+    "id": "bundle--f7fd3362-4504-474d-8861-8b57d1253b78",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--ea0d5988-af73-4b09-8040-7bb2fbadaa3c",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T18:42:37.46203Z",
-            "modified": "2025-06-02T18:42:37.46203Z",
+            "created": "2026-01-20T21:49:08.498807Z",
+            "modified": "2026-01-20T21:49:08.498807Z",
             "name": "Trial Content",
             "description": "Iteratively test incident performance (messages, content etc), e.g. A/B test headline/content enagagement metrics; website and/or funding campaign conversion rates",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "prime-the-silly-pump"
+                    "phase_name": "deliver-content"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0020.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0020.md",
                     "external_id": "T0020"
                 }
             ],

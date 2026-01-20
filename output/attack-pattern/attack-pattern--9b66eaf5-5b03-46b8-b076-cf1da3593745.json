@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--f0cc0271-5a85-4169-b19f-f80f6cf04c5b",
+    "id": "bundle--09b8c378-6c8d-4948-9ad5-647e99bff381",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--9b66eaf5-5b03-46b8-b076-cf1da3593745",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.392896Z",
-            "modified": "2025-06-02T19:19:15.392896Z",
+            "created": "2026-01-20T21:49:08.509788Z",
+            "modified": "2026-01-20T21:49:08.509788Z",
             "name": "Discredit Credible Sources",
             "description": "Plan to delegitimize the media landscape and degrade public trust in reporting, by discrediting credible sources. This makes it easier to promote influence operation content.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "content-details"
+                    "phase_name": "plan-objectives"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0075.001.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0075.001.md",
                     "external_id": "T0075.001"
                 }
             ],

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--6a8ce99a-4732-44e0-a30c-f7e76078cb60",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9f56df6f-c09a-45ce-bfc7-2a545f946c33",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-20T21:49:08.585837Z",
+            "modified": "2026-01-20T21:49:08.585837Z",
+            "name": "Rhetorical Device",
+            "description": "Rhetoric is the study of writing or speaking as a means of communication or persuasion. Rhetorical devices are used to make an argument more persuasive or appealing to an audience. <br><br>Rhetorical devices are not inherently malicious; people naturally use many in their day-to-day lives, talking to friends, family, and colleagues. However, they can be used with intent to manipulate, to push a particular point, to persuade targets to believe a certain way, and analysts have noted that some actors regularly deploy the same rhetorical devices (e.g. Russian actors have been observed using Whataboutism). <br><br>It can be useful to document the different rhetorical devices used in operations to influence targets.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-narratives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0168.md",
+                    "external_id": "T0168"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

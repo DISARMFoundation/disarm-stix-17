@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--cc448cc3-713a-4ed0-ab79-300ed67a8704",
+    "id": "bundle--014baab1-0a18-4031-b4c0-7cfa8b8b7417",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--61df6490-ca2c-41b7-a251-ded790a03a71",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-07-03T19:30:21.606317Z",
-            "modified": "2025-07-03T19:30:21.606317Z",
+            "created": "2026-01-20T21:49:08.498807Z",
+            "modified": "2026-01-20T21:49:08.498807Z",
             "name": "Conduct Fundraising",
-            "description": "nan",
+            "description": "Fundraising campaigns refer to an influence operation\u2019s systematic effort to seek financial support for a charity, cause, or other enterprise using online activities that further promote operation information pathways while raising a profit. Many influence operations have engaged in crowdfunding services166 on platforms including Tipee, Patreon, and GoFundMe. An operation may use its previously prepared fundraising campaigns to promote operation messaging while raising money to support its activities.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "content-action"
+                    "phase_name": "drive-offline-activity"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-20-observable/blob/main/generated_pages/techniques/T0017.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0017.md",
                     "external_id": "T0017"
                 }
             ],

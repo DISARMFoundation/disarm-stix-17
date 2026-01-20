@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--8fe03241-dcc4-46c2-9b9e-311ef2679a99",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--6405ff81-d380-4312-8ef1-043125217c01",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-20T21:49:08.5653Z",
+            "modified": "2026-01-20T21:49:08.5653Z",
+            "name": "Community Sub-Forum",
+            "description": "Community Forum Platforms are made up of many Community Sub-Forums. Sub-Forums provide spaces for platform users to create a community based around any topic. <br><br>For example, Reddit (a popular Community Forum Platform) has over 138,000 \u201csubreddits\u201d (Community Sub-Forums), including 1082 unique cat-based communities.<br><br>Typically, Sub-Forums allow users post text, image, or video to them, and other platform users can up/downvote, or comment on it. Sub-forums may have their own extra rules alongside the platform\u2019s global rules, enforced by community moderators. <br><br>While most Sub-Forums are made by users with Accounts on the Community Forum Platform, Sub-Forums can also be created by the platform itself.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0151.011.md",
+                    "external_id": "T0151.011"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

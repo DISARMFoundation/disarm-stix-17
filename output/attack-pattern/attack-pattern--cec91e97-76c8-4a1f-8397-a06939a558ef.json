@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--bd7a6450-b825-43cb-b63e-1e07318b1f26",
+    "id": "bundle--20b0fdda-0292-46c7-8282-a1a557800265",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--cec91e97-76c8-4a1f-8397-a06939a558ef",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.390188Z",
-            "modified": "2025-06-02T19:19:15.390188Z",
+            "created": "2026-01-20T21:49:08.503792Z",
+            "modified": "2026-01-20T21:49:08.503792Z",
             "name": "Inauthentic Sites Amplify News and Narratives",
             "description": "Inauthentic sites circulate cross-post stories and amplify narratives. Often these sites have no masthead, bylines or attribution.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "publishing-and-amplifying-actions"
+                    "phase_name": "maximise-exposure"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0049.007.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0049.007.md",
                     "external_id": "T0049.007"
                 }
             ],

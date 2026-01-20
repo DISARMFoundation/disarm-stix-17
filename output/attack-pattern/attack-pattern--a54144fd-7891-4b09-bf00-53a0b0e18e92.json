@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--ff52a675-a656-4e5b-a8ab-2efca3757450",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a54144fd-7891-4b09-bf00-53a0b0e18e92",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-20T21:49:08.574838Z",
+            "modified": "2026-01-20T21:49:08.574838Z",
+            "name": "Impersonated Content",
+            "description": "Content has been designed to look like it was made by another individual or institution. This has the outcome of narratives benefiting from targets\u2019 existing faith in the impersonated entity, negatively impacting people\u2019s faith in future content they see attributed to the impersonated entity, and tying up the impersonated entity\u2019s resources by forcing them to spend time and effort debunking the claims attributed to them.<br><br>Common examples of impersonated content include video news reports (e.g. falsified short-form videos designed to look like they were produced by news outlets), news articles (e.g. screenshots or photographs of falsified news articles designed to look like they were published by news outlets), and documents (e.g. falsified statements designed to look like they were produced by government institutions).<br><br>Impersonated content covers direct impersonations (e.g. the use of a brand\u2019s logo on content not produced by them), and implicit impersonations (e.g. the use of a brand\u2019s typeface, colour scheme, formatting and style, but not naming them or using their logos). <br><br>To make this assertion, analysts may check official sources for the organisation which purportedly published the material, and look for content which was published at the date or time which the potential impersonation was published to see if it appeared on official channels. They may ask representatives from outlets to confirm whether the potential impersonation was produced by them. <br><br>They may check for inconsistencies in how content was produced (e.g. differing fonts, placement of logos, language used, use of music). They may also look for the source of materials used in the potential impersonation, which often take advantage of stock media, or splicing together footage from a variety of sources.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0161.001.md",
+                    "external_id": "T0161.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

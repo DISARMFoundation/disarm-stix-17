@@ -1,26 +1,26 @@
 {
     "type": "bundle",
-    "id": "bundle--9d4b1c07-388f-49a4-a546-140755518e69",
+    "id": "bundle--cb7e93ae-e570-4c40-b5e9-8d8bfcd4f7ff",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--a3fe7752-dbfa-4918-912f-c492c8593c68",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2025-06-02T19:19:15.396753Z",
-            "modified": "2025-06-02T19:19:15.396753Z",
+            "created": "2026-01-20T21:49:08.513787Z",
+            "modified": "2026-01-20T21:49:08.513787Z",
             "name": "Plagiarise Content",
             "description": "An influence operation may take content from other sources without proper attribution. This content may be either misinformation content shared by others without malicious intent but now leveraged by the campaign as disinformation or disinformation content from other sources.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
-                    "phase_name": "content-acquisition"
+                    "phase_name": "develop-content"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-attack",
-                    "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0084.002.md",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0084.002.md",
                     "external_id": "T0084.002"
                 }
             ],
