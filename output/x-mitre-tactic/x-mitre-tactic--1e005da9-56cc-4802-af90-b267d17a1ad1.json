@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--3691e987-b39a-426e-85b0-c772f7784647",
+    "id": "bundle--46964a7c-2572-41ed-9c0f-bbdfbefb783c",
     "objects": [
         {
             "type": "x-mitre-tactic",
             "spec_version": "2.1",
             "id": "x-mitre-tactic--1e005da9-56cc-4802-af90-b267d17a1ad1",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2026-01-20T21:49:08.492789Z",
-            "modified": "2026-01-20T21:49:08.492789Z",
+            "created": "2026-01-21T15:49:22.248627Z",
+            "modified": "2026-01-21T15:49:22.248627Z",
             "name": "Target Audience Analysis",
             "description": "Identifying and analysing the target audience examines target audience member locations, political affiliations, financial situations, and other attributes that an influence operation may incorporate into its messaging strategy. During this tactic, influence operations may also identify existing similarities and differences between target audience members to unite like groups and divide opposing groups. Identifying and analysing target audience members allows influence operations to tailor operation strategy and content to their analysis.",
             "external_references": [

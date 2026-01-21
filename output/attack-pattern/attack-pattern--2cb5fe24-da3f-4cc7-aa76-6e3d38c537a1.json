@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--c1f6e746-b696-4c5a-8b64-924e3b300dcf",
+    "id": "bundle--81c3651e-afc2-4159-a93d-6d1d73245f2f",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--2cb5fe24-da3f-4cc7-aa76-6e3d38c537a1",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2026-01-20T21:49:08.510788Z",
-            "modified": "2026-01-20T21:49:08.510788Z",
+            "created": "2026-01-21T15:49:22.260712Z",
+            "modified": "2026-01-21T15:49:22.260712Z",
             "name": "Evaluate Media Surveys",
             "description": "An influence operation may evaluate its own or third-party media surveys to determine what type of content appeals to its target audience. Media surveys may provide insight into an audience\u2019s political views, social class, general interests, or other indicators used to tailor operation messaging to its target audience.",
             "kill_chain_phases": [

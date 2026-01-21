@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--bf09878c-7846-416e-bdf7-314e14b6dcd2",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--665870e7-ca49-49bd-849d-16fe1274bb11",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:21:27.998772Z",
+            "modified": "2026-01-21T15:21:27.998772Z",
+            "name": "Send Message",
+            "description": "Some platforms or platforms\u2019 features enable users to send messages. Direct or Group messaging mimics the flow of conversation between two or more users, showing the most recent message sent by anyone participating in the conversation.<br><br>On platforms such as Discord, WhatsApp, and Telegram are primarily interacted with by sending messages (T0115.004: Send Message), although some (such as Slack) also support creating posts (T0115: Post Content).<br><br>Many online platforms support sending messages in group chats (T0151.006: Chat Room) or via direct message (T0153.007: Direct Messaging).<br><br>Email providers such as Gmail, iCloud mail, and Microsoft Outlook (T0153.001: Email Platform) allow users to send messages to accounts on any email platform.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "deliver-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0115.004.md",
+                    "external_id": "T0115.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

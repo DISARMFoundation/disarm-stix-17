@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--2f58c3c3-a834-41b8-8cf2-3eeebe7a360e",
+    "id": "bundle--a6ee02f6-bbd7-433d-8929-6a593e96c7fa",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--e0f07568-5a2b-429d-94b9-b1ff3c17adea",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2026-01-20T21:49:08.526291Z",
-            "modified": "2026-01-20T21:49:08.526291Z",
+            "created": "2026-01-21T15:49:22.297241Z",
+            "modified": "2026-01-21T15:49:22.297241Z",
             "name": "Create Inauthentic News Sites",
             "description": "Create Inauthentic News Sites",
             "kill_chain_phases": [

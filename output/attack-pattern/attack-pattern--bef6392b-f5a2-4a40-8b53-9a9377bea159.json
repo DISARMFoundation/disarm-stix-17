@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--d38e73f5-a865-4da0-bd3b-11b6efa94274",
+    "id": "bundle--5cd15154-14df-4bd3-82b6-833f328be6c5",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--bef6392b-f5a2-4a40-8b53-9a9377bea159",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2026-01-20T21:49:08.506791Z",
-            "modified": "2026-01-20T21:49:08.506791Z",
+            "created": "2026-01-21T15:49:22.258624Z",
+            "modified": "2026-01-21T15:49:22.258624Z",
             "name": "Determine Strategic Ends",
             "description": "These are the long-term end-states the campaign aims to bring about. They typically involve an advantageous position vis-a-vis competitors in terms of power or influence.  The strategic goal may be to improve or simply to hold one\u2019s position. Competition occurs in the public sphere in the domains of war, diplomacy, politics, economics, and ideology, and can play out between armed groups, nation-states, political parties, corporations, interest groups, or individuals. ",
             "kill_chain_phases": [

@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--5502d333-b997-468c-9b92-1172b6183d2c",
+    "id": "bundle--d9bef64e-60f9-49ff-aecc-e855f210ae39",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--21fc458a-ea4d-41bb-9442-aac7ddd24794",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2026-01-20T21:49:08.496788Z",
-            "modified": "2026-01-20T21:49:08.496788Z",
+            "created": "2026-01-21T15:49:22.250717Z",
+            "modified": "2026-01-21T15:49:22.250717Z",
             "name": "Prepare Fundraising Campaigns",
             "description": "Fundraising campaigns refer to an influence operation\u2019s systematic effort to seek financial support for a charity, cause, or other enterprise using online activities that further promote operation information pathways while raising a profit. Many influence operations have engaged in crowdfunding services on platforms including Tipee, Patreon, and GoFundMe. An operation may use its previously prepared fundraising campaigns (see: Develop Information Pathways) to promote operation messaging while raising money to support its activities.",
             "kill_chain_phases": [

@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--41252f7d-d277-479f-9151-99f69c15329b",
+    "id": "bundle--a31a74db-a3e5-408c-9f99-fc1ec0a079c4",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--e27cf6aa-69bc-434b-ac68-b0164d0b3421",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2026-01-20T21:49:08.513787Z",
-            "modified": "2026-01-20T21:49:08.513787Z",
+            "created": "2026-01-21T15:49:22.264716Z",
+            "modified": "2026-01-21T15:49:22.264716Z",
             "name": "Appropriate Content",
             "description": "An influence operation may take content from other sources with proper attribution. This content may be either misinformation content shared by others without malicious intent but now leveraged by the campaign as disinformation or disinformation content from other sources. Examples include the appropriation of content from one inauthentic news site to another inauthentic news site or network in ways that align with the originators licencing or terms of service.",
             "kill_chain_phases": [

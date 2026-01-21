@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--eeee7e88-bd2a-4fe2-991a-b8875243267c",
+    "id": "bundle--bd458248-0168-4db1-a6ad-bfab894c0e54",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--ad410829-2fb3-490b-b470-f5f859d45942",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2026-01-20T21:49:08.504793Z",
-            "modified": "2026-01-20T21:49:08.504793Z",
+            "created": "2026-01-21T15:49:22.256718Z",
+            "modified": "2026-01-21T15:49:22.256718Z",
             "name": "Continue to Amplify",
             "description": "continue narrative or message amplification after the main incident work has finished",
             "kill_chain_phases": [

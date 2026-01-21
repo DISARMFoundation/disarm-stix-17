@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--0dce7a3d-f705-47b3-8cc9-bdb5b7949303",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4a693b12-2b2a-4352-80ce-db1c8e7c0adb",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:21:27.996679Z",
+            "modified": "2026-01-21T15:21:27.996679Z",
+            "name": "Non-Consensual Publication of Private Intimate Imagery",
+            "description": "Private Intimate Imagery depicts an individual in a state of undress, engaging in sexual activity, or in other intimate situations where there is a reasonable expectation of privacy. This imagery is typically created or shared with the subject\u2019s consent for private use.<br><br>Non-consensual publication of private intimate imagery involves sharing the imagery outside of its original intended audience without consent of the depicted individuals. <br><br>Analysts may use context of the platform or community the content was posted to, or how it was described by the actor, to make an assessment that private intimate imagery has been published to another audience non-consensually.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "drive-online-harms"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0048.008.md",
+                    "external_id": "T0048.008"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

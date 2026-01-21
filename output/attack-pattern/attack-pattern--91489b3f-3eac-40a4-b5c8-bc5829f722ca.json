@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--b5398ddb-8aff-4383-9583-5a4d8fbac82d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--91489b3f-3eac-40a4-b5c8-bc5829f722ca",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:49:22.355653Z",
+            "modified": "2026-01-21T15:49:22.355653Z",
+            "name": "AI-Nudified Imagery",
+            "description": "This sub-technique can be used to assert that AI was employed to generate AI-nudified imagery. AI-nudified imagery refers to the use of artificial intelligence to modify an existing image or video by digitally altering the subject to appear unclothed, typically through the application of machine learning algorithms that remove or replace clothing with simulated content.<br><br>Platforms designed to nudify imagery require users to upload an image of a person fully clothed as the source content. The AI then applies algorithms to remove the clothing, effectively generating a synthetic image or video of the subject in a nude state. <br><br>To make this assertion, analysts can identify the original image, and confirm that the published image has been edited using AI to appear undressed. They may use evidence such as images being submitted to AI platforms, our AI platforms identifying images they produce as nudifications.<br><br>As AI continues to develop capability to produce more realistic media, it is difficult to provide a list of methods to spot materials that have been created using AI which will not rapidly become outdated; platforms providing AI media generation are attempting to make the materials they produce indistinguishable from media made by humans. <br><br>At the same time, organisations create tools designed to help identify AI-generated content, and publish resources listing the latest tells and identifiers for AI-generated content. Analysts may look for such tools or resources to help identify the use of AI.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0166.003.md",
+                    "external_id": "T0166.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

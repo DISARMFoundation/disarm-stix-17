@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--700b44cb-e4a2-45a5-b23c-9a375fde9166",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--df54f271-c4c6-4c23-8d3c-14f69bc5431a",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:21:27.998772Z",
+            "modified": "2026-01-21T15:21:27.998772Z",
+            "name": "Narrative Uses False Cause",
+            "description": "False cause is a logical fallacy in which a cause-and-effect relationship is asserted without sufficient evidence. It occurs when someone assumes that because two events are correlated, or one follows the other, the first must have caused the second. This reasoning ignores other possible explanations, such as coincidence, external factors, or reverse causation.<br><br>For example, the sale of ice cream correlates with higher levels of police response to aggression, but one doesn\u2019t cause the other - a third element (summer heat) influences both.<br><br>While correlations can suggest possible links, treating them as proof of causality leads to flawed conclusions and can easily misinform public debate, science, or policy decisions.<br><br>To make this assertion, analysts should look for claims which point to two or more co-occurring events and state that one causes the others, without providing evidence (e.g. scientific research, or statistics).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-narratives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0168.001.md",
+                    "external_id": "T0168.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

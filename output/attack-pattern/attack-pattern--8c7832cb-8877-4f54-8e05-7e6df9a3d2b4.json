@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--129b391d-1997-48b5-acd5-9944c5ee1c96",
+    "id": "bundle--daf877f7-d001-4281-8691-87e670c0578d",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--8c7832cb-8877-4f54-8e05-7e6df9a3d2b4",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2026-01-20T21:49:08.515788Z",
-            "modified": "2026-01-20T21:49:08.515788Z",
+            "created": "2026-01-21T15:49:22.266841Z",
+            "modified": "2026-01-21T15:49:22.266841Z",
             "name": "Obtain Private Documents",
             "description": "Procuring documents that are not publicly available, by whatever means -- whether legal or illegal, highly-resourced or less so. These documents can include authentic non-public documents, authentic non-public documents have been altered, or inauthentic documents intended to appear as if they are authentic non-public documents. All of these types of documents can be \"leaked\" during later stages in the operation.",
             "kill_chain_phases": [

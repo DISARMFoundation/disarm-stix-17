@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--023ade3f-1aba-4d24-adfa-ff68af7694b6",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ca21a109-8893-4f5d-82de-347c6908e53b",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:49:22.346887Z",
+            "modified": "2026-01-21T15:49:22.346887Z",
+            "name": "Information is False",
+            "description": "This sub-technique applies when information has been demonstrated to be factually incorrect. False information may stem from intentional deception, misinterpretation, or outdated data. <br><br>Indicators include refutation by multiple authoritative experts or visible contradiction by primary source evidence.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-narratives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0160.002.md",
+                    "external_id": "T0160.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

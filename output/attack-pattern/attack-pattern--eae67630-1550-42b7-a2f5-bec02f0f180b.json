@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--9e439898-eef0-4f59-86d9-2bb91e7a0827",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--eae67630-1550-42b7-a2f5-bec02f0f180b",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:21:27.990693Z",
+            "modified": "2026-01-21T15:21:27.990693Z",
+            "name": "Content Originally Produced as Satire Presented as Not Satire",
+            "description": "Satirical or parody content stripped of its humorous framing and redistributed as genuine, factual information, can mislead audiences, particularly when it aligns with existing beliefs.<br><br>To make this assertion, analysts need to identify the original source for a piece of content, and confirm that it was originally framed as satire (e.g. posts which are tagged or disclaimed as satire), or published by an individual or organisation claiming to be satirical (e.g. satirical news outlets), and that it is now being presented as not satirical content.<br><br>Indicators include exaggerated claims, comedic tone, or association with known satire outlets.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-narratives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0162.011.md",
+                    "external_id": "T0162.011"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--0f9dd1a4-93f8-440e-8e11-d329fe8119a1",
+    "id": "bundle--92e7a395-1872-4278-a16f-58971b54e187",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--bacbdfd3-f8c2-4126-a9f3-1b75576fa5e7",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2026-01-20T21:49:08.496788Z",
-            "modified": "2026-01-20T21:49:08.496788Z",
+            "created": "2026-01-21T15:49:22.250717Z",
+            "modified": "2026-01-21T15:49:22.250717Z",
             "name": "Cultivate Ignorant Agents",
             "description": "Cultivate propagandists for a cause, the goals of which are not fully comprehended, and who are used cynically by the leaders of the cause. Independent actors use social media and specialised web sites to strategically reinforce and spread messages compatible with their own. Their networks are infiltrated and used by state media disinformation organisations to amplify the state\u2019s own disinformation strategies against target populations. Many are traffickers in conspiracy theories or hoaxes, unified by a suspicion of Western governments and mainstream media. Their narratives, which appeal to leftists hostile to globalism and military intervention and nationalists against immigration, are frequently infiltrated and shaped by state-controlled trolls and altered news items from agencies such as RT and Sputnik. Also know as \"useful idiots\" or \"unwitting agents\".",
             "kill_chain_phases": [

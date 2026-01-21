@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--a90c504d-bae0-45e4-90c5-32b996db1f55",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--aa816f2a-c717-45f1-8ba7-731c4bdfb3cb",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:49:22.353229Z",
+            "modified": "2026-01-21T15:49:22.353229Z",
+            "name": "Narrative Presents Fabricated Statistics as Genuine Data",
+            "description": "A narrative makes a claim and presents statistics that appear to be based on research or real-world data, but the numbers themselves were fabricated; they were not derived from any authentic dataset, study, or measurement process.<br><br>Common indicators include round or overly specific figures without citation (e.g., \u201c87% of people say\u2026\u201d), attributions to vague or unverifiable sources (\u201ca recent study found\u2026\u201d), or links that lead to unrelated or nonexistent materials. Fabricated statistics are often designed to sound plausible and authoritative, exploiting the reader\u2019s trust in numerical evidence.<br><br>To make this assertion, analysts will need to check the source which is presented as having produced the statistics, or data used to generate the statistics, and confirm that they exist as described. Analysts may also contact the organisation or individual allegedly responsible for producing the data to confirm whether they ever published such figures.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-narratives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0164.001.md",
+                    "external_id": "T0164.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

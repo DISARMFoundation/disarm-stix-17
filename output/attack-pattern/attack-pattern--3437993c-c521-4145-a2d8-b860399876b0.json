@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--c1601b20-a6bb-4b27-a07f-afda1f2123f1",
+    "id": "bundle--2003ce52-6025-4f4e-9bcf-5e2e6d4fd28a",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--3437993c-c521-4145-a2d8-b860399876b0",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2026-01-20T21:49:08.539291Z",
-            "modified": "2026-01-20T21:49:08.539291Z",
+            "created": "2026-01-21T15:49:22.309242Z",
+            "modified": "2026-01-21T15:49:22.309242Z",
             "name": "Break Association with Content",
             "description": "Breaking association with content occurs when an influence operation actively separates itself from its own content. An influence operation may break association with content by unfollowing, unliking, or unsharing its content, removing attribution from its content, or otherwise taking actions that distance the operation from its messaging. An influence operation may break association with its content to complicate attribution or regain credibility for a new operation.",
             "kill_chain_phases": [

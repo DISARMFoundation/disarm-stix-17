@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--763c2215-8209-4f82-852c-d6c1f6b3c31f",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--99a52959-7ad7-4d55-a59d-e9a5ad6db79a",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:49:22.355653Z",
+            "modified": "2026-01-21T15:49:22.355653Z",
+            "name": "AI-Generated Content",
+            "description": "This Technique can be used to assert that a piece of content has been fully generated using AI.<br><br>This Technique\u2019s Sub-techniques delineate specific types of AI-Generated content.<br><br>As AI continues to develop capability to produce more realistic media, it is difficult to provide a list of methods to spot materials that have been created using AI which will not rapidly become outdated; platforms providing AI media generation are attempting to make the materials they produce indistinguishable from media made by humans. <br><br>At the same time, organisations create tools designed to help identify AI-generated content, and publish resources listing the latest tells and identifiers for AI-generated content. Analysts may look for such tools or resources to help identify the use of AI.<br><br><b>Backwards Compatibility</b><br><br>In the 1.7 update to the DISARM Framework, the following Techniques were removed: <br><br>- T0085.001: Develop AI-Generated Text<br>- T0086.002: Develop AI-Generated Images (Deepfakes)<br>- T0087.001: Develop AI-Generated Videos (Deepfakes)<br>- T0088.001 Develop AI-Generated Audio (Deepfakes)<br><br>Content which has been AI-Generated can be documented using T0166: AI-Generated Content. Deepfakes can be documented using T0166.001: Deepfake Impersonation. The format of content which was edited can be documented using T0085: Develop Text-Based Content, T0086: Develop Image-Based Content, T0087: Develop Video-Based Content, and T0088: Develop Audio-Based Content.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0166.md",
+                    "external_id": "T0166"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

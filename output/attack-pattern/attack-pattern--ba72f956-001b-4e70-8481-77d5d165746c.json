@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--67b7550b-3e50-41b0-b1d1-74e508c9edeb",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ba72f956-001b-4e70-8481-77d5d165746c",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:49:22.338243Z",
+            "modified": "2026-01-21T15:49:22.338243Z",
+            "name": "Blogging Platform",
+            "description": "Medium and Substack are examples of Blogging Platforms. <br><br>By creating an Account on a Blogging Platform, people are able to create their own Blog.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0152.001.md",
+                    "external_id": "T0152.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

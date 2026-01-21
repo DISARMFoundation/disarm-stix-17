@@ -23,8 +23,17 @@ def make_disarm_techniques(data, stix_ids):
     techniques = []
     marking_id = stix_ids["marking-definition"]["DISARM Foundation"]
     identity_id = stix_ids["identity"]["DISARM Foundation"]
+    seen_technique_ids = set()
 
     for t in data["techniques"].values.tolist():
+        technique_id_str = f'{t[0]}'.strip()
+        
+        # Check for duplicates
+        if technique_id_str in seen_technique_ids:
+            print(f"Warning: Duplicate technique detected: {technique_id_str} - {t[1]}. Skipping.")
+            continue
+        
+        seen_technique_ids.add(technique_id_str)
         external_references = [
             {
                 'external_id': f'{t[0]}'.strip(),

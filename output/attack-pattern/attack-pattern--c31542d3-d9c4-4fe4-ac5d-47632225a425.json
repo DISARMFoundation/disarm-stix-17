@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--b2e3e332-f0cc-42f6-a63d-feb1a7493856",
+    "id": "bundle--9e24df73-f3f3-488c-b5a0-4408a9a839dd",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--c31542d3-d9c4-4fe4-ac5d-47632225a425",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2026-01-20T21:49:08.535291Z",
-            "modified": "2026-01-20T21:49:08.535291Z",
+            "created": "2026-01-21T15:49:22.305241Z",
+            "modified": "2026-01-21T15:49:22.305241Z",
             "name": "Report Non-Violative Opposing Content",
             "description": "Reporting opposing content refers to notifying and providing an instance of a violation of a platform\u2019s guidelines and policies for conduct on the platform. In addition to simply reporting the content, an operation may leverage copyright regulations to trick social media and web platforms into removing opposing content by manipulating the content to appear in violation of copyright laws. Reporting opposing content facilitates the suppression of contradictory information and allows operation narratives to take priority in the information space.",
             "kill_chain_phases": [

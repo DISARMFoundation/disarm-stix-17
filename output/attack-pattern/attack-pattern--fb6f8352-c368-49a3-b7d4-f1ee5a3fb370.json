@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--ce1d3636-39c2-4815-81d0-dc0fe35001f3",
+    "id": "bundle--db1d1e09-269b-4780-ad14-b3468f7d12f9",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--fb6f8352-c368-49a3-b7d4-f1ee5a3fb370",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2026-01-20T21:49:08.53129Z",
-            "modified": "2026-01-20T21:49:08.53129Z",
+            "created": "2026-01-21T15:49:22.301241Z",
+            "modified": "2026-01-21T15:49:22.301241Z",
             "name": "Post Violative Content to Provoke Takedown and Backlash",
             "description": "Post Violative Content to Provoke Takedown and Backlash.",
             "kill_chain_phases": [

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--c99cf697-ce31-47bc-aa9f-d6389f3c7c0d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--cac5242a-46e7-4927-b5bf-5ad65d8a70c8",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:49:22.353229Z",
+            "modified": "2026-01-21T15:49:22.353229Z",
+            "name": "Narrative Cites Academic Research not Peer Reviewed",
+            "description": "A narrative makes a claim, and points to academic research to back up the legitimacy of the claim - however, the research has not been peer reviewed, and this is not disclosed.<br><br>Peer review is an important part of the scientific process. It involves submitting research to other accredited experts to confirm that the researchers have conducted their investigation correctly, and following established scientific best practices (such as minimising bias, accurately reporting findings, or honesty about potential failings in research methods). Without peer review, unverified or inaccurate information could easily make its way into scientific consensus. <br><br>Some academic journals publish preliminary summaries of research (i.e. previews of results before they have been peer reviewed), which can be erroneously cited as completed research.<br><br>It is not the case that all information needs to be peer reviewed, people can share the results of research which hasn\u2019t been peer reviewed, and this information can be valid and useful. But narratives which make claims referencing academic research which has not been peer reviewed (and do not highlight that data hasn\u2019t been peer reviewed) can lead to the spread of misleading or incorrect information.<br><br>To count as a citation, the content must explicitly point to a specific piece of academic research to support a claim. This could be via an embedded link, footnotes, or providing the name of a paper, the journal it appears in, and the researchers who produced it.<br><br>To make this assertion, analysts need to look at the cited report, and confirm that it has not been peer reviewed.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-narratives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0163.004.md",
+                    "external_id": "T0163.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

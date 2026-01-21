@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--12e19db0-4b96-4801-a818-5daba536e7b4",
+    "id": "bundle--e45c3164-ea49-46e7-a2ad-3825adbbabf1",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--c25ad637-cfa5-40c0-a23c-f741d8f4319e",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2026-01-20T21:49:08.543295Z",
-            "modified": "2026-01-20T21:49:08.543295Z",
+            "created": "2026-01-21T15:49:22.313244Z",
+            "modified": "2026-01-21T15:49:22.313244Z",
             "name": "View Focused",
             "description": "View Focused",
             "kill_chain_phases": [

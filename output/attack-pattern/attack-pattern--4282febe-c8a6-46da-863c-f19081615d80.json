@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--b606119b-2474-4018-af7e-682c457dc197",
+    "id": "bundle--07b30935-bff2-4f0c-bd19-4460ea20da99",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--4282febe-c8a6-46da-863c-f19081615d80",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2026-01-20T21:49:08.502791Z",
-            "modified": "2026-01-20T21:49:08.502791Z",
+            "created": "2026-01-21T15:49:22.255723Z",
+            "modified": "2026-01-21T15:49:22.255723Z",
             "name": "Utilise Spamoflauge",
             "description": "Spamoflauge refers to the practice of disguising spam messages as legitimate. Spam refers to the use of electronic messaging systems to send out unrequested or unwanted messages in bulk. Simple methods of spamoflauge include replacing letters with numbers to fool keyword-based email spam filters, for example, \"you've w0n our jackp0t!\". Spamoflauge may extend to more complex techniques such as modifying the grammar or word choice of the language, casting messages as images which spam detectors cannot automatically read, or encapsulating messages in password protected attachments, such as .pdf or .zip files. Influence operations may use spamoflauge to avoid spam filtering systems and increase the likelihood of the target audience receiving operation messaging.",
             "kill_chain_phases": [

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--927ecf8e-e8f7-4f79-b460-a2bc7ae730c8",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4c5858e2-9dbd-4b29-94e6-7fa7f606c02d",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:49:22.357082Z",
+            "modified": "2026-01-21T15:49:22.357082Z",
+            "name": "Solicit Production of Fact Check",
+            "description": "An asset has asked another asset to check the veracity of a claim or content published online.<br><br>While it\u2019s natural and desired for users who authentically encounter claims or content they are unsure about to ask for support checking their veracity, threat actors have been observed posting campaign content with one asset, and using another to ask media organisations to confirm the content\u2019s veracity (with the presumed objective of boosting its visibility, or tying up the organisation\u2019s resources).<br><br>To make this assertion, analysts need to observe an asset (e.g. an account, a page) requesting another asset (usually a fact checking organisation, news outlet, or other media organisation) to confirm the veracity of something they have seen. This could be a claim or piece of content they provide, or a link to another source which hosts a claim or content.<br><br>This Technique by itself is not indicative of malicious behaviour, but can help understand campaign actions or objectives when observed in assets attributed to a threat actor.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "maximise-exposure"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0039.002.md",
+                    "external_id": "T0039.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

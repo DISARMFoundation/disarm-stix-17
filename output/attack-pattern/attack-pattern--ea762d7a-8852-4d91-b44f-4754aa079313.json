@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--8e46cfe4-9a03-4660-a4c2-72d1a40c8960",
+    "id": "bundle--69a1047e-0f53-45b2-aaa3-7d86cc25a9f9",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--ea762d7a-8852-4d91-b44f-4754aa079313",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2026-01-20T21:49:08.54029Z",
-            "modified": "2026-01-20T21:49:08.54029Z",
+            "created": "2026-01-21T15:49:22.310243Z",
+            "modified": "2026-01-21T15:49:22.310243Z",
             "name": "Remove Post Origins",
             "description": "Removing post origins refers to the elimination of evidence that indicates the initial source of operation content, often to complicate attribution. An influence operation may remove post origins by deleting watermarks, renaming files, or removing embedded links in its content.",
             "kill_chain_phases": [

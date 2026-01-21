@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--f5834273-e78e-4cb3-a4ae-e6d05ce584ae",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--0e247a8d-060a-416d-ab97-94aa7d18f55e",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:49:22.359113Z",
+            "modified": "2026-01-21T15:49:22.359113Z",
+            "name": "Threaten Physical Violence",
+            "description": "Content qualifies as a threat of physical violence when it communicates, implicitly or explicitly, the intent to cause bodily harm to a specific individual. Threat actors may use such threats to coerce targets into taking or avoiding certain actions by invoking credible offline harm. <br><br>Analysts should confirm that the published content could reasonably be interpreted as a physical threat by its intended recipient.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "drive-online-harms"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0048.009.md",
+                    "external_id": "T0048.009"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

@@ -1,13 +1,13 @@
 {
     "type": "bundle",
-    "id": "bundle--4b3ba74f-7fea-4ddc-a2be-338f18bb02fb",
+    "id": "bundle--2911db39-73bd-48c9-b321-41ba0a626e54",
     "objects": [
         {
             "type": "marking-definition",
             "spec_version": "2.1",
             "id": "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2026-01-20T21:49:08.489794Z",
+            "created": "2026-01-21T15:49:22.246718Z",
             "definition_type": "statement",
             "name": "DISARM Foundation",
             "definition": {

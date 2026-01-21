@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--7694c374-2cf1-49d9-b400-3d219628fd12",
+    "id": "bundle--796e93bf-2628-4828-8289-902f86cb8f80",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--7e3a06ee-c109-4901-8720-69c46fe04a76",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2026-01-20T21:49:08.534296Z",
-            "modified": "2026-01-20T21:49:08.534296Z",
+            "created": "2026-01-21T15:49:22.303241Z",
+            "modified": "2026-01-21T15:49:22.303241Z",
             "name": "Manipulate Platform Algorithm",
             "description": "Manipulating a platform algorithm refers to conducting activity on a platform in a way that intentionally targets its underlying algorithm. After analysing a platform\u2019s algorithm (see: Select Platforms), an influence operation may use a platform in a way that increases its content exposure, avoids content removal, or otherwise benefits the operation\u2019s strategy. For example, an influence operation may use bots to amplify its posts so that the platform\u2019s algorithm recognises engagement with operation content and further promotes the content on user timelines.",
             "kill_chain_phases": [

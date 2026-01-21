@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--e763bc8a-bf9e-4fd4-8044-09f965c4340a",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a1670c67-81d7-417b-8c3e-ee799873239c",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:49:22.359113Z",
+            "modified": "2026-01-21T15:49:22.359113Z",
+            "name": "Content Depicting Physical Sexual Violence",
+            "description": "Content qualifies as depicting physical sexual violence when posted or streamed material shows, suggests, or meaningfully represents non-consensual sexual acts or sexual harm involving real individuals. <br><br>Publishing such material can revictimise survivors by re-exposing them to the assault, enabling further circulation, and amplifying the emotional, psychological, and social impact of the violence.<br><br>Analysts should determine that the content clearly portrays physical sexual violence, assess whether consent is absent or impossible.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "drive-online-harms"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0048.011.md",
+                    "external_id": "T0048.011"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

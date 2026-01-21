@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--3fb0bae9-31fb-4362-ba82-9e622802434b",
+    "id": "bundle--2d77d3d9-ed1d-43b5-add7-3c07ed1567c6",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--58643f4a-7699-4cd7-aafa-76a3e6e09e99",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2026-01-20T21:49:08.517856Z",
-            "modified": "2026-01-20T21:49:08.517856Z",
+            "created": "2026-01-21T15:49:22.267839Z",
+            "modified": "2026-01-21T15:49:22.267839Z",
             "name": "Recruit Contractors",
             "description": "Operators recruit paid contractor to support the campaign.",
             "kill_chain_phases": [

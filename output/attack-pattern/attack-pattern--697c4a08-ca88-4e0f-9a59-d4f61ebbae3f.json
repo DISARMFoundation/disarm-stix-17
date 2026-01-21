@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--aff3cdd8-cf12-4c11-b12a-4bb1fa9b7f4b",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--697c4a08-ca88-4e0f-9a59-d4f61ebbae3f",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:49:22.354648Z",
+            "modified": "2026-01-21T15:49:22.354648Z",
+            "name": "Playback Speed Altered",
+            "description": "This sub-technique covers undisclosed speeding up or slowing down of Audio or Video Content prior to publication.<br><br>Actors have been observed slowing down footage of targeted speakers, making their words sound slurred, enabling narratives questioning the health of the target, or their state of mind.<br><br>To make this assessment, analysts will need to find the original unedited content, and pair sections of the published materials to sections of the original content.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-content"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0165.003.md",
+                    "external_id": "T0165.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

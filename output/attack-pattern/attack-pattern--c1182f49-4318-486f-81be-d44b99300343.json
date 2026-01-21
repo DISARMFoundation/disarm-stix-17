@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--3b80a1cd-2467-43c7-b109-d91abc07b718",
+    "id": "bundle--a29970c5-0b55-4420-ba0f-05211628262f",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--c1182f49-4318-486f-81be-d44b99300343",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2026-01-20T21:49:08.518863Z",
-            "modified": "2026-01-20T21:49:08.518863Z",
+            "created": "2026-01-21T15:49:22.268835Z",
+            "modified": "2026-01-21T15:49:22.268835Z",
             "name": "Acquire/Recruit Network",
             "description": "Operators acquire an existing network by paying, recruiting, or exerting control over the leaders of the existing network.",
             "kill_chain_phases": [

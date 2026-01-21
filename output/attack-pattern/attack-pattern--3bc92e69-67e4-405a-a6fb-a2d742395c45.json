@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--7cf8f169-55db-4a44-8c25-85eebafb0fa0",
+    "id": "bundle--b5a23e63-8ce1-49db-b1bd-5605844f413e",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--3bc92e69-67e4-405a-a6fb-a2d742395c45",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2026-01-20T21:49:08.497789Z",
-            "modified": "2026-01-20T21:49:08.497789Z",
+            "created": "2026-01-21T15:49:22.250717Z",
+            "modified": "2026-01-21T15:49:22.250717Z",
             "name": "Raise Funds from Malign Actors",
             "description": "Raising funds from malign actors may include contributions from foreign agents, cutouts or proxies, shell companies, dark money groups, etc.",
             "kill_chain_phases": [

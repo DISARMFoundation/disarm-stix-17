@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--5ff86c79-b3c9-4623-a4b1-67bc4683eec0",
+    "id": "bundle--10c0bc94-3fc8-49fd-a5fb-2c6c086130c8",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--6b495bb5-d2ab-4da7-9530-a1aadd488803",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2026-01-20T21:49:08.538291Z",
-            "modified": "2026-01-20T21:49:08.538291Z",
+            "created": "2026-01-21T15:49:22.308242Z",
+            "modified": "2026-01-21T15:49:22.308242Z",
             "name": "Launder Information Assets",
             "description": "Laundering occurs when an influence operation acquires control of previously legitimate information assets such as accounts, channels, pages etc. from third parties through sale or exchange and often in contravention of terms of use. Influence operations use laundered assets to reach target audience members from within an existing information community and to complicate attribution.",
             "kill_chain_phases": [

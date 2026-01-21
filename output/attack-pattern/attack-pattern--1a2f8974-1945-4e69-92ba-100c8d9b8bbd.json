@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--02ba5de2-07dc-4cb7-86a2-c107b12f20c1",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1a2f8974-1945-4e69-92ba-100c8d9b8bbd",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:49:22.361119Z",
+            "modified": "2026-01-21T15:49:22.361119Z",
+            "name": "Narrative Uses Whataboutism",
+            "description": "\u201cWhataboutism\u201d is a method of deflecting criticism or other substantive point by using a \u201cWhat about \u2026\u201d style response; instead of authentically engaging with and addressing the issue, attempting to shift focus, create false equivalence, or undermine the opponent\u2019s position without offering a genuine rebuttal.<br><br>Whataboutism is not always deployed as a form of manipulation; sometimes it is authentically used with the objective of pointing out the injustice of hypocritical accusations, or the lack of moral position an accuser has. Issues used to deploy Whataboutism are often legitimate problems which should also be resolved. <br><br>However we know that Whataboutism is employed by people who aren\u2019t really worried about the issue they raise; they just want to deflect, and move on the topic of discussion.<br><br>[This report provides an example of Whataboutism:](https://theconversation.com/whataboutism-what-it-is-and-why-its-such-a-popular-tactic-in-arguments-182911)<br><br><i>\u201cAs bickering couples and parents of siblings will know, [Whataboutism] happens in daily life all too often. \u201cYou lied about where you were last night!\u201d a person feeling wronged will say. To which, instead of owning up, the partner replies: \u201cWell, what about you? You lie to me all the time!\u201d\u201d</i><br><br>Here, the individual uses Whataboutism to deflect from the accusation they lied about where they were last night.<br><br>To make the assertion that a narrative is using Whataboutism, analysts should look for cases where an individual or institution is facing a claim or accusation and, instead of addressing the claim, they deflect by raising another issue.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-narratives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0168.002.md",
+                    "external_id": "T0168.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--7211c9bd-048f-4191-9076-d81d7eafe841",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--462d14d8-7cbc-489d-94ba-32dcef1bd470",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:21:28.026673Z",
+            "modified": "2026-01-21T15:21:28.026673Z",
+            "name": "Narrative Uses Anecdote",
+            "description": "The use of evidence in the form of personal experience or an isolated case, possibly rumour or hearsay, most often to discredit large study findings or statistics. Anecdotal evidence is not credible because it is based on a small sample size (often one person), there is a lack of control (unlike in a controlled experiment), we don\u2019t have causation so we don\u2019t know if the variable in question is the cause of the effect we\u2019re looking at.<br><br>To make the assertion that a narrative is using an anecdote they must have a very small sample size (typically one person), it is not from a controlled setting, and we must not have direct proven causation.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-narratives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0168.004.md",
+                    "external_id": "T0168.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

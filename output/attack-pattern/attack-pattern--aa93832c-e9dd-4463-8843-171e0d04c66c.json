@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--c5f2444f-fb3b-4372-a13e-38e4f100e436",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--aa93832c-e9dd-4463-8843-171e0d04c66c",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:49:22.35081Z",
+            "modified": "2026-01-21T15:49:22.35081Z",
+            "name": "Statement Reframed by Removal from Context",
+            "description": "A statement legitimately made by an individual or institution has been taken out of its original context which reframes its meaning (sometimes referred to as \u201cQuote Mining\u201d). <br><br>For example, an individual may have been performing a speech in which they were quoting a statement made by a political opponent. By editing out the context that they were quoting an opponent, the speaker can be made to look like they were making the statement themselves. <br><br>To make this assertion, analysts need to identify the original source of a statement (e.g. written argument, video interview, podcast, etc), and confirm that in its original context it has a different meaning, or interpretation.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-narratives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0162.009.md",
+                    "external_id": "T0162.009"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

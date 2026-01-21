@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--5ae5ca93-4a87-4c16-8840-66fcf0bd00dd",
+    "id": "bundle--931c35b0-70b5-48a2-be18-c698a2e7c8e9",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--e47ae747-d83d-433d-a69a-f6d0970fed5e",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2026-01-20T21:49:08.501795Z",
-            "modified": "2026-01-20T21:49:08.501795Z",
+            "created": "2026-01-21T15:49:22.254725Z",
+            "modified": "2026-01-21T15:49:22.254725Z",
             "name": "Harass People Based on Identities",
             "description": "Examples include social identities like gender, sexuality, race, ethnicity, religion, ability, nationality, etc. as well as roles and occupations like journalist or activist.",
             "kill_chain_phases": [

@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--acade5f2-916c-4f98-a50f-216f0a796479",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8dd27fca-c935-4fc8-bcc7-fe54aa96ffe2",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:49:22.353229Z",
+            "modified": "2026-01-21T15:49:22.353229Z",
+            "name": "Narrative Uses Misinterpreted Statistics to Support Claim",
+            "description": "A claim is presented alongside valid statistics to back it up, but describes what those statistics mean incorrectly. <br><br>Examples of misinterpreting statistics include interpreting a statistical correlation as implying it demonstrates causation (for example, data shows that sale of ice cream correlates with higher levels of police response to aggression, but one doesn\u2019t cause the other - a third element (summer heat) influences both), or ignoring contextual information about the data which influences its meaning (for example, data showing a sharp rise in umbrella sales used to evidence a new fashion trend, without noting that the period measured coincided with unusually heavy rainfall).<br><br>To make this assertion, analysts will need to review the original source for the statistics, and confirm that what they reveal has been misinterpreted to support a given claim. Analysts may contact the individual or organisation who produced the statistics and ask whether their work has been accurately characterised in the claim, or they may review the data themselves and assess themselves how well it supports the claim.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-narratives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0164.003.md",
+                    "external_id": "T0164.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

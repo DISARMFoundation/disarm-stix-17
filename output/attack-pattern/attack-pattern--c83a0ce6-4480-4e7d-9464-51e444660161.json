@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--f83c3204-67ff-4511-ba37-9c27c539c2bb",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c83a0ce6-4480-4e7d-9464-51e444660161",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:49:22.327243Z",
+            "modified": "2026-01-21T15:49:22.327243Z",
+            "name": "Mobile App Asset",
+            "description": "A Mobile App is an application which has been designed to run on mobile operating systems, such as Android or iOS.<br><br>Mobile Apps can enable access to online platforms (e.g. Facebook\u2019s mobile app) or can provide software which users can run offline on their device.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-assets"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0147.004.md",
+                    "external_id": "T0147.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

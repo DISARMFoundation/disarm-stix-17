@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--e54886ce-44f2-4754-af0e-a6a3792de3c9",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--2d43c1d4-8018-4d10-a9a8-7cba38f16d46",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:21:27.98877Z",
+            "modified": "2026-01-21T15:21:27.98877Z",
+            "name": "Incorrect Subtitled Speech Reframes Context",
+            "description": "Subtitles added to content to support viewers in understanding what was said by an individual can misrepresent what was said, which is difficult for viewers to detect when watching a speaker of another language, or videos without an audio track.<br><br>To make this assertion, analysts need to confirm that what was said was meaningfully different to the subtitles provided for the speech (i.e. not nit-picking minor translation issues, but changes which make changes to the context of what was said).<br><br>Analysts may require bilingual speakers to identify mistranslations. They can also search for the original media to search for original subtitles.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-narratives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0162.001.md",
+                    "external_id": "T0162.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

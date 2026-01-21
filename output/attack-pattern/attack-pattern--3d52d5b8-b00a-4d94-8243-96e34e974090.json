@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--13fd9567-3e81-42d7-a46b-961854c74175",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--3d52d5b8-b00a-4d94-8243-96e34e974090",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:49:22.355653Z",
+            "modified": "2026-01-21T15:49:22.355653Z",
+            "name": "Use of Clickbait",
+            "description": "\u201cClickbait\u201d is defined as \u201c(online content that is specifically designed to entice a reader to click on a link, but which offers very little reward for doing so)[https://www.sciencedirect.com/science/article/abs/pii/S0378216621000229?via%3Dihub]\u201d. (These are sensationalist and hyperbolic headlines which often use a formulaic structure, vocabulary, and style. These headlines entice readers to click by creating an information gap. They imply that some relevant information exists, and they indicate that the readers will gain access to that information if they click through and read the article.)[https://www.sciencedirect.com/science/article/pii/S0378216623002643#bib4:~:text=These%20are%20sensationalist,read%20the%20article] In contrast, (headlines in traditional news media tend not to leave information gaps, but rather, they provide a summary of the associated story.)[https://www.sciencedirect.com/science/article/pii/S0378216623002643#bib4:~:text=headlines%20in%20traditional%20news%20media%20tend%20not%20to%20leave%20information%20gaps%2C%20but%20rather%2C%20they%20provide%20a%20summary%20of%20the%20associated%20story]<br><br>Examples of different types of Clickbait include:<br><br><b>Curiosity-gap headlines:</b> Withholding key information so readers feel compelled to click (e.g., \u201cYou Won\u2019t Believe What Scientists Found\u2026\u201d).<br><b>Outrage or shock-bait:</b> Framing something in an emotionally charged or polarizing way to provoke anger or disbelief. (\u201cWhen She Walked In, He Did WHAT?!\u201d)<br><b>Sensationalized exaggeration:</b> Inflating significance, stakes, or novelty (\u201cThis Simple Trick Will Change Your Life Forever\u201d).<br><b>Bait-and-switch imagery:</b> Using a thumbnail or image that suggests content not actually present in the article.<br><b>Celebrity or authority clickbait:</b> Implying endorsement, conflict, or scandal involving public figures (\u201cElon Musk Just Said This About Teachers\u201d).<br><b>Fear-based clickbait:</b> Leveraging risk or danger (\u201cYour Phone Could Be Spying on You Right Now; Here\u2019s What You Need to Do\u201d).<br><b>Fake scarcity or urgency:</b> Creating a false sense of time pressure (\u201cDon\u2019t Get Caught Out: New Law Will Impact EVERYONE\u201d).<br><b>Emotional heartstring-bait:</b> Overplaying sentimentality (\u201cWhat They Saw Will Make You Cry\u201d).<br><br>Clickbait doesn\u2019t necessarily have to require a clickthrough to view content; it can also be used to encourage sharing or interacting with posts made to social media platforms. For example, posts which falsely claim celebrity deaths have been published to garner interactions with a page\u2019s content, without linking out to an associated article.<br><br>The use of clickbait is not by itself indicative of malicious behaviour, news outlets often require users to click on an article to be paid for their journalism. However, actors have been observed producing low quality or outright false content while using clickbait headlines to increase the likelihood that it is viewed by a target audience.<br><br><b>Backwards Compatibility</b><br><br>In the 1.7 update to the DISARM Framework, the following Technique was removed: <br><br>T0016: Create Clickbait<br><br>This was replaced by T0167.001: Use of Clickbait.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-narratives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0167.001.md",
+                    "external_id": "T0167.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

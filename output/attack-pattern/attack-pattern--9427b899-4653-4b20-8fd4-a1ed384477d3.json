@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--a4ae3460-fa54-4b7e-a91f-85a9f7a97240",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9427b899-4653-4b20-8fd4-a1ed384477d3",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:21:27.986678Z",
+            "modified": "2026-01-21T15:21:27.986678Z",
+            "name": "Claim Previously Fact Checked",
+            "description": "A piece of content makes a claim which has previously been addressed by Fact Checkers. Fact Checkers have observed the same claims going viral in cycles, necessitating repeated work in debunking them. <br><br>Some misleading or false claims have inherent virality; they may be salacious, shocking, attention grabbing, or seem intuitively accurate (where the truth is boring and complicated). Fact Checkers have noted that some claims go viral on a cyclical basis, and have to repeatedly address the same claims. <br><br>This Sub-Technique can be used to note that a claim has been published which has previously been addressed by Fact Checkers.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-narratives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0160.007.md",
+                    "external_id": "T0160.007"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

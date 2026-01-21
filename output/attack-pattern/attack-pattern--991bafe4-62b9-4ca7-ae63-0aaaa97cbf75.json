@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--8d7a3a90-6698-426c-aecb-0b4b2438c790",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--991bafe4-62b9-4ca7-ae63-0aaaa97cbf75",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:49:22.346887Z",
+            "modified": "2026-01-21T15:49:22.346887Z",
+            "name": "Information is Verified",
+            "description": "This sub-technique applies when content has been fact-checked and validated against reliable sources or evidence. This indicates high confidence in the accuracy of an actor\u2019s claim. <br><br>Indicators include confirmation by multiple independent outlets, corroboration by experts, or data-supported validation.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-narratives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0160.001.md",
+                    "external_id": "T0160.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

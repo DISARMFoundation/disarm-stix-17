@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--c8baf614-71be-4488-b341-5f4144b601cb",
+    "id": "bundle--e48103b2-d807-42e7-abe6-eeaa01252414",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--9affd892-2479-4843-99d1-1e1a9f7f1020",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2026-01-20T21:49:08.538291Z",
-            "modified": "2026-01-20T21:49:08.538291Z",
+            "created": "2026-01-21T15:49:22.307241Z",
+            "modified": "2026-01-21T15:49:22.307241Z",
             "name": "Distance Reputable Individuals from Operation",
             "description": "Distancing reputable individuals from the operation occurs when enlisted individuals, such as celebrities or subject matter experts, actively disengage themselves from operation activities and messaging. Individuals may distance themselves from the operation by deleting old posts or statements, unfollowing operation information assets, or otherwise detaching themselves from the operation\u2019s timeline. An influence operation may want reputable individuals to distance themselves from the operation to reduce operation exposure, particularly if the operation aims to remove all evidence.",
             "kill_chain_phases": [

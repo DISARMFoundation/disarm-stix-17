@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--d7ff47e5-e9fc-4309-b5c7-106c4b4843c8",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--27ab472f-88c5-482a-b585-22e9cdaf5e57",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:49:22.321245Z",
+            "modified": "2026-01-21T15:49:22.321245Z",
+            "name": "Fabricated Persona",
+            "description": "An individual or institution pretending to have a persona without any legitimate claim to that persona is presenting a fabricated persona, such as a person who presents themselves as a member of a country\u2019s military without having worked in any capacity with the military (T0143.002: Fabricated Persona, T0097.105: Military Personnel).<br><br> Sometimes real people can present entirely fabricated personas; they can use real names and photos on social media while also pretending to have credentials or traits they don\u2019t have in real life.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "establish-legitimacy"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0143.002.md",
+                    "external_id": "T0143.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

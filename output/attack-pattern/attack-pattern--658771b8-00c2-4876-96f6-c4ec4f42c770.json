@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--b2ef97d1-732a-4358-ad2f-a8d0638ed5bd",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--658771b8-00c2-4876-96f6-c4ec4f42c770",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:49:22.339245Z",
+            "modified": "2026-01-21T15:49:22.339245Z",
+            "name": "Paste Platform",
+            "description": "Pastebin is an example of a Paste Platform.<br><br>Paste Platforms allow people to upload unformatted text to the platform, which they can share via a link. Some Paste Platforms are Open Access Platforms which allow users to upload content without creating an Account first.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "select-channels-and-affordances"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0152.005.md",
+                    "external_id": "T0152.005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

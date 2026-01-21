@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--223751db-ff1f-4c3b-bf44-5b3f3d0deaa7",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--412b4099-5d60-44b6-a0f6-012173ba6013",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:21:27.996679Z",
+            "modified": "2026-01-21T15:21:27.996679Z",
+            "name": "Unsolicited Request for Sexual Imagery",
+            "description": "An Unsolicited Request for Sexual Imagery is defined as any content which contains a request for the target to produce and deliver sexual imagery of themselves, colloquially referred to as \u2018nudes\u2019. Unsolicited requests for sexual imagery is a form of harassment often targeting women online.<br><br>Analysts may use context of the community or individual the content was posted to, how it was described by the actor, or prior communication from the recipient, to make such an assessment.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "drive-online-harms"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0048.007.md",
+                    "external_id": "T0048.007"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}

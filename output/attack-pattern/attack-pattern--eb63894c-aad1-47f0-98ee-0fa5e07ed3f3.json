@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--7feddb55-39b1-4832-b0df-66a1f2115ea5",
+    "id": "bundle--feae90bd-2e0c-4e5f-8b21-4fcefdecb403",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--eb63894c-aad1-47f0-98ee-0fa5e07ed3f3",
             "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
-            "created": "2026-01-20T21:49:08.499791Z",
-            "modified": "2026-01-20T21:49:08.499791Z",
+            "created": "2026-01-21T15:49:22.252718Z",
+            "modified": "2026-01-21T15:49:22.252718Z",
             "name": "Develop Original Conspiracy Theory Narratives",
             "description": "While this requires more resources than amplifying existing conspiracy theory narratives, an influence operation may develop original conspiracy theory narratives in order to achieve greater control and alignment over the narrative and their campaign goals. Prominent examples include the USSR's Operation INFEKTION disinformation campaign run by the KGB in the 1980s to plant the idea that the United States had invented HIV/AIDS as part of a biological weapons research project at Fort Detrick, Maryland. More recently, Fort Detrick featured prominently in a new conspiracy theory narratives around the origins of the COVID-19 outbreak and pandemic.",
             "kill_chain_phases": [

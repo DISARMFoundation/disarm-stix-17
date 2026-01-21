@@ -1,0 +1,39 @@
+{
+    "type": "bundle",
+    "id": "bundle--dc3c47c1-ef36-4bb1-8ec9-0bb7d20e82e3",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--2d6a6f2a-bb0b-41c9-bfa3-36f98fc5cbe2",
+            "created_by_ref": "identity--f1a0f560-2d9e-4c5d-bf47-7e96e805de82",
+            "created": "2026-01-21T15:21:27.98877Z",
+            "modified": "2026-01-21T15:21:27.98877Z",
+            "name": "Video Game Content Incorrectly Presented as Depicting Reality",
+            "description": "Modern game visuals or cutscenes can be realistic enough to be mistaken for genuine imagery, particularly footage depicting fast-moving or chaotic scenes (such as combat). For example, fact checkers have addressed claims where footage taken from games centred on armed warfare (e.g. Arma 3, Digital Combat Simulator World) being presented as footage of current conflicts. <br><br>To make this assertion, analysts need to confirm that the original source for a piece of content was a video game, and that the content was presented as showing real life (e.g. posted alongside text which treats or reacts to the content as legitimate).<br><br>Indicators include frame rate artifacts, unnatural physics, or gaming interface remnants.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "develop-narratives"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://github.com/DISARMFoundation/DISARMframeworks-17/blob/main/generated_pages/techniques/T0162.005.md",
+                    "external_id": "T0162.005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--f79f25d2-8b96-4580-b169-eb7b613a7c31"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux",
+                "Mac"
+            ],
+            "x_mitre_version": "2.1"
+        }
+    ]
+}
